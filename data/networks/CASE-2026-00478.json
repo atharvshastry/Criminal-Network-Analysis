@@ -1,0 +1,416 @@
+{
+  "nodes": [
+    {
+      "id": "ent_00101",
+      "label": "Meera Nair",
+      "type": "PERSON",
+      "community": 1,
+      "centrality": 0.95,
+      "confidence": 0.99,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00102",
+      "label": "9845123456",
+      "type": "PHONE",
+      "community": 1,
+      "centrality": 0.5,
+      "confidence": 0.77,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00103",
+      "label": "8899001122",
+      "type": "PHONE",
+      "community": 2,
+      "centrality": 0.5,
+      "confidence": 0.77,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.081
+    },
+    {
+      "id": "ent_00104",
+      "label": "Bright Future Fintech Pvt Ltd",
+      "type": "ORGANIZATION",
+      "community": 2,
+      "centrality": 0.65,
+      "confidence": 0.8,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00105",
+      "label": "Vikas Sharma",
+      "type": "PERSON",
+      "community": 2,
+      "centrality": 0.65,
+      "confidence": 0.88,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.142
+    },
+    {
+      "id": "ent_00106",
+      "label": "Ankit Pillai",
+      "type": "PERSON",
+      "community": 2,
+      "centrality": 0.65,
+      "confidence": 0.96,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00107",
+      "label": "552134",
+      "type": "ACCOUNT",
+      "community": 1,
+      "centrality": 0.35,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00108",
+      "label": "990211",
+      "type": "ACCOUNT",
+      "community": 2,
+      "centrality": 0.5,
+      "confidence": 0.77,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00109",
+      "label": "114477",
+      "type": "ACCOUNT",
+      "community": 2,
+      "centrality": 0.35,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00110",
+      "label": "supportcare.hdfcbank@gmail.com",
+      "type": "EMAIL",
+      "community": 2,
+      "centrality": 0.2,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00111",
+      "label": "@HDFC_QuickHelp",
+      "type": "SOCIAL_ID",
+      "community": 2,
+      "centrality": 0.35,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00112",
+      "label": "Koramangala, Bengaluru",
+      "type": "LOCATION",
+      "community": 1,
+      "centrality": 0.2,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00113",
+      "label": "Whitefield, Bengaluru",
+      "type": "LOCATION",
+      "community": 2,
+      "centrality": 0.2,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00114",
+      "label": "Honda Activa KA05EF9988",
+      "type": "VEHICLE",
+      "community": 2,
+      "centrality": 0.2,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00115",
+      "label": "₹8,40,000",
+      "type": "MONEY",
+      "community": 1,
+      "centrality": 0.35,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00116",
+      "label": "₹7,10,000",
+      "type": "MONEY",
+      "community": 2,
+      "centrality": 0.35,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00117",
+      "label": "UPI Fraud",
+      "type": "CRIME",
+      "community": 1,
+      "centrality": 0.5,
+      "confidence": 0.77,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00118",
+      "label": "8877665544",
+      "type": "PHONE",
+      "community": 2,
+      "centrality": 0.35,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    }
+  ],
+  "edges": [
+    {
+      "id": "RB001",
+      "source": "ent_00101",
+      "target": "ent_00102",
+      "type": "OWNS",
+      "confidence": 0.89,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9845123456 is registered to Meera Nair, resident of Koramangala, Bengaluru.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RB002",
+      "source": "ent_00101",
+      "target": "ent_00112",
+      "type": "RESIDES_AT",
+      "confidence": 0.77,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9845123456 is registered to Meera Nair, resident of Koramangala, Bengaluru.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RB003",
+      "source": "ent_00101",
+      "target": "ent_00107",
+      "type": "OWNS",
+      "confidence": 0.83,
+      "status": "confirmed",
+      "evidence_text": "Account number 552134, held in the name of Meera Nair, shows a debit transaction of ₹8,40,000 transferred to account number 990211 on 1 November 2026.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB004",
+      "source": "ent_00101",
+      "target": "ent_00117",
+      "type": "VICTIM_OF",
+      "confidence": 0.89,
+      "status": "confirmed",
+      "evidence_text": "Acting on this instruction, Meera Nair unknowingly authorised a transaction, after which ₹8,40,000 was debited from her savings account number 552134 on 1 November 2026 and credited to account number 990211.",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RB005",
+      "source": "ent_00103",
+      "target": "ent_00102",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.71,
+      "status": "confirmed",
+      "evidence_text": "Records show that 8899001122 contacted 9845123456 on 1 November 2026 at 11:42 AM, a call lasting 6 minutes and 12 seconds, during which the fraudulent KYC verification script was used.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RB006",
+      "source": "ent_00101",
+      "target": "ent_00110",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.77,
+      "status": "confirmed",
+      "evidence_text": "The caller directed her to a message sent from the email address supportcare.hdfcbank@gmail.com and asked her to share a one-time password to \"verify\" her account.",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RB007",
+      "source": "ent_00107",
+      "target": "ent_00115",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.59,
+      "status": "confirmed",
+      "evidence_text": "Account number 552134, held in the name of Meera Nair, shows a debit transaction of ₹8,40,000 transferred to account number 990211 on 1 November 2026.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB008",
+      "source": "ent_00115",
+      "target": "ent_00108",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "Account number 552134, held in the name of Meera Nair, shows a debit transaction of ₹8,40,000 transferred to account number 990211 on 1 November 2026.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB009",
+      "source": "ent_00106",
+      "target": "ent_00108",
+      "type": "OWNS",
+      "confidence": 0.77,
+      "status": "confirmed",
+      "evidence_text": "Account number 990211 is held in the name of Ankit Pillai.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB010",
+      "source": "ent_00108",
+      "target": "ent_00116",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "Bank records show a further debit of ₹7,10,000 from account number 990211 to account number 114477 on the same day, 1 November 2026.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB011",
+      "source": "ent_00116",
+      "target": "ent_00109",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.59,
+      "status": "confirmed",
+      "evidence_text": "Bank records show a further debit of ₹7,10,000 from account number 990211 to account number 114477 on the same day, 1 November 2026.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB012",
+      "source": "ent_00109",
+      "target": "ent_00104",
+      "type": "AFFILIATED_WITH",
+      "confidence": 0.71,
+      "status": "confirmed",
+      "evidence_text": "Account number 114477 is a current account held in the name of Bright Future Fintech Pvt Ltd, registered at Whitefield, Bengaluru, with Vikas Sharma listed as the authorised signatory and director.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB013",
+      "source": "ent_00105",
+      "target": "ent_00104",
+      "type": "AFFILIATED_WITH",
+      "confidence": 0.83,
+      "status": "confirmed",
+      "evidence_text": "Account number 114477 is a current account held in the name of Bright Future Fintech Pvt Ltd, registered at Whitefield, Bengaluru, with Vikas Sharma listed as the authorised signatory and director.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB014",
+      "source": "ent_00104",
+      "target": "ent_00113",
+      "type": "RESIDES_AT",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "Account number 114477 is a current account held in the name of Bright Future Fintech Pvt Ltd, registered at Whitefield, Bengaluru, with Vikas Sharma listed as the authorised signatory and director.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB015",
+      "source": "ent_00106",
+      "target": "ent_00118",
+      "type": "OWNS",
+      "confidence": 0.71,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 8877665544 is registered to Ankit Pillai.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RB016",
+      "source": "ent_00118",
+      "target": "ent_00103",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "Records further show that 8877665544 contacted 8899001122 on 1 November 2026 at 11:58 AM, immediately after the fraudulent call to Meera Nair, and again on 2 November 2026, indicating coordination between the two numbers.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RB017",
+      "source": "ent_00106",
+      "target": "ent_00114",
+      "type": "OWNS",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "Surveillance conducted near Whitefield, Bengaluru on 2 November 2026 observed Ankit Pillai arriving at a cash-withdrawal point on a Honda Activa bearing registration number KA05EF9988, consistent with mule cash-collection activity linked to account number 990211.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB018",
+      "source": "ent_00105",
+      "target": "ent_00111",
+      "type": "IDENTIFIED_BY",
+      "confidence": 0.71,
+      "status": "confirmed",
+      "evidence_text": "Investigators identified the Telegram handle @HDFC_QuickHelp, used to send fraudulent verification links, as being operated from a device associated with Vikas Sharma.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RB019",
+      "source": "ent_00105",
+      "target": "ent_00117",
+      "type": "ACCUSED_OF",
+      "confidence": 0.77,
+      "status": "confirmed",
+      "evidence_text": "Investigators have named Vikas Sharma and Ankit Pillai as accused persons in connection with the fraud.",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RB020",
+      "source": "ent_00106",
+      "target": "ent_00117",
+      "type": "ACCUSED_OF",
+      "confidence": 0.77,
+      "status": "confirmed",
+      "evidence_text": "Investigators have named Vikas Sharma and Ankit Pillai as accused persons in connection with the fraud.",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RB021",
+      "source": "ent_00105",
+      "target": "ent_00103",
+      "type": "PREDICTED",
+      "confidence": 0.93,
+      "status": "predicted",
+      "evidence_text": "Vikas Sharma and 8899001122 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.93) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "RB022",
+      "source": "ent_00101",
+      "target": "ent_00104",
+      "type": "PREDICTED",
+      "confidence": 0.97,
+      "status": "predicted",
+      "evidence_text": "Meera Nair and Bright Future Fintech Pvt Ltd are not directly linked in the data, but share 3 common connection(s) and a high structural similarity score (0.97) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "RB023",
+      "source": "ent_00102",
+      "target": "ent_00111",
+      "type": "PREDICTED",
+      "confidence": 0.88,
+      "status": "predicted",
+      "evidence_text": "9845123456 and @HDFC_QuickHelp are not directly linked in the data, but share 2 common connection(s) and a structural similarity score (0.88) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    }
+  ]
+}

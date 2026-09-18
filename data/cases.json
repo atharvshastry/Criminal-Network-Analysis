@@ -1,0 +1,29 @@
+[
+  {
+    "id": "CASE-2026-00452",
+    "title": "FIR-2026-00452 — Armed Robbery & Financial Trail",
+    "status": "Active",
+    "priority": "High",
+    "entities": 25,
+    "relationships": 97,
+    "alerts": 15
+  },
+  {
+    "id": "CASE-2026-00478",
+    "title": "FIR-2026-00478 — UPI Fraud & Money Laundering Network",
+    "status": "Active",
+    "priority": "High",
+    "entities": 18,
+    "relationships": 23,
+    "alerts": 5
+  },
+  {
+    "id": "CASE-2026-00533",
+    "title": "FIR-2026-00533 — मादक पदार्थ तस्करी नेटवर्क (Narcotics Trafficking Network)",
+    "status": "Active",
+    "priority": "High",
+    "entities": 16,
+    "relationships": 22,
+    "alerts": 5
+  }
+]

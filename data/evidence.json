@@ -1,0 +1,541 @@
+{
+  "CASE-2026-00452": [
+    {
+      "id": "E-CASE-2026-00452-FIR",
+      "case_id": "CASE-2026-00452",
+      "type": "FIR",
+      "title": "First Information Report — FIR-2026-00452",
+      "source": "MP Nagar Police Station, Bhopal",
+      "timestamp": "2026-10-18T22:30:00+05:30",
+      "confidence": 0.95,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00002",
+        "ent_00003",
+        "ent_00004",
+        "ent_00005",
+        "ent_00006",
+        "ent_00013",
+        "ent_00014",
+        "ent_00015",
+        "ent_00016",
+        "ent_00017",
+        "ent_00029",
+        "ent_00030",
+        "ent_00033",
+        "ent_00035",
+        "ent_00051"
+      ],
+      "relationship_ids": [
+        "R003",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R023",
+        "R024",
+        "R025",
+        "R026",
+        "R028",
+        "R029",
+        "R034",
+        "R036",
+        "R037",
+        "R038",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049",
+        "R050",
+        "R051"
+      ],
+      "related_alerts": [
+        "ALERT-001",
+        "ALERT-009",
+        "ALERT-010",
+        "ALERT-012",
+        "ALERT-013",
+        "ALERT-014",
+        "ALERT-015"
+      ],
+      "summary": "Complainant Rajesh Kumar reported an armed robbery near MP Nagar, Bhopal on 18 October 2026: two unknown persons stopped his vehicle and took ₹5,00,000 in cash at gunpoint. A pistol and suspected heroin were later recovered from the vehicle, and a linked bank account (458921) was identified during the initial investigation.",
+      "evidence_note": "Processed from the case's original FIR document by the extraction pipeline.",
+      "document": {
+        "type": "FIRST INFORMATION REPORT",
+        "subtitle": "SYNTHETIC DEMONSTRATION DOCUMENT — NOT AN OFFICIAL FIR",
+        "document_number": "FIR-2026-00452",
+        "case_id": "CASE-2026-00452",
+        "police_station": "MP Nagar Police Station, Bhopal",
+        "district": "Bhopal",
+        "state": "Madhya Pradesh",
+        "year": "2026",
+        "date_of_registration": "18/10/2026",
+        "time_of_registration": "22:30",
+        "complainant": "Rajesh Kumar",
+        "contact": "9123456789",
+        "address": "24 MP Nagar, Bhopal",
+        "date_of_occurrence": "18/10/2026",
+        "time_of_occurrence": "22:30",
+        "place_of_occurrence": "MP Nagar, Bhopal",
+        "offence_sections": [
+          "BNS 318 — Robbery"
+        ],
+        "persons_referenced": [
+          "ent_00002 — 9123456789",
+          "ent_00003 — 9871122334",
+          "ent_00004 — 458921",
+          "ent_00013 — Rajesh Kumar",
+          "ent_00014 — Neeraj Patel",
+          "ent_00015 — Suresh Verma",
+          "ent_00029 — Toyota Fortuner"
+        ],
+        "description": "On 18 October 2026, the complainant Rajesh Kumar reported that an armed robbery took place near MP Nagar, Bhopal at approximately 10:30 PM. Rajesh Kumar was travelling in a Toyota Fortuner when two unknown persons stopped the vehicle near the market; one suspect threatened him with a pistol and took ₹5,00,000 in cash. The complainant stated that he contacted his colleague Neeraj Patel using 9123456789 after the incident; Neeraj Patel informed the police that he had received information about the robbery. Police recovered a pistol and suspected heroin from the vehicle, and identified a bank account (458921) allegedly used for a related financial transaction.",
+        "initial_investigation_notes": [
+          "Call Detail Records requested for numbers linked to the complainant.",
+          "Financial transaction history requested for account 458921.",
+          "Surveillance requested for the area around MP Nagar, Bhopal."
+        ],
+        "investigating_officer": "MP Nagar Police Station, Bhopal",
+        "designation": "Investigating Officer",
+        "registration_status": "Synthetic Demonstration Record",
+        "sha256": "generated-from-document-content",
+        "integrity": "HASH VERIFIED",
+        "footer": [
+          "SYNTHETIC DEMONSTRATION DOCUMENT — GENERATED FOR THE SIH 26189 PROTOTYPE."
+        ]
+      }
+    },
+    {
+      "id": "E-CASE-2026-00452-CDR",
+      "case_id": "CASE-2026-00452",
+      "type": "CDR",
+      "title": "Call Detail Record Analysis",
+      "source": "MP Nagar Police Station, Bhopal",
+      "timestamp": "2026-10-20T00:00:00+05:30",
+      "confidence": 0.88,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00002",
+        "ent_00003",
+        "ent_00007",
+        "ent_00008",
+        "ent_00013",
+        "ent_00015",
+        "ent_00016",
+        "ent_00017",
+        "ent_00050",
+        "ent_00051"
+      ],
+      "relationship_ids": [
+        "R001",
+        "R002",
+        "R004",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R022",
+        "R027",
+        "R030",
+        "R035",
+        "R041",
+        "R042",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056",
+        "R057",
+        "R058"
+      ],
+      "related_alerts": [
+        "ALERT-001",
+        "ALERT-005",
+        "ALERT-009",
+        "ALERT-010",
+        "ALERT-011",
+        "ALERT-012",
+        "ALERT-013",
+        "ALERT-014",
+        "ALERT-015"
+      ],
+      "summary": "Call pattern analysis shows Rajesh Kumar's number in repeated contact with Suresh Verma's number in the two weeks before the robbery, an associate's number contacting Suresh Verma the day before, and an unusually late-night call from Suresh Verma to Om Traders shortly before a financial transaction between the same two parties.",
+      "evidence_note": "Processed from the case's Call Detail Record log by the extraction pipeline."
+    },
+    {
+      "id": "E-CASE-2026-00452-FINSURV",
+      "case_id": "CASE-2026-00452",
+      "type": "FINANCIAL_SURVEILLANCE",
+      "title": "Financial Transaction & Surveillance Report",
+      "source": "MP Nagar Police Station, Bhopal",
+      "timestamp": "2026-10-21T00:00:00+05:30",
+      "confidence": 0.88,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00009",
+        "ent_00010",
+        "ent_00011",
+        "ent_00012",
+        "ent_00015",
+        "ent_00016",
+        "ent_00017",
+        "ent_00076",
+        "ent_00077"
+      ],
+      "relationship_ids": [
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R020",
+        "R021",
+        "R031",
+        "R032",
+        "R033",
+        "R039",
+        "R040",
+        "R043",
+        "R059"
+      ],
+      "related_alerts": [
+        "ALERT-001",
+        "ALERT-002",
+        "ALERT-003",
+        "ALERT-004",
+        "ALERT-006",
+        "ALERT-007",
+        "ALERT-008",
+        "ALERT-010",
+        "ALERT-012"
+      ],
+      "summary": "₹5,00,000 debited from Rajesh Kumar's account was traced through an Om Traders account to ₹3,50,000 received by an account held by Suresh Verma, who was separately identified by surveillance as the owner of a vehicle recorded near the robbery scene shortly before the incident.",
+      "evidence_note": "Processed from the case's financial and surveillance report by the extraction pipeline."
+    }
+  ],
+  "CASE-2026-00478": [
+    {
+      "id": "E-CASE-2026-00478-FIR",
+      "case_id": "CASE-2026-00478",
+      "type": "FIR",
+      "title": "First Information Report — FIR-2026-00478",
+      "source": "Koramangala Police Station, Bengaluru",
+      "timestamp": "2026-11-03T00:00:00+05:30",
+      "confidence": 0.95,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00101",
+        "ent_00102",
+        "ent_00103",
+        "ent_00107",
+        "ent_00108",
+        "ent_00110",
+        "ent_00111",
+        "ent_00112",
+        "ent_00115",
+        "ent_00116",
+        "ent_00105",
+        "ent_00106",
+        "ent_00117"
+      ],
+      "relationship_ids": [
+        "RB002",
+        "RB003",
+        "RB004",
+        "RB006",
+        "RB007",
+        "RB008",
+        "RB010",
+        "RB011",
+        "RB019",
+        "RB020"
+      ],
+      "related_alerts": [
+        "ALERTB-001",
+        "ALERTB-002"
+      ],
+      "summary": "Complainant Meera Nair reported a UPI/KYC phishing fraud on 1 November 2026: a caller impersonating HDFC Bank support convinced her to authorise a transaction, debiting ₹8,40,000 from her account, which was quickly routed through a mule account to a shell company account linked to Vikas Sharma and Ankit Pillai.",
+      "evidence_note": "Processed from the case's original FIR document by the extraction pipeline.",
+      "document": {
+        "type": "FIRST INFORMATION REPORT",
+        "subtitle": "SYNTHETIC DEMONSTRATION DOCUMENT — NOT AN OFFICIAL FIR",
+        "document_number": "FIR-2026-00478",
+        "case_id": "CASE-2026-00478",
+        "police_station": "Koramangala Police Station, Bengaluru",
+        "district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "year": "2026",
+        "date_of_registration": "03/11/2026",
+        "time_of_registration": "10:15",
+        "complainant": "Meera Nair",
+        "contact": "9845123456",
+        "address": "14, 6th Cross, Koramangala, Bengaluru",
+        "date_of_occurrence": "01/11/2026",
+        "time_of_occurrence": "11:42",
+        "place_of_occurrence": "Koramangala, Bengaluru",
+        "offence_sections": [
+          "BNS 318 — Cheating",
+          "BNS 111 — Organised Crime"
+        ],
+        "persons_referenced": [
+          "ent_00101 — Meera Nair",
+          "ent_00102 — 9845123456",
+          "ent_00105 — Vikas Sharma",
+          "ent_00106 — Ankit Pillai",
+          "ent_00104 — Bright Future Fintech Pvt Ltd"
+        ],
+        "description": "On 1 November 2026, Meera Nair received a call from mobile number 8899001122, in which the caller falsely claimed to represent the HDFC Bank customer support helpline and stated that her account required urgent KYC re-verification. Acting on the caller's instructions, Meera Nair unknowingly authorised a transaction, after which ₹8,40,000 was debited from her savings account and routed through a mule account held by Ankit Pillai to a current account held by Bright Future Fintech Pvt Ltd, a company for which Vikas Sharma is the authorised signatory and director.",
+        "initial_investigation_notes": [
+          "Call Detail Records requested for numbers linked to the complainant and the fraudulent caller.",
+          "Financial transaction history requested for accounts 552134, 990211 and 114477.",
+          "Surveillance requested for the registered address of Bright Future Fintech Pvt Ltd in Whitefield, Bengaluru."
+        ],
+        "investigating_officer": "Cyber Crime Cell, Koramangala Police Station, Bengaluru",
+        "designation": "Investigating Officer",
+        "registration_status": "Synthetic Demonstration Record",
+        "sha256": "generated-from-document-content",
+        "integrity": "HASH VERIFIED",
+        "footer": [
+          "SYNTHETIC DEMONSTRATION DOCUMENT — GENERATED FOR THE SIH 26189 PROTOTYPE."
+        ]
+      }
+    },
+    {
+      "id": "E-CASE-2026-00478-CDR",
+      "case_id": "CASE-2026-00478",
+      "type": "CDR",
+      "title": "Call Detail Record Analysis",
+      "source": "Cyber Crime Cell, Koramangala Police Station, Bengaluru",
+      "timestamp": "2026-11-05T00:00:00+05:30",
+      "confidence": 0.88,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00101",
+        "ent_00102",
+        "ent_00103",
+        "ent_00106",
+        "ent_00118",
+        "ent_00113"
+      ],
+      "relationship_ids": [
+        "RB001",
+        "RB002",
+        "RB005",
+        "RB015",
+        "RB016"
+      ],
+      "related_alerts": [
+        "ALERTB-001",
+        "ALERTB-003"
+      ],
+      "summary": "Call pattern analysis shows the fraud caller's burner number in direct contact with the victim during the fraudulent call, and in repeated contact with Ankit Pillai's registered number immediately afterwards, consistent with coordinated mule activity.",
+      "evidence_note": "Processed from the case's Call Detail Record log by the extraction pipeline."
+    },
+    {
+      "id": "E-CASE-2026-00478-FINSURV",
+      "case_id": "CASE-2026-00478",
+      "type": "FINANCIAL_SURVEILLANCE",
+      "title": "Financial Transaction & Surveillance Report",
+      "source": "Cyber Crime Cell, Koramangala Police Station, Bengaluru",
+      "timestamp": "2026-11-06T00:00:00+05:30",
+      "confidence": 0.88,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00107",
+        "ent_00108",
+        "ent_00109",
+        "ent_00104",
+        "ent_00105",
+        "ent_00106",
+        "ent_00114",
+        "ent_00111"
+      ],
+      "relationship_ids": [
+        "RB007",
+        "RB008",
+        "RB009",
+        "RB010",
+        "RB011",
+        "RB012",
+        "RB013",
+        "RB014",
+        "RB017",
+        "RB018"
+      ],
+      "related_alerts": [
+        "ALERTB-001",
+        "ALERTB-002"
+      ],
+      "summary": "₹8,40,000 debited from Meera Nair's account was traced through a mule account held by Ankit Pillai to a shell company account controlled by Vikas Sharma, who was separately identified as operating the Telegram handle used to run the fraud.",
+      "evidence_note": "Processed from the case's financial and surveillance report by the extraction pipeline."
+    }
+  ],
+  "CASE-2026-00533": [
+    {
+      "id": "E-CASE-2026-00533-FIR",
+      "case_id": "CASE-2026-00533",
+      "type": "FIR",
+      "title": "प्राथमिकी — FIR-2026-00533",
+      "source": "एरोड्रम थाना, इंदौर",
+      "timestamp": "2026-11-12T00:00:00+05:30",
+      "confidence": 0.95,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00201",
+        "ent_00202",
+        "ent_00203",
+        "ent_00204",
+        "ent_00205",
+        "ent_00206",
+        "ent_00207",
+        "ent_00208",
+        "ent_00209",
+        "ent_00216"
+      ],
+      "relationship_ids": [
+        "RC002",
+        "RC003",
+        "RC004",
+        "RC007",
+        "RC015",
+        "RC018"
+      ],
+      "related_alerts": [
+        "ALERTC-001",
+        "ALERTC-002"
+      ],
+      "summary": "11 नवंबर 2026 को देवास रोड, इंदौर पर एक नाकाबंदी में रोहन मल्होत्रा को लगभग 4 किलोग्राम मेफेड्रोन के साथ पकड़ा गया; पूछताछ में सामने आया कि खेप संदीप वर्मा द्वारा भेजी गई थी और डिलीवरी अजय ठाकुर को की जानी थी।",
+      "evidence_note": "Processed from the case's original FIR document by the extraction pipeline.",
+      "document": {
+        "type": "प्राथमिकी (FIRST INFORMATION REPORT)",
+        "subtitle": "SYNTHETIC DEMONSTRATION DOCUMENT — NOT AN OFFICIAL FIR",
+        "document_number": "FIR-2026-00533",
+        "case_id": "CASE-2026-00533",
+        "police_station": "एरोड्रम थाना, इंदौर",
+        "district": "इंदौर",
+        "state": "मध्य प्रदेश",
+        "year": "2026",
+        "date_of_registration": "12/11/2026",
+        "time_of_registration": "09:30",
+        "complainant": "उप-निरीक्षक अनिल पटेल, नारकोटिक्स सेल, इंदौर",
+        "contact": "—",
+        "address": "नारकोटिक्स सेल, इंदौर",
+        "date_of_occurrence": "11/11/2026",
+        "time_of_occurrence": "—",
+        "place_of_occurrence": "देवास रोड, इंदौर",
+        "offence_sections": [
+          "NDPS अधिनियम, 1985 — धारा 8(c), 22(c)",
+          "BNS 111 — संगठित अपराध"
+        ],
+        "persons_referenced": [
+          "ent_00201 — रोहन मल्होत्रा",
+          "ent_00203 — संदीप वर्मा",
+          "ent_00205 — अजय ठाकुर"
+        ],
+        "description": "मुखबिर से मिली सूचना के आधार पर, 11 नवंबर 2026 को देवास रोड, इंदौर पर नाकाबंदी के दौरान एक टाटा ऐस पिकअप वाहन (रजिस्ट्रेशन नंबर MP09XY5678) को रोका गया। वाहन चालक रोहन मल्होत्रा से पूछताछ में वाहन से लगभग 4 किलोग्राम मेफेड्रोन (MD) बरामद हुआ। पूछताछ में रोहन मल्होत्रा ने बताया कि खेप संदीप वर्मा द्वारा भेजी गई थी और डिलीवरी अजय ठाकुर को की जानी थी।",
+        "initial_investigation_notes": [
+          "रोहन मल्होत्रा, संदीप वर्मा और अजय ठाकुर से जुड़े मोबाइल नंबरों के कॉल डिटेल रिकॉर्ड मांगे गए।",
+          "खाता संख्या 662310 और 778821 के वित्तीय लेनदेन का विवरण मांगा गया।",
+          "देवास रोड, इंदौर स्थित गोदाम पर निगरानी का अनुरोध किया गया।"
+        ],
+        "investigating_officer": "नारकोटिक्स सेल, इंदौर",
+        "designation": "जांच अधिकारी",
+        "registration_status": "Synthetic Demonstration Record",
+        "sha256": "generated-from-document-content",
+        "integrity": "HASH VERIFIED",
+        "footer": [
+          "SYNTHETIC DEMONSTRATION DOCUMENT — GENERATED FOR THE SIH 26189 PROTOTYPE."
+        ]
+      }
+    },
+    {
+      "id": "E-CASE-2026-00533-CDR",
+      "case_id": "CASE-2026-00533",
+      "type": "CDR",
+      "title": "कॉल डिटेल रिकॉर्ड (CDR) विश्लेषण",
+      "source": "नारकोटिक्स सेल, इंदौर",
+      "timestamp": "2026-11-14T00:00:00+05:30",
+      "confidence": 0.88,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00201",
+        "ent_00202",
+        "ent_00203",
+        "ent_00204",
+        "ent_00205",
+        "ent_00206",
+        "ent_00209"
+      ],
+      "relationship_ids": [
+        "RC001",
+        "RC005",
+        "RC012",
+        "RC013",
+        "RC014"
+      ],
+      "related_alerts": [
+        "ALERTC-001"
+      ],
+      "summary": "कॉल पैटर्न विश्लेषण से पता चलता है कि संदीप वर्मा का नंबर, खेप भेजे जाने से ठीक पहले रोहन मल्होत्रा के नंबर से लगातार संपर्क में था, और रोहन मल्होत्रा ने बाद में अजय ठाकुर से डिलीवरी समन्वय हेतु संपर्क किया।",
+      "evidence_note": "Processed from the case's Call Detail Record log by the extraction pipeline."
+    },
+    {
+      "id": "E-CASE-2026-00533-FINSURV",
+      "case_id": "CASE-2026-00533",
+      "type": "FINANCIAL_SURVEILLANCE",
+      "title": "वित्तीय लेनदेन एवं निगरानी रिपोर्ट",
+      "source": "नारकोटिक्स सेल, इंदौर",
+      "timestamp": "2026-11-15T00:00:00+05:30",
+      "confidence": 0.88,
+      "hash_status": "Hash verified",
+      "integrity_status": "Integrity: Verified",
+      "verification_status": "PENDING",
+      "entity_ids": [
+        "ent_00211",
+        "ent_00212",
+        "ent_00213",
+        "ent_00214",
+        "ent_00203",
+        "ent_00210",
+        "ent_00215",
+        "ent_00209"
+      ],
+      "relationship_ids": [
+        "RC006",
+        "RC008",
+        "RC009",
+        "RC010",
+        "RC011",
+        "RC016",
+        "RC017",
+        "RC019"
+      ],
+      "related_alerts": [
+        "ALERTC-001",
+        "ALERTC-002"
+      ],
+      "summary": "₹3,50,000 का भुगतान संदीप वर्मा के खाते से रोहन मल्होत्रा के खाते में स्थानांतरित पाया गया; निगरानी में देवास रोड स्थित गोदाम से एक देशी पिस्तौल बरामद हुई, जो संदीप वर्मा से जुड़े होने का संदेह है।",
+      "evidence_note": "Processed from the case's financial and surveillance report by the extraction pipeline."
+    }
+  ]
+}

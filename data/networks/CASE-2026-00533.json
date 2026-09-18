@@ -1,0 +1,395 @@
+{
+  "nodes": [
+    {
+      "id": "ent_00201",
+      "label": "रोहन मल्होत्रा",
+      "type": "PERSON",
+      "community": 1,
+      "centrality": 0.821,
+      "confidence": 0.99,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0,
+      "graphLabel": "Rohan Malhotra"
+    },
+    {
+      "id": "ent_00202",
+      "label": "9098765432",
+      "type": "PHONE",
+      "community": 1,
+      "centrality": 0.436,
+      "confidence": 0.77,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00203",
+      "label": "संदीप वर्मा",
+      "type": "PERSON",
+      "community": 2,
+      "centrality": 0.95,
+      "confidence": 0.99,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.163,
+      "graphLabel": "Sandeep Verma"
+    },
+    {
+      "id": "ent_00204",
+      "label": "9012345678",
+      "type": "PHONE",
+      "community": 2,
+      "centrality": 0.436,
+      "confidence": 0.77,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00205",
+      "label": "अजय ठाकुर",
+      "type": "PERSON",
+      "community": 2,
+      "centrality": 0.436,
+      "confidence": 0.85,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0,
+      "graphLabel": "Ajay Thakur"
+    },
+    {
+      "id": "ent_00206",
+      "label": "9887766554",
+      "type": "PHONE",
+      "community": 2,
+      "centrality": 0.307,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00207",
+      "label": "मेफेड्रोन (MD)",
+      "type": "DRUG",
+      "community": 1,
+      "centrality": 0.179,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0,
+      "graphLabel": "Mephedrone (MD)"
+    },
+    {
+      "id": "ent_00208",
+      "label": "टाटा ऐस MP09XY5678",
+      "type": "VEHICLE",
+      "community": 1,
+      "centrality": 0.179,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0,
+      "graphLabel": "Tata Ace MP09XY5678"
+    },
+    {
+      "id": "ent_00209",
+      "label": "देवास रोड गोदाम, इंदौर",
+      "type": "LOCATION",
+      "community": 1,
+      "centrality": 0.436,
+      "confidence": 0.85,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0,
+      "graphLabel": "Dewas Road Godown, Indore"
+    },
+    {
+      "id": "ent_00210",
+      "label": "देशी पिस्तौल",
+      "type": "WEAPON",
+      "community": 2,
+      "centrality": 0.179,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0,
+      "graphLabel": "Country-made Pistol"
+    },
+    {
+      "id": "ent_00211",
+      "label": "662310",
+      "type": "ACCOUNT",
+      "community": 1,
+      "centrality": 0.436,
+      "confidence": 0.77,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00212",
+      "label": "778821",
+      "type": "ACCOUNT",
+      "community": 2,
+      "centrality": 0.307,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00213",
+      "label": "₹3,50,000",
+      "type": "MONEY",
+      "community": 2,
+      "centrality": 0.307,
+      "confidence": 0.74,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00214",
+      "label": "न्यू सिटी ट्रेडर्स",
+      "type": "ORGANIZATION",
+      "community": 2,
+      "centrality": 0.436,
+      "confidence": 0.77,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.058,
+      "graphLabel": "New City Traders"
+    },
+    {
+      "id": "ent_00215",
+      "label": "@IndoreSupplyLine",
+      "type": "SOCIAL_ID",
+      "community": 2,
+      "centrality": 0.179,
+      "confidence": 0.71,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00216",
+      "label": "मादक पदार्थ तस्करी",
+      "type": "CRIME",
+      "community": 1,
+      "centrality": 0.436,
+      "confidence": 0.77,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0,
+      "graphLabel": "Narcotics Trafficking"
+    }
+  ],
+  "edges": [
+    {
+      "id": "RC001",
+      "source": "ent_00201",
+      "target": "ent_00202",
+      "type": "OWNS",
+      "confidence": 0.89,
+      "status": "confirmed",
+      "evidence_text": "मोबाइल नंबर 9098765432, रोहन मल्होत्रा के नाम पर पंजीकृत है।",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RC002",
+      "source": "ent_00201",
+      "target": "ent_00208",
+      "type": "OWNS",
+      "confidence": 0.77,
+      "status": "confirmed",
+      "evidence_text": "11 नवंबर 2026 को देवास रोड, इंदौर पर नाकाबंदी के दौरान एक टाटा ऐस पिकअप वाहन (रजिस्ट्रेशन नंबर MP09XY5678) को रोका गया। वाहन चालक रोहन मल्होत्रा से पूछताछ में वाहन से लगभग 4 किलोग्राम मेफेड्रोन (MD) बरामद हुआ।",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RC003",
+      "source": "ent_00201",
+      "target": "ent_00207",
+      "type": "POSSESSES_DRUG",
+      "confidence": 0.77,
+      "status": "confirmed",
+      "evidence_text": "वाहन चालक रोहन मल्होत्रा से पूछताछ में वाहन से लगभग 4 किलोग्राम मेफेड्रोन (MD) बरामद हुआ।",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RC004",
+      "source": "ent_00201",
+      "target": "ent_00216",
+      "type": "ACCUSED_OF",
+      "confidence": 0.89,
+      "status": "confirmed",
+      "evidence_text": "रोहन मल्होत्रा, संदीप वर्मा और अजय ठाकुर को इस मामले में अभियुक्त बनाया गया है।",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RC005",
+      "source": "ent_00203",
+      "target": "ent_00204",
+      "type": "OWNS",
+      "confidence": 0.95,
+      "status": "confirmed",
+      "evidence_text": "मोबाइल नंबर 9012345678, संदीप वर्मा के नाम पर पंजीकृत है।",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RC006",
+      "source": "ent_00203",
+      "target": "ent_00214",
+      "type": "AFFILIATED_WITH",
+      "confidence": 0.95,
+      "status": "confirmed",
+      "evidence_text": "यह गोदाम फर्म न्यू सिटी ट्रेडर्स के नाम पर पंजीकृत पाया गया।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC007",
+      "source": "ent_00203",
+      "target": "ent_00216",
+      "type": "ACCUSED_OF",
+      "confidence": 0.95,
+      "status": "confirmed",
+      "evidence_text": "रोहन मल्होत्रा, संदीप वर्मा और अजय ठाकुर को इस मामले में अभियुक्त बनाया गया है।",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RC008",
+      "source": "ent_00203",
+      "target": "ent_00212",
+      "type": "OWNS",
+      "confidence": 0.89,
+      "status": "confirmed",
+      "evidence_text": "खाता संख्या 778821, संदीप वर्मा के नाम पर है।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC009",
+      "source": "ent_00201",
+      "target": "ent_00211",
+      "type": "OWNS",
+      "confidence": 0.89,
+      "status": "confirmed",
+      "evidence_text": "बैंक रिकॉर्ड्स के अनुसार 9 नवंबर 2026 को इस खाते से ₹3,50,000 की राशि खाता संख्या 662310 में स्थानांतरित की गई, जो रोहन मल्होत्रा के नाम पर पंजीकृत है।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC010",
+      "source": "ent_00212",
+      "target": "ent_00213",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.59,
+      "status": "confirmed",
+      "evidence_text": "बैंक रिकॉर्ड्स के अनुसार 9 नवंबर 2026 को इस खाते से ₹3,50,000 की राशि खाता संख्या 662310 में स्थानांतरित की गई, जो रोहन मल्होत्रा के नाम पर पंजीकृत है।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC011",
+      "source": "ent_00213",
+      "target": "ent_00211",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "बैंक रिकॉर्ड्स के अनुसार 9 नवंबर 2026 को इस खाते से ₹3,50,000 की राशि खाता संख्या 662310 में स्थानांतरित की गई, जो रोहन मल्होत्रा के नाम पर पंजीकृत है।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC012",
+      "source": "ent_00204",
+      "target": "ent_00202",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.71,
+      "status": "confirmed",
+      "evidence_text": "रिकॉर्ड्स से पता चलता है कि 9012345678 ने 9098765432 से 9 नवंबर 2026 को दो बार संपर्क किया, जो खेप भेजे जाने से ठीक पहले की अवधि से मेल खाता है।",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RC013",
+      "source": "ent_00205",
+      "target": "ent_00206",
+      "type": "OWNS",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "मोबाइल नंबर 9887766554, अजय ठाकुर के नाम पर पंजीकृत है।",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RC014",
+      "source": "ent_00202",
+      "target": "ent_00206",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.65,
+      "status": "confirmed",
+      "evidence_text": "रिकॉर्ड्स यह भी दर्शाते हैं कि 9098765432 ने 9887766554 से 10 नवंबर 2026 को संपर्क किया, जिसमें डिलीवरी की योजना पर चर्चा की गई प्रतीत होती है।",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "RC015",
+      "source": "ent_00205",
+      "target": "ent_00216",
+      "type": "ACCUSED_OF",
+      "confidence": 0.71,
+      "status": "confirmed",
+      "evidence_text": "रोहन मल्होत्रा, संदीप वर्मा और अजय ठाकुर को इस मामले में अभियुक्त बनाया गया है।",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RC016",
+      "source": "ent_00203",
+      "target": "ent_00210",
+      "type": "USED_WEAPON",
+      "confidence": 0.83,
+      "status": "confirmed",
+      "evidence_text": "देवास रोड, इंदौर स्थित एक गोदाम पर 10 नवंबर 2026 को की गई तलाशी में एक देशी पिस्तौल बरामद हुई, जिसके बारे में संदीप वर्मा से जुड़े होने का संदेह है।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC017",
+      "source": "ent_00214",
+      "target": "ent_00209",
+      "type": "RESIDES_AT",
+      "confidence": 0.71,
+      "status": "confirmed",
+      "evidence_text": "यह गोदाम फर्म न्यू सिटी ट्रेडर्स के नाम पर पंजीकृत पाया गया।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC018",
+      "source": "ent_00201",
+      "target": "ent_00209",
+      "type": "OCCURRED_AT",
+      "confidence": 0.89,
+      "status": "confirmed",
+      "evidence_text": "11 नवंबर 2026 को देवास रोड, इंदौर पर नाकाबंदी के दौरान एक टाटा ऐस पिकअप वाहन (रजिस्ट्रेशन नंबर MP09XY5678) को रोका गया।",
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "RC019",
+      "source": "ent_00203",
+      "target": "ent_00215",
+      "type": "IDENTIFIED_BY",
+      "confidence": 0.83,
+      "status": "confirmed",
+      "evidence_text": "निगरानी के दौरान यह भी पुष्ट हुआ कि संदीप वर्मा टेलीग्राम हैंडल @IndoreSupplyLine का संचालन करता है, जिसका उपयोग खेप के समन्वय के लिए किया जाता था।",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "RC020",
+      "source": "ent_00203",
+      "target": "ent_00205",
+      "type": "PREDICTED",
+      "confidence": 0.9,
+      "status": "predicted",
+      "evidence_text": "संदीप वर्मा और अजय ठाकुर के बीच कोई सीधा दस्तावेज़ी संपर्क दर्ज नहीं है, लेकिन दोनों के 2 साझा संबंध हैं और संरचनात्मक समानता स्कोर उच्च (0.90) है — यह एक संभावित सुराग है, पुष्टि नहीं।",
+      "source_document_id": null
+    },
+    {
+      "id": "RC021",
+      "source": "ent_00211",
+      "target": "ent_00214",
+      "type": "PREDICTED",
+      "confidence": 0.95,
+      "status": "predicted",
+      "evidence_text": "खाता संख्या 662310 और न्यू सिटी ट्रेडर्स के बीच कोई सीधा दस्तावेज़ी संबंध दर्ज नहीं है, लेकिन संरचनात्मक समानता स्कोर उच्च (0.95) है — यह एक संभावित सुराग है, पुष्टि नहीं।",
+      "source_document_id": null
+    },
+    {
+      "id": "RC022",
+      "source": "ent_00204",
+      "target": "ent_00209",
+      "type": "PREDICTED",
+      "confidence": 0.85,
+      "status": "predicted",
+      "evidence_text": "9012345678 और देवास रोड गोदाम, इंदौर के बीच कोई सीधा दस्तावेज़ी संबंध दर्ज नहीं है, लेकिन टावर लोकेशन निकटता के आधार पर संरचनात्मक समानता स्कोर (0.85) है — यह एक संभावित सुराग है, पुष्टि नहीं।",
+      "source_document_id": null
+    }
+  ]
+}

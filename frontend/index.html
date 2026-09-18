@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TraceX — Investigation Intelligence</title>
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem("nexus-theme");
+        document.documentElement.dataset.theme = theme === "light" ? "light" : "dark";
+      } catch (error) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

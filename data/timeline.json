@@ -1,0 +1,298 @@
+{
+  "CASE-2026-00452": [
+    {
+      "id": "EVT-001",
+      "timestamp": "2026-10-04T00:00:00+05:30",
+      "title": "Phone contact between complainant and later suspect",
+      "description": "Rajesh Kumar's number contacted Suresh Verma's number — the first of two calls in the two weeks before the robbery.",
+      "entity_ids": [
+        "ent_00002",
+        "ent_00007",
+        "ent_00013",
+        "ent_00015"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVT-002",
+      "timestamp": "2026-10-15T00:00:00+05:30",
+      "title": "Repeat phone contact",
+      "description": "Rajesh Kumar's number contacted Suresh Verma's number again, days before the robbery.",
+      "entity_ids": [
+        "ent_00002",
+        "ent_00007",
+        "ent_00013",
+        "ent_00015"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVT-003",
+      "timestamp": "2026-10-16T00:00:00+05:30",
+      "title": "Associate contact the day before the incident",
+      "description": "Neeraj Patel's number contacted Suresh Verma's number the day before the robbery took place.",
+      "entity_ids": [
+        "ent_00003",
+        "ent_00007",
+        "ent_00014",
+        "ent_00015"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVT-004",
+      "timestamp": "2026-10-17T02:15:00+05:30",
+      "title": "Unusually late-night call",
+      "description": "Suresh Verma's number contacted Om Traders' registered number at 02:15 AM, shortly before the reported financial transaction.",
+      "entity_ids": [
+        "ent_00007",
+        "ent_00008",
+        "ent_00015",
+        "ent_00017"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVT-005",
+      "timestamp": "2026-10-18T22:15:00+05:30",
+      "title": "Vehicle surveilled near the crime scene",
+      "description": "Surveillance recorded a Honda City registered to Suresh Verma (MP04AB1234) parked close to the scene, minutes before the robbery.",
+      "entity_ids": [
+        "ent_00076",
+        "ent_00015",
+        "ent_00016"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVT-006",
+      "timestamp": "2026-10-18T22:30:00+05:30",
+      "title": "Armed robbery reported",
+      "description": "Rajesh Kumar reported an armed robbery near MP Nagar, Bhopal; ₹5,00,000 in cash was taken at gunpoint.",
+      "entity_ids": [
+        "ent_00013",
+        "ent_00016",
+        "ent_00041",
+        "ent_00033"
+      ],
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "EVT-007",
+      "timestamp": "2026-10-18T23:00:00+05:30",
+      "title": "Complainant contacts colleague",
+      "description": "Rajesh Kumar contacted his colleague Neeraj Patel shortly after the incident.",
+      "entity_ids": [
+        "ent_00013",
+        "ent_00014",
+        "ent_00002"
+      ],
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "EVT-008",
+      "timestamp": "2026-10-18T23:30:00+05:30",
+      "title": "Funds leave the victim's account the same day",
+      "description": "₹5,00,000 was debited from Rajesh Kumar's account and transferred to an account held by Om Traders — the same day as the robbery.",
+      "entity_ids": [
+        "ent_00004",
+        "ent_00009",
+        "ent_00013",
+        "ent_00017",
+        "ent_00033"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVT-009",
+      "timestamp": "2026-10-19T00:00:00+05:30",
+      "title": "Funds move on to the central suspect",
+      "description": "Om Traders' account transferred ₹3,50,000 to an account held by Suresh Verma the following day.",
+      "entity_ids": [
+        "ent_00009",
+        "ent_00010",
+        "ent_00017",
+        "ent_00015"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVT-010",
+      "timestamp": "2026-10-20T00:00:00+05:30",
+      "title": "CDR analysis filed",
+      "description": "MP Nagar Police Station filed the Call Detail Record analysis report for FIR-2026-00452.",
+      "entity_ids": [
+        "ent_00015",
+        "ent_00013"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVT-011",
+      "timestamp": "2026-10-21T00:00:00+05:30",
+      "title": "Financial & surveillance report filed",
+      "description": "MP Nagar Police Station filed the financial transaction and surveillance report for FIR-2026-00452.",
+      "entity_ids": [
+        "ent_00015",
+        "ent_00017"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    }
+  ],
+  "CASE-2026-00478": [
+    {
+      "id": "EVTB-001",
+      "timestamp": "2026-11-01T11:42:00+05:30",
+      "title": "Fraudulent KYC call placed to victim",
+      "description": "The burner number 8899001122 called Meera Nair's registered number and ran the fraudulent KYC verification script.",
+      "entity_ids": [
+        "ent_00101",
+        "ent_00102",
+        "ent_00103"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVTB-002",
+      "timestamp": "2026-11-01T11:50:00+05:30",
+      "title": "Funds debited from victim's account",
+      "description": "₹8,40,000 was debited from Meera Nair's savings account and credited to a mule account held by Ankit Pillai.",
+      "entity_ids": [
+        "ent_00101",
+        "ent_00107",
+        "ent_00108",
+        "ent_00106"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVTB-003",
+      "timestamp": "2026-11-01T11:58:00+05:30",
+      "title": "Coordination call to mule",
+      "description": "Ankit Pillai's registered number contacted the fraud burner number minutes after the funds landed in his account.",
+      "entity_ids": [
+        "ent_00118",
+        "ent_00103",
+        "ent_00106"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVTB-004",
+      "timestamp": "2026-11-01T13:00:00+05:30",
+      "title": "Funds moved onward to shell company",
+      "description": "₹7,10,000 was moved from the mule account to a current account held by Bright Future Fintech Pvt Ltd, the mule keeping the remainder.",
+      "entity_ids": [
+        "ent_00108",
+        "ent_00109",
+        "ent_00104"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVTB-005",
+      "timestamp": "2026-11-02T00:00:00+05:30",
+      "title": "Mule observed at cash-withdrawal point",
+      "description": "Surveillance recorded Ankit Pillai collecting cash near Whitefield, Bengaluru on a Honda Activa registered to him.",
+      "entity_ids": [
+        "ent_00106",
+        "ent_00114",
+        "ent_00113"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVTB-006",
+      "timestamp": "2026-11-03T00:00:00+05:30",
+      "title": "FIR registered",
+      "description": "Meera Nair filed a complaint at Koramangala Police Station; investigators later named Vikas Sharma and Ankit Pillai as accused.",
+      "entity_ids": [
+        "ent_00101",
+        "ent_00105",
+        "ent_00106"
+      ],
+      "source_document_id": "fir.txt"
+    }
+  ],
+  "CASE-2026-00533": [
+    {
+      "id": "EVTC-001",
+      "timestamp": "2026-11-09T00:00:00+05:30",
+      "title": "आपूर्तिकर्ता से समन्वय कॉल",
+      "description": "संदीप वर्मा के नंबर ने रोहन मल्होत्रा के नंबर से दो बार संपर्क किया, खेप भेजे जाने से ठीक पहले।",
+      "entity_ids": [
+        "ent_00203",
+        "ent_00204",
+        "ent_00201",
+        "ent_00202"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVTC-002",
+      "timestamp": "2026-11-09T00:00:00+05:30",
+      "title": "भुगतान का हस्तांतरण",
+      "description": "₹3,50,000 खाता संख्या 778821 (संदीप वर्मा) से खाता संख्या 662310 (रोहन मल्होत्रा) में स्थानांतरित किया गया।",
+      "entity_ids": [
+        "ent_00212",
+        "ent_00213",
+        "ent_00211",
+        "ent_00203",
+        "ent_00201"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVTC-003",
+      "timestamp": "2026-11-10T00:00:00+05:30",
+      "title": "डिलीवरी समन्वय कॉल",
+      "description": "रोहन मल्होत्रा के नंबर ने अजय ठाकुर के नंबर से संपर्क किया, डिलीवरी की योजना पर चर्चा हेतु।",
+      "entity_ids": [
+        "ent_00202",
+        "ent_00206",
+        "ent_00201",
+        "ent_00205"
+      ],
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "EVTC-004",
+      "timestamp": "2026-11-10T00:00:00+05:30",
+      "title": "गोदाम पर तलाशी में हथियार बरामद",
+      "description": "देवास रोड, इंदौर स्थित गोदाम पर तलाशी में एक देशी पिस्तौल बरामद हुई।",
+      "entity_ids": [
+        "ent_00209",
+        "ent_00210",
+        "ent_00203",
+        "ent_00214"
+      ],
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "EVTC-005",
+      "timestamp": "2026-11-11T00:00:00+05:30",
+      "title": "नाकाबंदी में वाहन रोका गया, मेफेड्रोन बरामद",
+      "description": "देवास रोड, इंदौर पर नाकाबंदी के दौरान टाटा ऐस पिकअप वाहन रोका गया; रोहन मल्होत्रा गिरफ्तार, लगभग 4 किलोग्राम मेफेड्रोन बरामद।",
+      "entity_ids": [
+        "ent_00201",
+        "ent_00208",
+        "ent_00207",
+        "ent_00209"
+      ],
+      "source_document_id": "fir.txt"
+    },
+    {
+      "id": "EVTC-006",
+      "timestamp": "2026-11-12T00:00:00+05:30",
+      "title": "प्राथमिकी दर्ज",
+      "description": "नारकोटिक्स सेल, इंदौर द्वारा FIR-2026-00533 दर्ज की गई; रोहन मल्होत्रा, संदीप वर्मा और अजय ठाकुर को अभियुक्त बनाया गया।",
+      "entity_ids": [
+        "ent_00201",
+        "ent_00203",
+        "ent_00205",
+        "ent_00216"
+      ],
+      "source_document_id": "fir.txt"
+    }
+  ]
+}

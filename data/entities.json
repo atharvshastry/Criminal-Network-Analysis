@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ent_00002",
+    "type": "PHONE",
+    "name": "9123456789",
+    "confidence": 0.88,
+    "community": 4,
+    "centrality": 0.427
+  },
+  {
+    "id": "ent_00003",
+    "type": "PHONE",
+    "name": "9871122334",
+    "confidence": 0.83,
+    "community": 4,
+    "centrality": 0.318
+  },
+  {
+    "id": "ent_00004",
+    "type": "ACCOUNT",
+    "name": "458921",
+    "confidence": 0.81,
+    "community": 39,
+    "centrality": 0.066
+  },
+  {
+    "id": "ent_00005",
+    "type": "EMAIL",
+    "name": "amit.verma@example.com",
+    "confidence": 0.71,
+    "community": 15,
+    "centrality": 0.225
+  },
+  {
+    "id": "ent_00006",
+    "type": "SOCIAL_ID",
+    "name": "@amit_verma92",
+    "confidence": 0.71,
+    "community": 15,
+    "centrality": 0.225
+  },
+  {
+    "id": "ent_00007",
+    "type": "PHONE",
+    "name": "9876543210",
+    "confidence": 0.86,
+    "community": 4,
+    "centrality": 0.923
+  },
+  {
+    "id": "ent_00008",
+    "type": "PHONE",
+    "name": "9988776655",
+    "confidence": 0.78,
+    "community": 4,
+    "centrality": 0.296
+  },
+  {
+    "id": "ent_00009",
+    "type": "ACCOUNT",
+    "name": "771234",
+    "confidence": 0.75,
+    "community": 9,
+    "centrality": 0.135
+  },
+  {
+    "id": "ent_00010",
+    "type": "ACCOUNT",
+    "name": "990011",
+    "confidence": 0.83,
+    "community": 9,
+    "centrality": 0.012
+  },
+  {
+    "id": "ent_00011",
+    "type": "EMAIL",
+    "name": "suresh.verma88@example.com",
+    "confidence": 0.83,
+    "community": 9,
+    "centrality": 0.161
+  },
+  {
+    "id": "ent_00012",
+    "type": "SOCIAL_ID",
+    "name": "@suresh_v88",
+    "confidence": 0.83,
+    "community": 9,
+    "centrality": 0.148
+  },
+  {
+    "id": "ent_00013",
+    "type": "PERSON",
+    "name": "Rajesh Kumar",
+    "confidence": 0.99,
+    "community": 39,
+    "centrality": 0.595
+  },
+  {
+    "id": "ent_00014",
+    "type": "PERSON",
+    "name": "Neeraj Patel",
+    "confidence": 0.82,
+    "community": 4,
+    "centrality": 0.235
+  },
+  {
+    "id": "ent_00015",
+    "type": "PERSON",
+    "name": "Suresh Verma",
+    "confidence": 0.99,
+    "community": 9,
+    "centrality": 1.0
+  },
+  {
+    "id": "ent_00016",
+    "type": "LOCATION",
+    "name": "MP Nagar, Bhopal",
+    "confidence": 0.99,
+    "community": 39,
+    "centrality": 0.155
+  },
+  {
+    "id": "ent_00017",
+    "type": "ORGANIZATION",
+    "name": "Om Traders",
+    "confidence": 0.99,
+    "community": 9,
+    "centrality": 0.81
+  },
+  {
+    "id": "ent_00050",
+    "type": "LOCATION",
+    "name": "24 MP Nagar, Bhopal",
+    "confidence": 0.82,
+    "community": 39,
+    "centrality": 0.085
+  },
+  {
+    "id": "ent_00041",
+    "type": "CRIME",
+    "name": "armed robbery",
+    "confidence": 0.79,
+    "community": 21,
+    "centrality": 0.225
+  },
+  {
+    "id": "ent_00029",
+    "type": "VEHICLE",
+    "name": "Toyota Fortuner",
+    "confidence": 0.72,
+    "community": 39,
+    "centrality": 0.0
+  },
+  {
+    "id": "ent_00030",
+    "type": "WEAPON",
+    "name": "pistol",
+    "confidence": 0.71,
+    "community": 22,
+    "centrality": 0.225
+  },
+  {
+    "id": "ent_00033",
+    "type": "MONEY",
+    "name": "₹5,00,000",
+    "confidence": 0.9,
+    "community": 39,
+    "centrality": 0.267
+  },
+  {
+    "id": "ent_00035",
+    "type": "DRUG",
+    "name": "heroin",
+    "confidence": 0.69,
+    "community": 23,
+    "centrality": 0.225
+  },
+  {
+    "id": "ent_00051",
+    "type": "LOCATION",
+    "name": "12 Shivaji Nagar, Bhopal",
+    "confidence": 0.91,
+    "community": 9,
+    "centrality": 0.073
+  },
+  {
+    "id": "ent_00076",
+    "type": "VEHICLE",
+    "name": "Honda City",
+    "confidence": 0.81,
+    "community": 38,
+    "centrality": 0.021
+  },
+  {
+    "id": "ent_00077",
+    "type": "VEHICLE",
+    "name": "MP04AB1234",
+    "confidence": 0.83,
+    "community": 38,
+    "centrality": 0.022
+  }
+]

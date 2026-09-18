@@ -1,0 +1,171 @@
+[
+  {
+    "id": "ALERT-001",
+    "severity": "HIGH",
+    "title": "Convergent investigative indicators: Suresh Verma",
+    "entity_id": "ent_00015",
+    "score": 0.9,
+    "reasons": [
+      "Suresh Verma was in contact with Om Traders shortly before the reported transaction.",
+      "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+      "Mobile number 9876543210 is registered to Suresh Verma, resident of 12 Shivaji Nagar, Bhopal.",
+      "Account number 990011 is held in the name of Suresh Verma.",
+      "Suresh Verma's number 9876543210 is affiliated with Om Traders, MP Nagar, Bhopal.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-002",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00076",
+    "score": 0.99,
+    "reasons": [
+      "Honda City and armed robbery are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-003",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00077",
+    "score": 0.99,
+    "reasons": [
+      "MP04AB1234 and armed robbery are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-004",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00010",
+    "score": 0.99,
+    "reasons": [
+      "MP04AB1234 and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-005",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00050",
+    "score": 0.98,
+    "reasons": [
+      "Toyota Fortuner and 24 MP Nagar, Bhopal are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-006",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00011",
+    "score": 0.98,
+    "reasons": [
+      "suresh.verma88@example.com and Honda City are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-007",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00077",
+    "score": 0.98,
+    "reasons": [
+      "Honda City and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-008",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00010",
+    "score": 0.97,
+    "reasons": [
+      "Honda City and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.97) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-009",
+    "severity": "MEDIUM",
+    "title": "Possible hidden connection (AI lead)",
+    "entity_id": "ent_00051",
+    "score": 0.96,
+    "reasons": [
+      "12 Shivaji Nagar, Bhopal and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-010",
+    "severity": "LOW",
+    "title": "Key network influencer",
+    "entity_id": "ent_00015",
+    "score": 1.0,
+    "reasons": [
+      "Suresh Verma ranks among the most influential entities in the network (PageRank 3.373), based on both the number and importance of their connections.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-011",
+    "severity": "LOW",
+    "title": "Key network influencer",
+    "entity_id": "ent_00007",
+    "score": 0.92,
+    "reasons": [
+      "9876543210 ranks among the most influential entities in the network (PageRank 3.132), based on both the number and importance of their connections.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-012",
+    "severity": "LOW",
+    "title": "Key network influencer",
+    "entity_id": "ent_00017",
+    "score": 0.81,
+    "reasons": [
+      "Om Traders ranks among the most influential entities in the network (PageRank 2.783), based on both the number and importance of their connections.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-013",
+    "severity": "LOW",
+    "title": "Key network influencer",
+    "entity_id": "ent_00013",
+    "score": 0.59,
+    "reasons": [
+      "Rajesh Kumar ranks among the most influential entities in the network (PageRank 2.114), based on both the number and importance of their connections.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-014",
+    "severity": "LOW",
+    "title": "Key network influencer",
+    "entity_id": "ent_00002",
+    "score": 0.55,
+    "reasons": [
+      "9123456789 ranks among the most influential entities in the network (PageRank 1.590), based on both the number and importance of their connections.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  },
+  {
+    "id": "ALERT-015",
+    "severity": "LOW",
+    "title": "Key network influencer",
+    "entity_id": "ent_00003",
+    "score": 0.55,
+    "reasons": [
+      "9871122334 ranks among the most influential entities in the network (PageRank 1.251), based on both the number and importance of their connections.",
+      "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+    ]
+  }
+]

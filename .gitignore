@@ -1,0 +1,18 @@
+# Python (backend)
+.venv/
+__pycache__/
+*.pyc
+
+# Node (frontend)
+node_modules/
+dist/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Leftover / duplicate folders — not used by the running demo
+TraceX/
+Criminal-Network-Analysis-main/

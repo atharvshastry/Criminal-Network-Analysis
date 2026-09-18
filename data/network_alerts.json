@@ -1,0 +1,293 @@
+{
+  "CASE-2026-00452": [
+    {
+      "id": "ALERT-001",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Suresh Verma",
+      "entity_id": "ent_00015",
+      "score": 0.9,
+      "reasons": [
+        "Suresh Verma was in contact with Om Traders shortly before the reported transaction.",
+        "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+        "Mobile number 9876543210 is registered to Suresh Verma, resident of 12 Shivaji Nagar, Bhopal.",
+        "Account number 990011 is held in the name of Suresh Verma.",
+        "Suresh Verma's number 9876543210 is affiliated with Om Traders, MP Nagar, Bhopal.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-002",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00076",
+      "score": 0.99,
+      "reasons": [
+        "Honda City and armed robbery are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-003",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00077",
+      "score": 0.99,
+      "reasons": [
+        "MP04AB1234 and armed robbery are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-004",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00010",
+      "score": 0.99,
+      "reasons": [
+        "MP04AB1234 and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-005",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00050",
+      "score": 0.98,
+      "reasons": [
+        "Toyota Fortuner and 24 MP Nagar, Bhopal are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-006",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00011",
+      "score": 0.98,
+      "reasons": [
+        "suresh.verma88@example.com and Honda City are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-007",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00077",
+      "score": 0.98,
+      "reasons": [
+        "Honda City and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-008",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00010",
+      "score": 0.97,
+      "reasons": [
+        "Honda City and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.97) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-009",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00051",
+      "score": 0.96,
+      "reasons": [
+        "12 Shivaji Nagar, Bhopal and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-010",
+      "severity": "LOW",
+      "title": "Key network influencer",
+      "entity_id": "ent_00015",
+      "score": 1.0,
+      "reasons": [
+        "Suresh Verma ranks among the most influential entities in the network (PageRank 3.373), based on both the number and importance of their connections.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-011",
+      "severity": "LOW",
+      "title": "Key network influencer",
+      "entity_id": "ent_00007",
+      "score": 0.92,
+      "reasons": [
+        "9876543210 ranks among the most influential entities in the network (PageRank 3.132), based on both the number and importance of their connections.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-012",
+      "severity": "LOW",
+      "title": "Key network influencer",
+      "entity_id": "ent_00017",
+      "score": 0.81,
+      "reasons": [
+        "Om Traders ranks among the most influential entities in the network (PageRank 2.783), based on both the number and importance of their connections.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-013",
+      "severity": "LOW",
+      "title": "Key network influencer",
+      "entity_id": "ent_00013",
+      "score": 0.59,
+      "reasons": [
+        "Rajesh Kumar ranks among the most influential entities in the network (PageRank 2.114), based on both the number and importance of their connections.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-014",
+      "severity": "LOW",
+      "title": "Key network influencer",
+      "entity_id": "ent_00002",
+      "score": 0.55,
+      "reasons": [
+        "9123456789 ranks among the most influential entities in the network (PageRank 1.590), based on both the number and importance of their connections.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-015",
+      "severity": "LOW",
+      "title": "Key network influencer",
+      "entity_id": "ent_00003",
+      "score": 0.55,
+      "reasons": [
+        "9871122334 ranks among the most influential entities in the network (PageRank 1.251), based on both the number and importance of their connections.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    }
+  ],
+  "CASE-2026-00478": [
+    {
+      "id": "ALERTB-001",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Vikas Sharma",
+      "entity_id": "ent_00105",
+      "score": 0.92,
+      "reasons": [
+        "Vikas Sharma is the authorised signatory on the shell company account that received the defrauded funds.",
+        "Investigators identified Vikas Sharma as operating the Telegram handle @HDFC_QuickHelp used to run the fraud.",
+        "Account number 114477 is a current account held in the name of Bright Future Fintech Pvt Ltd, registered at Whitefield, Bengaluru, with Vikas Sharma listed as the authorised signatory and director.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTB-002",
+      "severity": "HIGH",
+      "title": "High-value fund movement through mule account",
+      "entity_id": "ent_00108",
+      "score": 0.87,
+      "reasons": [
+        "₹8,40,000 was credited to account 990211 immediately after the fraudulent call, then ₹7,10,000 was moved onward within hours.",
+        "The rapid in-and-out transaction pattern is consistent with mule-account behaviour.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTB-003",
+      "severity": "MEDIUM",
+      "title": "Odd-hour coordination pattern: burner number",
+      "entity_id": "ent_00103",
+      "score": 0.71,
+      "reasons": [
+        "The burner number 8899001122 was used exclusively for outbound fraud calls and was contacted by Ankit Pillai's number within minutes of the fraud call.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTB-004",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00105",
+      "score": 0.93,
+      "reasons": [
+        "Vikas Sharma and 8899001122 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.93) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTB-005",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00101",
+      "score": 0.97,
+      "reasons": [
+        "Meera Nair and Bright Future Fintech Pvt Ltd are not directly linked in the data, but share 3 common connection(s) and a high structural similarity score (0.97) — a candidate lead worth investigating, not a confirmed connection.",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    }
+  ],
+  "CASE-2026-00533": [
+    {
+      "id": "ALERTC-001",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: संदीप वर्मा",
+      "entity_id": "ent_00203",
+      "score": 0.94,
+      "reasons": [
+        "संदीप वर्मा का खाता खेप के भुगतान की राशि का स्रोत पाया गया।",
+        "निगरानी में संदीप वर्मा को गोदाम से जुड़े होने और टेलीग्राम हैंडल @IndoreSupplyLine के संचालन से जोड़ा गया।",
+        "गोदाम से बरामद देशी पिस्तौल के संदीप वर्मा से जुड़े होने का संदेह है।",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTC-002",
+      "severity": "HIGH",
+      "title": "संगठित तस्करी नेटवर्क में संदिग्ध फर्म",
+      "entity_id": "ent_00214",
+      "score": 0.85,
+      "reasons": [
+        "गोदाम, जहां से हथियार बरामद हुआ, न्यू सिटी ट्रेडर्स के नाम पर पंजीकृत पाया गया।",
+        "इस फर्म का संदीप वर्मा से सीधा संबंध होने का संदेह है।",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTC-003",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00203",
+      "score": 0.9,
+      "reasons": [
+        "संदीप वर्मा और अजय ठाकुर के बीच कोई सीधा दस्तावेज़ी संपर्क दर्ज नहीं है, लेकिन दोनों के 2 साझा संबंध हैं और संरचनात्मक समानता स्कोर उच्च (0.90) है — यह एक संभावित सुराग है, पुष्टि नहीं।",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTC-004",
+      "severity": "MEDIUM",
+      "title": "Possible hidden connection (AI lead)",
+      "entity_id": "ent_00211",
+      "score": 0.95,
+      "reasons": [
+        "खाता संख्या 662310 और न्यू सिटी ट्रेडर्स के बीच कोई सीधा दस्तावेज़ी संबंध दर्ज नहीं है, लेकिन संरचनात्मक समानता स्कोर उच्च (0.95) है — यह एक संभावित सुराग है, पुष्टि नहीं।",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERTC-005",
+      "severity": "LOW",
+      "title": "टावर लोकेशन निकटता (AI lead)",
+      "entity_id": "ent_00204",
+      "score": 0.85,
+      "reasons": [
+        "9012345678 और देवास रोड गोदाम, इंदौर के बीच कोई सीधा दस्तावेज़ी संबंध दर्ज नहीं है, लेकिन टावर लोकेशन निकटता के आधार पर संरचनात्मक समानता स्कोर (0.85) है — यह एक संभावित सुराग है, पुष्टि नहीं।",
+        "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
+      ]
+    }
+  ]
+}

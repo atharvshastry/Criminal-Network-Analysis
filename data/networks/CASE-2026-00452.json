@@ -1,0 +1,1226 @@
+{
+  "nodes": [
+    {
+      "id": "ent_00002",
+      "label": "9123456789",
+      "type": "PHONE",
+      "community": 4,
+      "centrality": 0.427,
+      "confidence": 0.88,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.019
+    },
+    {
+      "id": "ent_00003",
+      "label": "9871122334",
+      "type": "PHONE",
+      "community": 4,
+      "centrality": 0.318,
+      "confidence": 0.83,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.077
+    },
+    {
+      "id": "ent_00004",
+      "label": "458921",
+      "type": "ACCOUNT",
+      "community": 39,
+      "centrality": 0.066,
+      "confidence": 0.81,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.213
+    },
+    {
+      "id": "ent_00005",
+      "label": "amit.verma@example.com",
+      "type": "EMAIL",
+      "community": 15,
+      "centrality": 0.225,
+      "confidence": 0.71,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.265
+    },
+    {
+      "id": "ent_00006",
+      "label": "@amit_verma92",
+      "type": "SOCIAL_ID",
+      "community": 15,
+      "centrality": 0.225,
+      "confidence": 0.71,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.265
+    },
+    {
+      "id": "ent_00007",
+      "label": "9876543210",
+      "type": "PHONE",
+      "community": 4,
+      "centrality": 0.923,
+      "confidence": 0.86,
+      "anomaly_flag": -1,
+      "anomaly_score": -0.102
+    },
+    {
+      "id": "ent_00008",
+      "label": "9988776655",
+      "type": "PHONE",
+      "community": 4,
+      "centrality": 0.296,
+      "confidence": 0.78,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.068
+    },
+    {
+      "id": "ent_00009",
+      "label": "771234",
+      "type": "ACCOUNT",
+      "community": 9,
+      "centrality": 0.135,
+      "confidence": 0.75,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.266
+    },
+    {
+      "id": "ent_00010",
+      "label": "990011",
+      "type": "ACCOUNT",
+      "community": 9,
+      "centrality": 0.012,
+      "confidence": 0.83,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.233
+    },
+    {
+      "id": "ent_00011",
+      "label": "suresh.verma88@example.com",
+      "type": "EMAIL",
+      "community": 9,
+      "centrality": 0.161,
+      "confidence": 0.83,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.268
+    },
+    {
+      "id": "ent_00012",
+      "label": "@suresh_v88",
+      "type": "SOCIAL_ID",
+      "community": 9,
+      "centrality": 0.148,
+      "confidence": 0.83,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.27
+    },
+    {
+      "id": "ent_00013",
+      "label": "Rajesh Kumar",
+      "type": "PERSON",
+      "community": 39,
+      "centrality": 0.595,
+      "confidence": 0.99,
+      "anomaly_flag": -1,
+      "anomaly_score": -0.049
+    },
+    {
+      "id": "ent_00014",
+      "label": "Neeraj Patel",
+      "type": "PERSON",
+      "community": 4,
+      "centrality": 0.235,
+      "confidence": 0.82,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.152
+    },
+    {
+      "id": "ent_00015",
+      "label": "Suresh Verma",
+      "type": "PERSON",
+      "community": 9,
+      "centrality": 1.0,
+      "confidence": 0.99,
+      "anomaly_flag": -1,
+      "anomaly_score": -0.071
+    },
+    {
+      "id": "ent_00016",
+      "label": "MP Nagar, Bhopal",
+      "type": "LOCATION",
+      "community": 39,
+      "centrality": 0.155,
+      "confidence": 0.99,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.167
+    },
+    {
+      "id": "ent_00017",
+      "label": "Om Traders",
+      "type": "ORGANIZATION",
+      "community": 9,
+      "centrality": 0.81,
+      "confidence": 0.99,
+      "anomaly_flag": -1,
+      "anomaly_score": -0.044
+    },
+    {
+      "id": "ent_00050",
+      "label": "24 MP Nagar, Bhopal",
+      "type": "LOCATION",
+      "community": 39,
+      "centrality": 0.085,
+      "confidence": 0.82,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.15
+    },
+    {
+      "id": "ent_00041",
+      "label": "armed robbery",
+      "type": "CRIME",
+      "community": 21,
+      "centrality": 0.225,
+      "confidence": 0.79,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.263
+    },
+    {
+      "id": "ent_00029",
+      "label": "Toyota Fortuner",
+      "type": "VEHICLE",
+      "community": 39,
+      "centrality": 0.0,
+      "confidence": 0.72,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.208
+    },
+    {
+      "id": "ent_00030",
+      "label": "pistol",
+      "type": "WEAPON",
+      "community": 22,
+      "centrality": 0.225,
+      "confidence": 0.71,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.24
+    },
+    {
+      "id": "ent_00033",
+      "label": "₹5,00,000",
+      "type": "MONEY",
+      "community": 39,
+      "centrality": 0.267,
+      "confidence": 0.9,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.013
+    },
+    {
+      "id": "ent_00035",
+      "label": "heroin",
+      "type": "DRUG",
+      "community": 23,
+      "centrality": 0.225,
+      "confidence": 0.69,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.239
+    },
+    {
+      "id": "ent_00051",
+      "label": "12 Shivaji Nagar, Bhopal",
+      "type": "LOCATION",
+      "community": 9,
+      "centrality": 0.073,
+      "confidence": 0.91,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.152
+    },
+    {
+      "id": "ent_00076",
+      "label": "Honda City",
+      "type": "VEHICLE",
+      "community": 38,
+      "centrality": 0.021,
+      "confidence": 0.81,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.235
+    },
+    {
+      "id": "ent_00077",
+      "label": "MP04AB1234",
+      "type": "VEHICLE",
+      "community": 38,
+      "centrality": 0.022,
+      "confidence": 0.83,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.232
+    }
+  ],
+  "edges": [
+    {
+      "id": "R001",
+      "source": "ent_00002",
+      "target": "ent_00007",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.514,
+      "status": "confirmed",
+      "evidence_text": "Records show that 9123456789 contacted 9876543210 on 04 October 2026 and again on 15 October 2026.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R002",
+      "source": "ent_00002",
+      "target": "ent_00013",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.364,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9123456789 is registered to Rajesh Kumar, resident of 24 MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R003",
+      "source": "ent_00002",
+      "target": "ent_00014",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.445,
+      "status": "confirmed",
+      "evidence_text": "The complainant stated that he contacted his colleague Neeraj Patel using 9123456789 after the incident.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R004",
+      "source": "ent_00003",
+      "target": "ent_00007",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.536,
+      "status": "confirmed",
+      "evidence_text": "Records further show that 9871122334 contacted 9876543210 on 16 October 2026.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R005",
+      "source": "ent_00003",
+      "target": "ent_00014",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.476,
+      "status": "confirmed",
+      "evidence_text": "Neeraj Patel's own mobile number is 9871122334.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R006",
+      "source": "ent_00004",
+      "target": "ent_00033",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.451,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar stated that he transferred ₹5,00,000 from his account number 458921 to Suresh Verma on the understanding that it would be invested through Om Traders.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R007",
+      "source": "ent_00005",
+      "target": "ent_00006",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.402,
+      "status": "confirmed",
+      "evidence_text": "The investigation team examined the email address amit.verma@example.com and the social media ID @amit_verma92.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R008",
+      "source": "ent_00006",
+      "target": "ent_00005",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.438,
+      "status": "confirmed",
+      "evidence_text": "The investigation team examined the email address amit.verma@example.com and the social media ID @amit_verma92.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R009",
+      "source": "ent_00007",
+      "target": "ent_00002",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.507,
+      "status": "confirmed",
+      "evidence_text": "Records show that 9123456789 contacted 9876543210 on 04 October 2026 and again on 15 October 2026.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R010",
+      "source": "ent_00007",
+      "target": "ent_00003",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.529,
+      "status": "confirmed",
+      "evidence_text": "Records further show that 9871122334 contacted 9876543210 on 16 October 2026.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R011",
+      "source": "ent_00007",
+      "target": "ent_00008",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.498,
+      "status": "confirmed",
+      "evidence_text": "Call records confirm that 9876543210 contacted 9988776655 on 17 October 2026, an unusually late call at 02:15 AM.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R012",
+      "source": "ent_00007",
+      "target": "ent_00015",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.382,
+      "status": "confirmed",
+      "evidence_text": "Suresh Verma's number 9876543210 is affiliated with Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R013",
+      "source": "ent_00007",
+      "target": "ent_00017",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.301,
+      "status": "confirmed",
+      "evidence_text": "Suresh Verma's number 9876543210 is affiliated with Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R014",
+      "source": "ent_00008",
+      "target": "ent_00007",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.49,
+      "status": "confirmed",
+      "evidence_text": "Call records confirm that 9876543210 contacted 9988776655 on 17 October 2026, an unusually late call at 02:15 AM.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R015",
+      "source": "ent_00008",
+      "target": "ent_00017",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.312,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9988776655 is registered to Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R016",
+      "source": "ent_00009",
+      "target": "ent_00017",
+      "type": "RESIDES_AT",
+      "confidence": 0.431,
+      "status": "confirmed",
+      "evidence_text": "Account number 771234 is held in the name of Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R017",
+      "source": "ent_00009",
+      "target": "ent_00016",
+      "type": "RESIDES_AT",
+      "confidence": 0.441,
+      "status": "confirmed",
+      "evidence_text": "Account number 771234 is held in the name of Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R018",
+      "source": "ent_00011",
+      "target": "ent_00012",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.42,
+      "status": "confirmed",
+      "evidence_text": "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R019",
+      "source": "ent_00011",
+      "target": "ent_00015",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.398,
+      "status": "confirmed",
+      "evidence_text": "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R020",
+      "source": "ent_00012",
+      "target": "ent_00011",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.451,
+      "status": "confirmed",
+      "evidence_text": "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R021",
+      "source": "ent_00012",
+      "target": "ent_00015",
+      "type": "IDENTIFIED_BY",
+      "confidence": 0.369,
+      "status": "confirmed",
+      "evidence_text": "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R022",
+      "source": "ent_00013",
+      "target": "ent_00002",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.483,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9123456789 is registered to Rajesh Kumar, resident of 24 MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R023",
+      "source": "ent_00013",
+      "target": "ent_00016",
+      "type": "RESIDES_AT",
+      "confidence": 0.385,
+      "status": "confirmed",
+      "evidence_text": "On 18 October 2026, the complainant Rajesh Kumar reported that an armed robbery took place near MP Nagar, Bhopal.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R024",
+      "source": "ent_00013",
+      "target": "ent_00017",
+      "type": "RESIDES_AT",
+      "confidence": 0.385,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar told investigators that he had recently been in contact with a man named Suresh Verma, who had approached him two weeks earlier offering to invest the cash amount through a business called Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R025",
+      "source": "ent_00013",
+      "target": "ent_00029",
+      "type": "USED_WEAPON",
+      "confidence": 0.303,
+      "status": "confirmed",
+      "evidence_text": "According to the complaint, Rajesh Kumar was travelling in a Toyota Fortuner when two unknown persons stopped the vehicle near the market.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R026",
+      "source": "ent_00013",
+      "target": "ent_00033",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.36,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar stated that he transferred ₹5,00,000 from his account number 458921 to Suresh Verma on the understanding that it would be invested through Om Traders.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R027",
+      "source": "ent_00013",
+      "target": "ent_00050",
+      "type": "RESIDES_AT",
+      "confidence": 0.434,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9123456789 is registered to Rajesh Kumar, resident of 24 MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R028",
+      "source": "ent_00014",
+      "target": "ent_00002",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.599,
+      "status": "confirmed",
+      "evidence_text": "The complainant stated that he contacted his colleague Neeraj Patel using 9123456789 after the incident.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R029",
+      "source": "ent_00014",
+      "target": "ent_00003",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.602,
+      "status": "confirmed",
+      "evidence_text": "Neeraj Patel's own mobile number is 9871122334.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R030",
+      "source": "ent_00015",
+      "target": "ent_00007",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.479,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9876543210 is registered to Suresh Verma, resident of 12 Shivaji Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R031",
+      "source": "ent_00015",
+      "target": "ent_00010",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.457,
+      "status": "confirmed",
+      "evidence_text": "Account number 990011 is held in the name of Suresh Verma.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R032",
+      "source": "ent_00015",
+      "target": "ent_00011",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.483,
+      "status": "confirmed",
+      "evidence_text": "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R033",
+      "source": "ent_00015",
+      "target": "ent_00012",
+      "type": "CONTACT_EMAIL",
+      "confidence": 0.405,
+      "status": "confirmed",
+      "evidence_text": "The surveillance team identified Suresh Verma at the location using the email address suresh.verma88@example.com and the social media handle @suresh_v88.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R034",
+      "source": "ent_00015",
+      "target": "ent_00017",
+      "type": "RESIDES_AT",
+      "confidence": 0.374,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar told investigators that he had recently been in contact with a man named Suresh Verma, who had approached him two weeks earlier offering to invest the cash amount through a business called Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R035",
+      "source": "ent_00015",
+      "target": "ent_00017",
+      "type": "AFFILIATED_WITH",
+      "confidence": 0.587,
+      "status": "confirmed",
+      "evidence_text": "Suresh Verma was in contact with Om Traders shortly before the reported transaction.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R036",
+      "source": "ent_00015",
+      "target": "ent_00016",
+      "type": "RESIDES_AT",
+      "confidence": 0.44,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar told investigators that he had recently been in contact with a man named Suresh Verma, who had approached him two weeks earlier offering to invest the cash amount through a business called Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R037",
+      "source": "ent_00015",
+      "target": "ent_00033",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.334,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar stated that he transferred ₹5,00,000 from his account number 458921 to Suresh Verma on the understanding that it would be invested through Om Traders.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R038",
+      "source": "ent_00015",
+      "target": "ent_00051",
+      "type": "RESIDES_AT",
+      "confidence": 0.6,
+      "status": "confirmed",
+      "evidence_text": "Suresh Verma is believed to reside at 12 Shivaji Nagar, Bhopal.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R039",
+      "source": "ent_00015",
+      "target": "ent_00076",
+      "type": "OWNS",
+      "confidence": 0.406,
+      "status": "confirmed",
+      "evidence_text": "Investigators noted that Suresh Verma owns a Honda City bearing registration number MP04AB1234.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R040",
+      "source": "ent_00015",
+      "target": "ent_00077",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.364,
+      "status": "confirmed",
+      "evidence_text": "Investigators noted that Suresh Verma owns a Honda City bearing registration number MP04AB1234.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R041",
+      "source": "ent_00017",
+      "target": "ent_00007",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.41,
+      "status": "confirmed",
+      "evidence_text": "Suresh Verma's number 9876543210 is affiliated with Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R042",
+      "source": "ent_00017",
+      "target": "ent_00008",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.436,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9988776655 is registered to Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R043",
+      "source": "ent_00017",
+      "target": "ent_00009",
+      "type": "RESIDES_AT",
+      "confidence": 0.434,
+      "status": "confirmed",
+      "evidence_text": "Account number 771234 is held in the name of Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R044",
+      "source": "ent_00017",
+      "target": "ent_00016",
+      "type": "RESIDES_AT",
+      "confidence": 0.447,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar told investigators that he had recently been in contact with a man named Suresh Verma, who had approached him two weeks earlier offering to invest the cash amount through a business called Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R045",
+      "source": "ent_00017",
+      "target": "ent_00033",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.353,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar stated that he transferred ₹5,00,000 from his account number 458921 to Suresh Verma on the understanding that it would be invested through Om Traders.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R046",
+      "source": "ent_00030",
+      "target": "ent_00033",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.542,
+      "status": "confirmed",
+      "evidence_text": "One suspect threatened him with a pistol and took ₹5,00,000 in cash.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R047",
+      "source": "ent_00016",
+      "target": "ent_00017",
+      "type": "RESIDES_AT",
+      "confidence": 0.356,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar told investigators that he had recently been in contact with a man named Suresh Verma, who had approached him two weeks earlier offering to invest the cash amount through a business called Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R048",
+      "source": "ent_00033",
+      "target": "ent_00004",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.418,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar stated that he transferred ₹5,00,000 from his account number 458921 to Suresh Verma on the understanding that it would be invested through Om Traders.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R049",
+      "source": "ent_00033",
+      "target": "ent_00013",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.311,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar stated that he transferred ₹5,00,000 from his account number 458921 to Suresh Verma on the understanding that it would be invested through Om Traders.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R050",
+      "source": "ent_00033",
+      "target": "ent_00017",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.307,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar stated that he transferred ₹5,00,000 from his account number 458921 to Suresh Verma on the understanding that it would be invested through Om Traders.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R051",
+      "source": "ent_00035",
+      "target": "ent_00030",
+      "type": "POSSESSES_DRUG",
+      "confidence": 0.41,
+      "status": "confirmed",
+      "evidence_text": "During the investigation, police recovered a pistol and suspected heroin from the vehicle.",
+      "source_document_id": "fake_fir.txt"
+    },
+    {
+      "id": "R052",
+      "source": "ent_00050",
+      "target": "ent_00002",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.356,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9123456789 is registered to Rajesh Kumar, resident of 24 MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R053",
+      "source": "ent_00050",
+      "target": "ent_00013",
+      "type": "RESIDES_AT",
+      "confidence": 0.318,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9123456789 is registered to Rajesh Kumar, resident of 24 MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R054",
+      "source": "ent_00051",
+      "target": "ent_00007",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.355,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9876543210 is registered to Suresh Verma, resident of 12 Shivaji Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R055",
+      "source": "ent_00051",
+      "target": "ent_00015",
+      "type": "RESIDES_AT",
+      "confidence": 0.31,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9876543210 is registered to Suresh Verma, resident of 12 Shivaji Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R056",
+      "source": "ent_00016",
+      "target": "ent_00008",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.396,
+      "status": "confirmed",
+      "evidence_text": "Mobile number 9988776655 is registered to Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R057",
+      "source": "ent_00016",
+      "target": "ent_00007",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.37,
+      "status": "confirmed",
+      "evidence_text": "Suresh Verma's number 9876543210 is affiliated with Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R058",
+      "source": "ent_00016",
+      "target": "ent_00015",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.312,
+      "status": "confirmed",
+      "evidence_text": "Suresh Verma's number 9876543210 is affiliated with Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "cdr_log.txt"
+    },
+    {
+      "id": "R059",
+      "source": "ent_00016",
+      "target": "ent_00009",
+      "type": "RESIDES_AT",
+      "confidence": 0.402,
+      "status": "confirmed",
+      "evidence_text": "Account number 771234 is held in the name of Om Traders, MP Nagar, Bhopal.",
+      "source_document_id": "financial_surveillance_report.txt"
+    },
+    {
+      "id": "R060",
+      "source": "ent_00002",
+      "target": "ent_00003",
+      "type": "PREDICTED",
+      "confidence": 0.942,
+      "status": "predicted",
+      "evidence_text": "9123456789 and 9871122334 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.94) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R061",
+      "source": "ent_00007",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.956,
+      "status": "predicted",
+      "evidence_text": "9876543210 and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R062",
+      "source": "ent_00007",
+      "target": "ent_00076",
+      "type": "PREDICTED",
+      "confidence": 0.927,
+      "status": "predicted",
+      "evidence_text": "9876543210 and Honda City are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.93) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R063",
+      "source": "ent_00007",
+      "target": "ent_00077",
+      "type": "PREDICTED",
+      "confidence": 0.964,
+      "status": "predicted",
+      "evidence_text": "9876543210 and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R064",
+      "source": "ent_00011",
+      "target": "ent_00007",
+      "type": "PREDICTED",
+      "confidence": 0.91,
+      "status": "predicted",
+      "evidence_text": "suresh.verma88@example.com and 9876543210 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.91) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R065",
+      "source": "ent_00011",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.962,
+      "status": "predicted",
+      "evidence_text": "suresh.verma88@example.com and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R066",
+      "source": "ent_00011",
+      "target": "ent_00051",
+      "type": "PREDICTED",
+      "confidence": 0.988,
+      "status": "predicted",
+      "evidence_text": "suresh.verma88@example.com and 12 Shivaji Nagar, Bhopal are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.90) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R067",
+      "source": "ent_00011",
+      "target": "ent_00016",
+      "type": "PREDICTED",
+      "confidence": 0.935,
+      "status": "predicted",
+      "evidence_text": "suresh.verma88@example.com and MP Nagar, Bhopal are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.94) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R068",
+      "source": "ent_00011",
+      "target": "ent_00076",
+      "type": "PREDICTED",
+      "confidence": 0.977,
+      "status": "predicted",
+      "evidence_text": "suresh.verma88@example.com and Honda City are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R069",
+      "source": "ent_00011",
+      "target": "ent_00077",
+      "type": "PREDICTED",
+      "confidence": 0.955,
+      "status": "predicted",
+      "evidence_text": "suresh.verma88@example.com and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R070",
+      "source": "ent_00012",
+      "target": "ent_00007",
+      "type": "PREDICTED",
+      "confidence": 0.922,
+      "status": "predicted",
+      "evidence_text": "@suresh_v88 and 9876543210 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.92) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R071",
+      "source": "ent_00012",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.951,
+      "status": "predicted",
+      "evidence_text": "@suresh_v88 and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.95) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R072",
+      "source": "ent_00012",
+      "target": "ent_00051",
+      "type": "PREDICTED",
+      "confidence": 0.98,
+      "status": "predicted",
+      "evidence_text": "@suresh_v88 and 12 Shivaji Nagar, Bhopal are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.91) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R073",
+      "source": "ent_00012",
+      "target": "ent_00016",
+      "type": "PREDICTED",
+      "confidence": 0.922,
+      "status": "predicted",
+      "evidence_text": "@suresh_v88 and MP Nagar, Bhopal are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.92) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R074",
+      "source": "ent_00012",
+      "target": "ent_00076",
+      "type": "PREDICTED",
+      "confidence": 0.956,
+      "status": "predicted",
+      "evidence_text": "@suresh_v88 and Honda City are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R075",
+      "source": "ent_00012",
+      "target": "ent_00077",
+      "type": "PREDICTED",
+      "confidence": 0.945,
+      "status": "predicted",
+      "evidence_text": "@suresh_v88 and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.94) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R076",
+      "source": "ent_00013",
+      "target": "ent_00004",
+      "type": "PREDICTED",
+      "confidence": 0.898,
+      "status": "predicted",
+      "evidence_text": "Rajesh Kumar and 458921 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.90) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R077",
+      "source": "ent_00016",
+      "target": "ent_00029",
+      "type": "PREDICTED",
+      "confidence": 0.953,
+      "status": "predicted",
+      "evidence_text": "MP Nagar, Bhopal and Toyota Fortuner are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.95) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R078",
+      "source": "ent_00016",
+      "target": "ent_00077",
+      "type": "PREDICTED",
+      "confidence": 0.899,
+      "status": "predicted",
+      "evidence_text": "MP Nagar, Bhopal and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.90) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R079",
+      "source": "ent_00017",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.933,
+      "status": "predicted",
+      "evidence_text": "Om Traders and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.93) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R080",
+      "source": "ent_00017",
+      "target": "ent_00077",
+      "type": "PREDICTED",
+      "confidence": 0.934,
+      "status": "predicted",
+      "evidence_text": "Om Traders and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.93) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R081",
+      "source": "ent_00029",
+      "target": "ent_00050",
+      "type": "PREDICTED",
+      "confidence": 0.978,
+      "status": "predicted",
+      "evidence_text": "Toyota Fortuner and 24 MP Nagar, Bhopal are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R082",
+      "source": "ent_00016",
+      "target": "ent_00007",
+      "type": "PREDICTED",
+      "confidence": 0.916,
+      "status": "predicted",
+      "evidence_text": "MP Nagar, Bhopal and 9876543210 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.90) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R083",
+      "source": "ent_00016",
+      "target": "ent_00009",
+      "type": "PREDICTED",
+      "confidence": 0.905,
+      "status": "predicted",
+      "evidence_text": "MP Nagar, Bhopal and 771234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.91) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R084",
+      "source": "ent_00016",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.961,
+      "status": "predicted",
+      "evidence_text": "MP Nagar, Bhopal and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R085",
+      "source": "ent_00016",
+      "target": "ent_00076",
+      "type": "PREDICTED",
+      "confidence": 0.905,
+      "status": "predicted",
+      "evidence_text": "MP Nagar, Bhopal and Honda City are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.90) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R086",
+      "source": "ent_00033",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.914,
+      "status": "predicted",
+      "evidence_text": "₹5,00,000 and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.91) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R087",
+      "source": "ent_00051",
+      "target": "ent_00007",
+      "type": "PREDICTED",
+      "confidence": 0.933,
+      "status": "predicted",
+      "evidence_text": "12 Shivaji Nagar, Bhopal and 9876543210 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.93) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R088",
+      "source": "ent_00051",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.983,
+      "status": "predicted",
+      "evidence_text": "12 Shivaji Nagar, Bhopal and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.94) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R089",
+      "source": "ent_00051",
+      "target": "ent_00076",
+      "type": "PREDICTED",
+      "confidence": 0.979,
+      "status": "predicted",
+      "evidence_text": "12 Shivaji Nagar, Bhopal and Honda City are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.94) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R090",
+      "source": "ent_00051",
+      "target": "ent_00077",
+      "type": "PREDICTED",
+      "confidence": 0.984,
+      "status": "predicted",
+      "evidence_text": "12 Shivaji Nagar, Bhopal and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.96) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R091",
+      "source": "ent_00051",
+      "target": "ent_00008",
+      "type": "PREDICTED",
+      "confidence": 0.916,
+      "status": "predicted",
+      "evidence_text": "12 Shivaji Nagar, Bhopal and 9988776655 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.92) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R092",
+      "source": "ent_00016",
+      "target": "ent_00008",
+      "type": "PREDICTED",
+      "confidence": 0.913,
+      "status": "predicted",
+      "evidence_text": "MP Nagar, Bhopal and 9988776655 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.91) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R093",
+      "source": "ent_00076",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.971,
+      "status": "predicted",
+      "evidence_text": "Honda City and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.97) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R094",
+      "source": "ent_00076",
+      "target": "ent_00077",
+      "type": "PREDICTED",
+      "confidence": 0.976,
+      "status": "predicted",
+      "evidence_text": "Honda City and MP04AB1234 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.98) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R095",
+      "source": "ent_00077",
+      "target": "ent_00010",
+      "type": "PREDICTED",
+      "confidence": 0.992,
+      "status": "predicted",
+      "evidence_text": "MP04AB1234 and 990011 are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R096",
+      "source": "ent_00076",
+      "target": "ent_00041",
+      "type": "PREDICTED",
+      "confidence": 0.993,
+      "status": "predicted",
+      "evidence_text": "Honda City and armed robbery are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "R097",
+      "source": "ent_00077",
+      "target": "ent_00041",
+      "type": "PREDICTED",
+      "confidence": 0.992,
+      "status": "predicted",
+      "evidence_text": "MP04AB1234 and armed robbery are not directly linked in the data, but share 1 common connection(s) and a high structural similarity score (0.99) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    }
+  ]
+}
