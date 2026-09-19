@@ -9,7 +9,7 @@ React (frontend)
         |
       REST/JSON
         |
-FastAPI (backend)
+Node.js + Express.js (backend)
    |             |
 Mock JSON     mongoDB + Neo4j (next phase)
    |
