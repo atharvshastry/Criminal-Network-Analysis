@@ -1,4 +1,5 @@
 import React from "react";
+import { getRelationshipLabel } from "./NetworkGraph";
 
 export default function RelationshipList({ relationships }) {
   if (!relationships.length) {
@@ -20,13 +21,30 @@ export default function RelationshipList({ relationships }) {
           </tr>
         </thead>
         <tbody>
-          {relationships.map((relationship) => (
-            <tr key={relationship.id || `${relationship.type}-${relationship.relatedEntityId}`}>
-              <td>{relationship.type}</td>
-              <td>{relationship.relatedEntityLabel || relationship.relatedEntityId}</td>
-              <td>{Math.round((relationship.confidence || 0) * 100)}%</td>
-            </tr>
-          ))}
+          {relationships.map((relationship) => {
+            const isPredicted = relationship.status === "predicted";
+            const rowKey = relationship.id || `${relationship.type}-${relationship.relatedEntityId}`;
+            return (
+              <React.Fragment key={rowKey}>
+                <tr>
+                  <td>
+                    {getRelationshipLabel(relationship.type)}
+                    {isPredicted && <span className="lead-badge medium relationship-predicted-badge inline">AI predicted</span>}
+                  </td>
+                  <td>{relationship.relatedEntityLabel || relationship.relatedEntityId}</td>
+                  <td>{Math.round((relationship.confidence || 0) * 100)}%</td>
+                </tr>
+                {relationship.evidenceText && (
+                  <tr className="relationship-description-row">
+                    <td colSpan={3}>
+                      {isPredicted ? "Why this was suggested: " : ""}
+                      {relationship.evidenceText}
+                    </td>
+                  </tr>
+                )}
+              </React.Fragment>
+            );
+          })}
         </tbody>
       </table>
     </div>

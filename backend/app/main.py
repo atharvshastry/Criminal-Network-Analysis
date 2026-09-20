@@ -1,14 +1,18 @@
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pathlib import Path
+import hashlib
 import json
 import logging
 import math
 import re
+from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
+
+from . import extraction
 
 BASE = Path(__file__).resolve().parents[2]
 DATA = BASE / "data"
@@ -26,6 +30,77 @@ def load_network_for_case(case_id: str):
         return json.load(f)
 
 
+# ---------------------------------------------------------------------------
+# Cross-case linking: the same phone number, account, vehicle, handle,
+# organization, or person name recurring in more than one active case is a
+# classic investigative lead ("is this the same person/number the Whitefield
+# case already flagged?"). Every case's network is stored independently, so
+# this is computed fresh on each /api/network request by matching entities
+# across cases on the same normalized identity extraction already uses to
+# de-duplicate mentions *within* one case. That's cheap at this app's scale
+# (a handful of cases, at most a few hundred entities each) and always
+# reflects whatever cases currently exist, including ones uploaded seconds
+# ago -- no separate index to keep in sync.
+# ---------------------------------------------------------------------------
+
+# Only types that are meaningfully identifying are cross-referenced. PERSON
+# and ORGANIZATION matches are name-only (no DOB/address to disambiguate),
+# so they're presented as a lead worth checking, not a confirmed identity.
+CROSS_CASE_LINK_TYPES = {"PHONE", "EMAIL", "ACCOUNT", "VEHICLE", "SOCIAL_ID", "ORGANIZATION", "PERSON"}
+
+
+def _cross_case_index():
+    """(type, normalized label) -> [{case_id, case_title, entity_id, label}, ...]
+    across every case's stored network."""
+    index = defaultdict(list)
+    try:
+        cases = load("cases.json")
+    except FileNotFoundError:
+        return index
+    for case in cases:
+        case_id = case.get("id")
+        if not case_id:
+            continue
+        try:
+            network_data = load_network_for_case(case_id)
+        except HTTPException:
+            continue
+        for node in network_data.get("nodes", []):
+            node_type = node.get("type")
+            label = node.get("label")
+            if node_type not in CROSS_CASE_LINK_TYPES or not label:
+                continue
+            key = (node_type, extraction._normalize_key(node_type, label))
+            index[key].append({
+                "case_id": case_id,
+                "case_title": case.get("title", case_id),
+                "entity_id": node.get("id"),
+                "label": label,
+            })
+    return index
+
+
+def attach_cross_case_matches(case_id: str, nodes: list) -> list:
+    """Returns `nodes` with a `cross_case` field added to each: the entities
+    from OTHER cases that share this node's identity, so the Network
+    Explorer can flag "this phone/vehicle/account/org/name also appears in
+    Case Y" directly on the graph."""
+    index = _cross_case_index()
+    enriched = []
+    for node in nodes:
+        node_type = node.get("type")
+        label = node.get("label")
+        matches = []
+        if node_type in CROSS_CASE_LINK_TYPES and label:
+            key = (node_type, extraction._normalize_key(node_type, label))
+            for entry in index.get(key, ()):
+                if entry["case_id"] == case_id or entry["entity_id"] == node.get("id"):
+                    continue
+                matches.append(entry)
+        enriched.append({**node, "cross_case": matches})
+    return enriched
+
+
 def case_statistics(case_id: str):
     network = load_network_for_case(case_id)
     alerts_by_case = load("network_alerts.json")
@@ -40,6 +115,24 @@ def case_statistics(case_id: str):
 
 def case_with_statistics(case):
     return {**case, **case_statistics(case["id"])}
+
+
+CASE_ID_RE = re.compile(r"^CASE-(\d{4})-(\d+)$")
+
+
+def generate_next_case_id(existing_cases):
+    """Next CASE-<year>-<zero-padded-sequence> id, scanning all existing case
+    ids (any year) for the highest sequence number so ids never collide even
+    if the current year hasn't been used yet."""
+    max_num = 0
+    width = 5
+    for case in existing_cases:
+        match = CASE_ID_RE.match(str(case.get("id", "")))
+        if match:
+            width = max(width, len(match.group(2)))
+            max_num = max(max_num, int(match.group(2)))
+    year = datetime.now(timezone.utc).year
+    return f"CASE-{year}-{str(max_num + 1).zfill(width)}"
 
 
 class SemanticSearchRequest(BaseModel):
@@ -447,10 +540,6 @@ def build_all_relationships_response(base_response, edges):
 
 def build_predicted_links_response(base_response, edges):
     predicted = [edge for edge in edges if edge.get("status") == "predicted"]
-    highlighted_ids = set()
-    for edge in predicted:
-        highlighted_ids.add(edge["source"])
-        highlighted_ids.add(edge["target"])
     base_response.update({
         "status": "SUCCESS",
         "message": None if predicted else "No AI-predicted connections are available for this case.",
@@ -460,7 +549,7 @@ def build_predicted_links_response(base_response, edges):
         "summary": {"entity_count": 0, "relationship_count": len(predicted), "confidence": None},
         "graph_action": {
             "type": "HIGHLIGHT_RELATIONSHIP",
-            "entity_ids": list(highlighted_ids),
+            "entity_ids": [],
             "relationship_ids": [edge["id"] for edge in predicted],
         },
     })
@@ -985,6 +1074,143 @@ def case_detail(case_id: str):
             return case_with_statistics(case)
     raise HTTPException(status_code=404, detail="Case not found")
 
+
+UPLOAD_ALLOWED_EXTENSIONS = {".pdf", ".txt", ".csv", ".docx", ".json", ".md"}
+UPLOAD_MAX_FILES = 15
+UPLOAD_MAX_FILE_BYTES = 15 * 1024 * 1024  # 15MB per file
+UPLOAD_ALLOWED_PRIORITIES = {"Low", "Medium", "High"}
+UPLOAD_ALLOWED_STATUSES = {"Active", "Under Review", "Closed", "Pending"}
+
+
+def _write_json(path: Path, payload) -> None:
+    with open(path, "w", encoding="utf-8") as file:
+        json.dump(payload, file, indent=2, ensure_ascii=False)
+
+
+def _load_case_scoped_store(name: str) -> dict:
+    path = DATA / name
+    if not path.exists():
+        return {}
+    with open(path, "r", encoding="utf-8") as file:
+        payload = json.load(file)
+    return payload if isinstance(payload, dict) else {}
+
+
+@app.post("/api/cases/upload")
+async def upload_case(
+    title: str = Form(...),
+    priority: str = Form("Medium"),
+    status: str = Form("Active"),
+    files: list[UploadFile] = File(...),
+):
+    """Create a brand-new case from freshly uploaded documents (PDF/TXT/CSV/
+    DOCX/JSON/MD), running the rule-based extractor in extraction.py
+    synchronously so the case is immediately explorable -- no offline
+    pipeline run required. See extraction.py's module docstring for what
+    this is (and isn't)."""
+    clean_title = (title or "").strip()
+    if not clean_title:
+        raise HTTPException(status_code=400, detail="Case title is required")
+    if priority not in UPLOAD_ALLOWED_PRIORITIES:
+        raise HTTPException(status_code=400, detail=f"Priority must be one of {sorted(UPLOAD_ALLOWED_PRIORITIES)}")
+    if status not in UPLOAD_ALLOWED_STATUSES:
+        raise HTTPException(status_code=400, detail=f"Status must be one of {sorted(UPLOAD_ALLOWED_STATUSES)}")
+    if not files:
+        raise HTTPException(status_code=400, detail="At least one file is required")
+    if len(files) > UPLOAD_MAX_FILES:
+        raise HTTPException(status_code=400, detail=f"Too many files (max {UPLOAD_MAX_FILES} per upload)")
+
+    documents = []
+    seen_filenames = set()
+    for upload in files:
+        filename = (upload.filename or "").strip() or "document"
+        base_filename = filename
+        suffix = 2
+        while base_filename in seen_filenames:
+            base_filename = f"{filename} ({suffix})"
+            suffix += 1
+        seen_filenames.add(base_filename)
+
+        ext = Path(filename).suffix.lower()
+        if ext not in UPLOAD_ALLOWED_EXTENSIONS:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Unsupported file type for {filename} (allowed: {', '.join(sorted(UPLOAD_ALLOWED_EXTENSIONS))})",
+            )
+
+        raw = await upload.read()
+        if not raw:
+            raise HTTPException(status_code=400, detail=f"{filename} is empty")
+        if len(raw) > UPLOAD_MAX_FILE_BYTES:
+            raise HTTPException(status_code=400, detail=f"{filename} exceeds the 15MB per-file upload limit")
+
+        try:
+            text = extraction.extract_text(filename, raw, ext)
+        except extraction.ExtractionError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+        documents.append({
+            "filename": base_filename,
+            "ext": ext,
+            "text": text,
+            "sha256": hashlib.sha256(raw).hexdigest(),
+            "size": len(raw),
+        })
+
+    cases_store = load("cases.json")
+    new_case_id = generate_next_case_id(cases_store)
+
+    built = extraction.build_case_from_documents(new_case_id, documents)
+
+    (DATA / "networks").mkdir(parents=True, exist_ok=True)
+    _write_json(DATA / "networks" / f"{new_case_id}.json", {
+        "nodes": built["nodes"],
+        "edges": built["edges"],
+    })
+
+    evidence_store = _load_case_scoped_store("evidence.json")
+    evidence_store[new_case_id] = built["evidence"]
+    _write_json(DATA / "evidence.json", evidence_store)
+
+    timeline_store = _load_case_scoped_store("timeline.json")
+    timeline_store[new_case_id] = built["timeline"]
+    _write_json(DATA / "timeline.json", timeline_store)
+
+    alerts_store = _load_case_scoped_store("network_alerts.json")
+    alerts_store[new_case_id] = built["alerts"]
+    _write_json(DATA / "network_alerts.json", alerts_store)
+
+    new_case = {
+        "id": new_case_id,
+        "title": clean_title,
+        "status": status,
+        "priority": priority,
+        "entities": len(built["nodes"]),
+        "relationships": len(built["edges"]),
+        "alerts": len(built["alerts"]),
+    }
+    cases_store.append(new_case)
+    _write_json(DATA / "cases.json", cases_store)
+
+    try:
+        logs = load_audit_logs()
+        logs.append({
+            "id": f"AUDIT-{new_case_id}-UPLOAD",
+            "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "action": "CREATE_CASE_FROM_UPLOAD",
+            "case_id": new_case_id,
+            "metadata": {
+                "title": clean_title,
+                "file_count": len(documents),
+                "filenames": [doc["filename"] for doc in documents],
+            },
+        })
+        save_audit_logs(logs)
+    except Exception:  # noqa: BLE001 - audit logging must never block case creation
+        logging.getLogger(__name__).exception("Failed to write audit log for case upload")
+
+    return case_with_statistics(new_case)
+
 @app.get("/api/entities")
 def entities(case_id: str | None = None):
     if not case_id:
@@ -1012,7 +1238,10 @@ def entity(entity_id: str):
 
 @app.get("/api/network")
 def network(case_id: str | None = None):
-    return load_network_for_case(case_id) if case_id else load("network.json")
+    if not case_id:
+        return load("network.json")
+    payload = load_network_for_case(case_id)
+    return {**payload, "nodes": attach_cross_case_matches(case_id, payload.get("nodes", []))}
 
 
 @app.post("/api/search/semantic")

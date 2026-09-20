@@ -1,5 +1,6 @@
 import React from "react";
 import EvidencePanel from "./EvidencePanel";
+import { getRelationshipLabel } from "./NetworkGraph";
 
 export default function RelationshipPanel({ edge, sourceNode, targetNode, phoneNode, phoneNumber, onPhoneSelect, evidence = [], evidenceLoading = false, onTraceEvidence }) {
   if (!edge) {
@@ -11,15 +12,23 @@ export default function RelationshipPanel({ edge, sourceNode, targetNode, phoneN
     );
   }
 
+  const isPredicted = edge.status === "predicted";
+
   return (
     <div className="side-panel">
       <div className="panel-header-row">
         <div>
           <div className="entity-type">Relationship</div>
-          <h3>{edge.type}</h3>
+          <h3>{getRelationshipLabel(edge.type)}</h3>
         </div>
         <span className="panel-tag">{edge.id}</span>
       </div>
+
+      {isPredicted && (
+        <div className="lead-badge medium relationship-predicted-badge">
+          AI-predicted lead — not a confirmed link
+        </div>
+      )}
 
       <div className="detail-grid compact">
         <div>
@@ -47,6 +56,16 @@ export default function RelationshipPanel({ edge, sourceNode, targetNode, phoneN
           <strong>{Math.round((edge.confidence || 0) * 100)}%</strong>
         </div>
       </div>
+
+      {edge.evidence_text && (
+        <section className="info-section relationship-evidence-text">
+          <div className="section-heading-row">
+            <span className="section-label">{isPredicted ? "Why this was suggested" : "Evidence summary"}</span>
+          </div>
+          <p className="panel-copy">{edge.evidence_text}</p>
+        </section>
+      )}
+
       <EvidencePanel records={evidence} loading={evidenceLoading} onTrace={onTraceEvidence} />
     </div>
   );

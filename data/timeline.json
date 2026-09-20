@@ -294,5 +294,382 @@
       ],
       "source_document_id": "fir.txt"
     }
+  ],
+  "CASE-2026-00534": [
+    {
+      "id": "EVT-CASE-2026-00534-001",
+      "timestamp": "2026-09-20T16:31:29.770495Z",
+      "title": "financial_statement.docx ingested and analyzed",
+      "description": "9 entities and 15 relationships were extracted from financial_statement.docx. Excerpt: \"Financial Statement Excerpt\nAccount number 123456789012 is registered to Vikram Singh.\"",
+      "entity_ids": [
+        "ent_00534_001",
+        "ent_00534_002",
+        "ent_00534_003",
+        "ent_00534_004",
+        "ent_00534_005",
+        "ent_00534_006",
+        "ent_00534_007",
+        "ent_00534_008",
+        "ent_00534_009"
+      ],
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "EVT-CASE-2026-00534-002",
+      "timestamp": "2026-09-20T16:31:29.772480Z",
+      "title": "surveillance_report.pdf ingested and analyzed",
+      "description": "11 entities and 24 relationships were extracted from surveillance_report.pdf. Excerpt: \"SURVEILLANCE REPORT\nVikram Singh and Sanjay Verma were observed meeting near the Vertex Traders\nPvt Ltd office in Whitefield, Bengaluru.\"",
+      "entity_ids": [
+        "ent_00534_003",
+        "ent_00534_004",
+        "ent_00534_005",
+        "ent_00534_006",
+        "ent_00534_007",
+        "ent_00534_010",
+        "ent_00534_011",
+        "ent_00534_012",
+        "ent_00534_013",
+        "ent_00534_014",
+        "ent_00534_015"
+      ],
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "EVT-CASE-2026-00534-003",
+      "timestamp": "2026-09-20T16:31:29.773591Z",
+      "title": "raid_notes.json ingested and analyzed",
+      "description": "9 entities and 18 relationships were extracted from raid_notes.json. Excerpt: \"suspect name: Sanjay Verma.\"",
+      "entity_ids": [
+        "ent_00534_005",
+        "ent_00534_007",
+        "ent_00534_011",
+        "ent_00534_012",
+        "ent_00534_013",
+        "ent_00534_014",
+        "ent_00534_016",
+        "ent_00534_017",
+        "ent_00534_018"
+      ],
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "EVT-CASE-2026-00534-004",
+      "timestamp": "2026-09-20T16:31:29.774580Z",
+      "title": "contacts.csv ingested and analyzed",
+      "description": "5 entities and 0 relationships were extracted from contacts.csv. Excerpt: \"Name: Vikram Singh.\"",
+      "entity_ids": [
+        "ent_00534_003",
+        "ent_00534_007",
+        "ent_00534_013",
+        "ent_00534_015",
+        "ent_00534_019"
+      ],
+      "source_document_id": "contacts.csv"
+    },
+    {
+      "id": "EVT-CASE-2026-00534-005",
+      "timestamp": "2026-09-20T16:31:29.777816Z",
+      "title": "fir_report.txt ingested and analyzed",
+      "description": "15 entities and 24 relationships were extracted from fir_report.txt. Excerpt: \"FIRST INFORMATION REPORT\nComplainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.\"",
+      "entity_ids": [
+        "ent_00534_001",
+        "ent_00534_003",
+        "ent_00534_004",
+        "ent_00534_005",
+        "ent_00534_006",
+        "ent_00534_011",
+        "ent_00534_012",
+        "ent_00534_013",
+        "ent_00534_019",
+        "ent_00534_020",
+        "ent_00534_021",
+        "ent_00534_022",
+        "ent_00534_023",
+        "ent_00534_024",
+        "ent_00534_025"
+      ],
+      "source_document_id": "fir_report.txt"
+    }
+  ],
+  "CASE-2026-00535": [
+    {
+      "id": "EVT-CASE-2026-00535-001",
+      "timestamp": "2026-09-20T17:03:55.342762Z",
+      "title": "single_case_report.pdf ingested and analyzed",
+      "description": "41 entities and 189 relationships were extracted from single_case_report.pdf. Excerpt: \"FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict \"",
+      "entity_ids": [
+        "ent_00535_001",
+        "ent_00535_002",
+        "ent_00535_003",
+        "ent_00535_004",
+        "ent_00535_005",
+        "ent_00535_006",
+        "ent_00535_007",
+        "ent_00535_008",
+        "ent_00535_009",
+        "ent_00535_010",
+        "ent_00535_011",
+        "ent_00535_012",
+        "ent_00535_013",
+        "ent_00535_014",
+        "ent_00535_015",
+        "ent_00535_016",
+        "ent_00535_017",
+        "ent_00535_018",
+        "ent_00535_019",
+        "ent_00535_020",
+        "ent_00535_021",
+        "ent_00535_022",
+        "ent_00535_023",
+        "ent_00535_024",
+        "ent_00535_025",
+        "ent_00535_026",
+        "ent_00535_027",
+        "ent_00535_028",
+        "ent_00535_029",
+        "ent_00535_030",
+        "ent_00535_031",
+        "ent_00535_032",
+        "ent_00535_033",
+        "ent_00535_034",
+        "ent_00535_035",
+        "ent_00535_036",
+        "ent_00535_037",
+        "ent_00535_038",
+        "ent_00535_039",
+        "ent_00535_040",
+        "ent_00535_041"
+      ],
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "EVT-CASE-2026-00535-002",
+      "timestamp": "2026-09-20T17:03:55.359940Z",
+      "title": "single_case_report.txt ingested and analyzed",
+      "description": "31 entities and 8 relationships were extracted from single_case_report.txt. Excerpt: \"CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime\"",
+      "entity_ids": [
+        "ent_00535_002",
+        "ent_00535_003",
+        "ent_00535_004",
+        "ent_00535_005",
+        "ent_00535_006",
+        "ent_00535_007",
+        "ent_00535_008",
+        "ent_00535_010",
+        "ent_00535_011",
+        "ent_00535_012",
+        "ent_00535_014",
+        "ent_00535_015",
+        "ent_00535_016",
+        "ent_00535_018",
+        "ent_00535_019",
+        "ent_00535_020",
+        "ent_00535_021",
+        "ent_00535_022",
+        "ent_00535_023",
+        "ent_00535_024",
+        "ent_00535_025",
+        "ent_00535_028",
+        "ent_00535_029",
+        "ent_00535_030",
+        "ent_00535_031",
+        "ent_00535_033",
+        "ent_00535_035",
+        "ent_00535_036",
+        "ent_00535_040",
+        "ent_00535_042",
+        "ent_00535_043"
+      ],
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "EVT-CASE-2026-00535-003",
+      "timestamp": "2026-09-20T17:03:55.376515Z",
+      "title": "single_case_report.docx ingested and analyzed",
+      "description": "40 entities and 9 relationships were extracted from single_case_report.docx. Excerpt: \"Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near Zone-I Market Road, Bhopal, he was intercepted by two uni\"",
+      "entity_ids": [
+        "ent_00535_002",
+        "ent_00535_003",
+        "ent_00535_004",
+        "ent_00535_005",
+        "ent_00535_006",
+        "ent_00535_007",
+        "ent_00535_008",
+        "ent_00535_010",
+        "ent_00535_011",
+        "ent_00535_012",
+        "ent_00535_013",
+        "ent_00535_014",
+        "ent_00535_015",
+        "ent_00535_016",
+        "ent_00535_017",
+        "ent_00535_018",
+        "ent_00535_019",
+        "ent_00535_020",
+        "ent_00535_021",
+        "ent_00535_022",
+        "ent_00535_023",
+        "ent_00535_024",
+        "ent_00535_025",
+        "ent_00535_026",
+        "ent_00535_027",
+        "ent_00535_028",
+        "ent_00535_029",
+        "ent_00535_030",
+        "ent_00535_031",
+        "ent_00535_032",
+        "ent_00535_033",
+        "ent_00535_034",
+        "ent_00535_035",
+        "ent_00535_036",
+        "ent_00535_037",
+        "ent_00535_038",
+        "ent_00535_039",
+        "ent_00535_040",
+        "ent_00535_041",
+        "ent_00535_042"
+      ],
+      "source_document_id": "single_case_report.docx"
+    }
+  ],
+  "CASE-2026-00536": [
+    {
+      "id": "EVT-CASE-2026-00536-001",
+      "timestamp": "2026-09-20T17:33:08.412366Z",
+      "title": "financial_statement.docx ingested and analyzed",
+      "description": "7 entities and 8 relationships were extracted from financial_statement.docx. Excerpt: \"Account number 123456789012 is registered to Vikram Singh.\"",
+      "entity_ids": [
+        "ent_00536_001",
+        "ent_00536_002",
+        "ent_00536_003",
+        "ent_00536_004",
+        "ent_00536_005",
+        "ent_00536_006",
+        "ent_00536_007"
+      ],
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "EVT-CASE-2026-00536-002",
+      "timestamp": "2026-09-20T17:33:08.414402Z",
+      "title": "surveillance_report.pdf ingested and analyzed",
+      "description": "8 entities and 18 relationships were extracted from surveillance_report.pdf. Excerpt: \"Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.\"",
+      "entity_ids": [
+        "ent_00536_002",
+        "ent_00536_004",
+        "ent_00536_005",
+        "ent_00536_008",
+        "ent_00536_009",
+        "ent_00536_010",
+        "ent_00536_011",
+        "ent_00536_012"
+      ],
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "EVT-CASE-2026-00536-003",
+      "timestamp": "2026-09-20T17:33:08.415468Z",
+      "title": "raid_notes.json ingested and analyzed",
+      "description": "8 entities and 6 relationships were extracted from raid_notes.json. Excerpt: \"suspect name: Sanjay Verma.\"",
+      "entity_ids": [
+        "ent_00536_004",
+        "ent_00536_005",
+        "ent_00536_008",
+        "ent_00536_009",
+        "ent_00536_010",
+        "ent_00536_011",
+        "ent_00536_013",
+        "ent_00536_014"
+      ],
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "EVT-CASE-2026-00536-004",
+      "timestamp": "2026-09-20T17:33:08.416493Z",
+      "title": "contacts.csv ingested and analyzed",
+      "description": "5 entities and 0 relationships were extracted from contacts.csv. Excerpt: \"Name: Vikram Singh.\"",
+      "entity_ids": [
+        "ent_00536_002",
+        "ent_00536_005",
+        "ent_00536_009",
+        "ent_00536_012",
+        "ent_00536_015"
+      ],
+      "source_document_id": "contacts.csv"
+    },
+    {
+      "id": "EVT-CASE-2026-00536-005",
+      "timestamp": "2026-09-20T17:33:08.419624Z",
+      "title": "fir_report.txt ingested and analyzed",
+      "description": "14 entities and 17 relationships were extracted from fir_report.txt. Excerpt: \"Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.\"",
+      "entity_ids": [
+        "ent_00536_001",
+        "ent_00536_002",
+        "ent_00536_003",
+        "ent_00536_004",
+        "ent_00536_008",
+        "ent_00536_009",
+        "ent_00536_010",
+        "ent_00536_015",
+        "ent_00536_016",
+        "ent_00536_017",
+        "ent_00536_018",
+        "ent_00536_019",
+        "ent_00536_020",
+        "ent_00536_021"
+      ],
+      "source_document_id": "fir_report.txt"
+    }
+  ],
+  "CASE-2026-00537": [
+    {
+      "id": "EVT-CASE-2026-00537-001",
+      "timestamp": "2026-09-20T17:33:31.376172Z",
+      "title": "raid_notes_b.json ingested and analyzed",
+      "description": "4 entities and 6 relationships were extracted from raid_notes_b.json. Excerpt: \"suspect name: Sanjay Verma.\"",
+      "entity_ids": [
+        "ent_00537_001",
+        "ent_00537_002",
+        "ent_00537_003",
+        "ent_00537_004"
+      ],
+      "source_document_id": "raid_notes_b.json"
+    },
+    {
+      "id": "EVT-CASE-2026-00537-002",
+      "timestamp": "2026-09-20T17:33:31.377223Z",
+      "title": "associates_b.csv ingested and analyzed",
+      "description": "5 entities and 0 relationships were extracted from associates_b.csv. Excerpt: \"Name: Arjun Mehta.\"",
+      "entity_ids": [
+        "ent_00537_001",
+        "ent_00537_003",
+        "ent_00537_004"
+      ],
+      "source_document_id": "associates_b.csv"
+    },
+    {
+      "id": "EVT-CASE-2026-00537-003",
+      "timestamp": "2026-09-20T17:33:31.380720Z",
+      "title": "fir_report_b.txt ingested and analyzed",
+      "description": "15 entities and 27 relationships were extracted from fir_report_b.txt. Excerpt: \"Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.\"",
+      "entity_ids": [
+        "ent_00537_002",
+        "ent_00537_003",
+        "ent_00537_004",
+        "ent_00537_007",
+        "ent_00537_008",
+        "ent_00537_009",
+        "ent_00537_010",
+        "ent_00537_011",
+        "ent_00537_012",
+        "ent_00537_013",
+        "ent_00537_014",
+        "ent_00537_015",
+        "ent_00537_016",
+        "ent_00537_017",
+        "ent_00537_018"
+      ],
+      "source_document_id": "fir_report_b.txt"
+    }
   ]
 }

@@ -289,5 +289,222 @@
         "AI-generated investigative indicator based on network structure and document evidence — a lead to corroborate, not proof of wrongdoing."
       ]
     }
+  ],
+  "CASE-2026-00534": [
+    {
+      "id": "ALERT-CASE-2026-00534-001",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Sanjay Verma",
+      "entity_id": "ent_00534_007",
+      "score": 0.97,
+      "reasons": [
+        "Sanjay Verma appears connected to 15 other extracted entities across the uploaded documents (Vertex Traders Pvt Ltd, Pistol, 9812345678, Whitefield, Bengaluru).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00534-002",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Vikram Singh",
+      "entity_id": "ent_00534_003",
+      "score": 0.97,
+      "reasons": [
+        "Vikram Singh appears connected to 14 other extracted entities across the uploaded documents (Vertex Traders Pvt Ltd, 9812345678, Whitefield, Bengaluru, Whitefield).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00534-003",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Pvt Ltd",
+      "entity_id": "ent_00534_005",
+      "score": 0.97,
+      "reasons": [
+        "Pvt Ltd appears connected to 12 other extracted entities across the uploaded documents (Vertex Traders Pvt Ltd, Pistol, Whitefield, Bengaluru, Whitefield).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00534-004",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Vertex Traders",
+      "entity_id": "ent_00534_004",
+      "score": 0.97,
+      "reasons": [
+        "Vertex Traders appears connected to 8 other extracted entities across the uploaded documents (Vertex Traders Pvt Ltd, Whitefield, Bengaluru, Whitefield, Vikram Singh).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00534-005",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Vertex Traders Pvt Ltd",
+      "entity_id": "ent_00534_006",
+      "score": 0.97,
+      "reasons": [
+        "Vertex Traders Pvt Ltd appears connected to 8 other extracted entities across the uploaded documents (Whitefield, Bengaluru, Whitefield, Vikram Singh, Pvt Ltd).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    }
+  ],
+  "CASE-2026-00535": [
+    {
+      "id": "ALERT-CASE-2026-00535-001",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Amit Verma",
+      "entity_id": "ent_00535_012",
+      "score": 0.97,
+      "reasons": [
+        "Amit Verma appears connected to 20 other extracted entities across the uploaded documents (Incident Summary The, Market Road, Market Road, Rakesh Verma).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00535-002",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Toyota Fortuner",
+      "entity_id": "ent_00535_015",
+      "score": 0.97,
+      "reasons": [
+        "Toyota Fortuner appears connected to 20 other extracted entities across the uploaded documents (Incident Summary The, Market Road, Market Road, Rakesh Verma).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00535-003",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Market Road",
+      "entity_id": "ent_00535_010",
+      "score": 0.97,
+      "reasons": [
+        "Market Road appears connected to 19 other extracted entities across the uploaded documents (Police Station MP Nagar, Market Road, Incident Summary The, Classification Document).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00535-004",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Rohit Singh",
+      "entity_id": "ent_00535_019",
+      "score": 0.97,
+      "reasons": [
+        "Rohit Singh appears connected to 17 other extracted entities across the uploaded documents (Bhopal, Mahendra Singh, Indore, Neeraj Yadav).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00535-005",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Neeraj Yadav",
+      "entity_id": "ent_00535_022",
+      "score": 0.97,
+      "reasons": [
+        "Neeraj Yadav appears connected to 17 other extracted entities across the uploaded documents (Bhopal, Mahendra Singh, Indore, Rakesh Verma).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    }
+  ],
+  "CASE-2026-00536": [
+    {
+      "id": "ALERT-CASE-2026-00536-001",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Vikram Singh",
+      "entity_id": "ent_00536_002",
+      "score": 0.97,
+      "reasons": [
+        "Vikram Singh appears connected to 11 other extracted entities across the uploaded documents (Rs. 5,00,000, Whitefield, Bengaluru, 9812345678, 9876543210).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00536-002",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Sanjay Verma",
+      "entity_id": "ent_00536_005",
+      "score": 0.97,
+      "reasons": [
+        "Sanjay Verma appears connected to 11 other extracted entities across the uploaded documents (KA01AB1234, Whitefield, Bengaluru, 9812345678, Vikram Singh).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00536-003",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Vertex Traders Pvt Ltd",
+      "entity_id": "ent_00536_004",
+      "score": 0.97,
+      "reasons": [
+        "Vertex Traders Pvt Ltd appears connected to 7 other extracted entities across the uploaded documents (Rs. 5,00,000, Whitefield, Bengaluru, Vikram Singh, Bengaluru).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00536-004",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Rajesh Kumar",
+      "entity_id": "ent_00536_019",
+      "score": 0.9,
+      "reasons": [
+        "Rajesh Kumar appears connected to 5 other extracted entities across the uploaded documents (Koramangala, Karnataka, Fraud, Bengaluru).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00536-005",
+      "severity": "MEDIUM",
+      "title": "Convergent investigative indicators: 123456789012",
+      "entity_id": "ent_00536_001",
+      "score": 0.74,
+      "reasons": [
+        "123456789012 appears connected to 3 other extracted entities across the uploaded documents (Vikram Singh, Vertex Traders Pvt Ltd, Rs. 5,00,000).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    }
+  ],
+  "CASE-2026-00537": [
+    {
+      "id": "ALERT-CASE-2026-00537-001",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Arjun Mehta",
+      "entity_id": "ent_00537_003",
+      "score": 0.97,
+      "reasons": [
+        "Arjun Mehta appears connected to 10 other extracted entities across the uploaded documents (Sanjay Verma, Narcotics Trafficking, 9876543210, Electronic City, Bengaluru).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00537-002",
+      "severity": "HIGH",
+      "title": "Convergent investigative indicators: Electronic City",
+      "entity_id": "ent_00537_004",
+      "score": 0.97,
+      "reasons": [
+        "Electronic City appears connected to 9 other extracted entities across the uploaded documents (Sanjay Verma, Neha Joshi, Electronic City, Bengaluru, Electronic City, Bengaluru, Karnataka).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00537-003",
+      "severity": "MEDIUM",
+      "title": "Convergent investigative indicators: Neha Joshi",
+      "entity_id": "ent_00537_010",
+      "score": 0.82,
+      "reasons": [
+        "Neha Joshi appears connected to 4 other extracted entities across the uploaded documents (Electronic City, Electronic City, Bengaluru, Karnataka, Bengaluru, Karnataka).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    },
+    {
+      "id": "ALERT-CASE-2026-00537-004",
+      "severity": "MEDIUM",
+      "title": "Convergent investigative indicators: Sanjay Verma",
+      "entity_id": "ent_00537_001",
+      "score": 0.74,
+      "reasons": [
+        "Sanjay Verma appears connected to 3 other extracted entities across the uploaded documents (Arjun Mehta, Electronic City, Narcotics).",
+        "AI-generated investigative indicator based on document co-occurrence and pattern extraction — a lead to corroborate, not proof of wrongdoing."
+      ]
+    }
   ]
 }

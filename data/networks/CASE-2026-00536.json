@@ -1,0 +1,766 @@
+{
+  "nodes": [
+    {
+      "id": "ent_00536_001",
+      "label": "123456789012",
+      "type": "ACCOUNT",
+      "community": 0,
+      "centrality": 0.273,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_002",
+      "label": "Vikram Singh",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 1.0,
+      "confidence": 0.95,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.35
+    },
+    {
+      "id": "ent_00536_003",
+      "label": "Rs. 5,00,000",
+      "type": "MONEY",
+      "community": 0,
+      "centrality": 0.273,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_004",
+      "label": "Vertex Traders Pvt Ltd",
+      "type": "ORGANIZATION",
+      "community": 0,
+      "centrality": 0.636,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_005",
+      "label": "Sanjay Verma",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 1.0,
+      "confidence": 0.95,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.35
+    },
+    {
+      "id": "ent_00536_006",
+      "label": "Laundering",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.182,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_007",
+      "label": "Money Laundering",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.182,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_008",
+      "label": "Whitefield, Bengaluru",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.455,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_009",
+      "label": "Whitefield",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.545,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_010",
+      "label": "Bengaluru",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 1.0,
+      "confidence": 0.95,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.35
+    },
+    {
+      "id": "ent_00536_011",
+      "label": "KA01AB1234",
+      "type": "VEHICLE",
+      "community": 0,
+      "centrality": 0.091,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_012",
+      "label": "9812345678",
+      "type": "PHONE",
+      "community": 0,
+      "centrality": 0.182,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_013",
+      "label": "Pistol",
+      "type": "WEAPON",
+      "community": 0,
+      "centrality": 0.364,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_014",
+      "label": "Country-Made Pistol",
+      "type": "WEAPON",
+      "community": 0,
+      "centrality": 0.273,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_015",
+      "label": "9876543210",
+      "type": "PHONE",
+      "community": 0,
+      "centrality": 0.091,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_016",
+      "label": "Koramangala, Bengaluru, Karnataka",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.364,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_017",
+      "label": "Karnataka",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.364,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_018",
+      "label": "Koramangala",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.364,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_019",
+      "label": "Rajesh Kumar",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.455,
+      "confidence": 0.85,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_020",
+      "label": "Cheating",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.182,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00536_021",
+      "label": "Fraud",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.273,
+      "confidence": 0.85,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    }
+  ],
+  "edges": [
+    {
+      "id": "REL_00536_001",
+      "source": "ent_00536_001",
+      "target": "ent_00536_002",
+      "type": "OWNS",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Account number 123456789012 is registered to Vikram Singh.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_002",
+      "source": "ent_00536_001",
+      "target": "ent_00536_003",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "An amount of Rs. 5,00,000 was transferred from account number 123456789012 to an account held by M/s Vertex Traders Pvt Ltd.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_003",
+      "source": "ent_00536_001",
+      "target": "ent_00536_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "An amount of Rs. 5,00,000 was transferred from account number 123456789012 to an account held by M/s Vertex Traders Pvt Ltd.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_004",
+      "source": "ent_00536_003",
+      "target": "ent_00536_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "An amount of Rs. 5,00,000 was transferred from account number 123456789012 to an account held by M/s Vertex Traders Pvt Ltd.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_005",
+      "source": "ent_00536_005",
+      "target": "ent_00536_004",
+      "type": "AFFILIATED_WITH",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Sanjay Verma is a signatory of M/s Vertex Traders Pvt Ltd.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_006",
+      "source": "ent_00536_005",
+      "target": "ent_00536_006",
+      "type": "ACCUSED_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Sanjay Verma is accused of money laundering under the ongoing investigation.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_007",
+      "source": "ent_00536_005",
+      "target": "ent_00536_007",
+      "type": "ACCUSED_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Sanjay Verma is accused of money laundering under the ongoing investigation.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_008",
+      "source": "ent_00536_006",
+      "target": "ent_00536_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Sanjay Verma is accused of money laundering under the ongoing investigation.",
+      "source_document_id": "financial_statement.docx"
+    },
+    {
+      "id": "REL_00536_009",
+      "source": "ent_00536_004",
+      "target": "ent_00536_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_010",
+      "source": "ent_00536_004",
+      "target": "ent_00536_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_011",
+      "source": "ent_00536_004",
+      "target": "ent_00536_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_012",
+      "source": "ent_00536_004",
+      "target": "ent_00536_002",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_013",
+      "source": "ent_00536_004",
+      "target": "ent_00536_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_014",
+      "source": "ent_00536_008",
+      "target": "ent_00536_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_015",
+      "source": "ent_00536_008",
+      "target": "ent_00536_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_016",
+      "source": "ent_00536_008",
+      "target": "ent_00536_002",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_017",
+      "source": "ent_00536_008",
+      "target": "ent_00536_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_018",
+      "source": "ent_00536_009",
+      "target": "ent_00536_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_019",
+      "source": "ent_00536_009",
+      "target": "ent_00536_002",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_020",
+      "source": "ent_00536_009",
+      "target": "ent_00536_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_021",
+      "source": "ent_00536_010",
+      "target": "ent_00536_002",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_022",
+      "source": "ent_00536_010",
+      "target": "ent_00536_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_023",
+      "source": "ent_00536_002",
+      "target": "ent_00536_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh and Sanjay Verma were observed meeting near the Vertex Traders Pvt Ltd office in Whitefield, Bengaluru.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_024",
+      "source": "ent_00536_011",
+      "target": "ent_00536_005",
+      "type": "OWNS",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "The vehicle KA01AB1234 registered to Sanjay Verma was seen parked outside the office.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_025",
+      "source": "ent_00536_002",
+      "target": "ent_00536_012",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh contacted Sanjay Verma using phone number 9812345678 shortly after the meeting.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_026",
+      "source": "ent_00536_005",
+      "target": "ent_00536_012",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh contacted Sanjay Verma using phone number 9812345678 shortly after the meeting.",
+      "source_document_id": "surveillance_report.pdf"
+    },
+    {
+      "id": "REL_00536_027",
+      "source": "ent_00536_005",
+      "target": "ent_00536_013",
+      "type": "USED_WEAPON",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was found at the Vertex Traders Pvt Ltd premises in Whitefield, Bengaluru and carried a country-made pistol during the raid..",
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "REL_00536_028",
+      "source": "ent_00536_005",
+      "target": "ent_00536_014",
+      "type": "USED_WEAPON",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was found at the Vertex Traders Pvt Ltd premises in Whitefield, Bengaluru and carried a country-made pistol during the raid..",
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "REL_00536_029",
+      "source": "ent_00536_009",
+      "target": "ent_00536_013",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was found at the Vertex Traders Pvt Ltd premises in Whitefield, Bengaluru and carried a country-made pistol during the raid..",
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "REL_00536_030",
+      "source": "ent_00536_010",
+      "target": "ent_00536_013",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was found at the Vertex Traders Pvt Ltd premises in Whitefield, Bengaluru and carried a country-made pistol during the raid..",
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "REL_00536_031",
+      "source": "ent_00536_010",
+      "target": "ent_00536_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was found at the Vertex Traders Pvt Ltd premises in Whitefield, Bengaluru and carried a country-made pistol during the raid..",
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "REL_00536_032",
+      "source": "ent_00536_013",
+      "target": "ent_00536_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was found at the Vertex Traders Pvt Ltd premises in Whitefield, Bengaluru and carried a country-made pistol during the raid..",
+      "source_document_id": "raid_notes.json"
+    },
+    {
+      "id": "REL_00536_033",
+      "source": "ent_00536_019",
+      "target": "ent_00536_016",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_034",
+      "source": "ent_00536_019",
+      "target": "ent_00536_010",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_035",
+      "source": "ent_00536_019",
+      "target": "ent_00536_017",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_036",
+      "source": "ent_00536_019",
+      "target": "ent_00536_018",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_037",
+      "source": "ent_00536_016",
+      "target": "ent_00536_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_038",
+      "source": "ent_00536_016",
+      "target": "ent_00536_017",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_039",
+      "source": "ent_00536_016",
+      "target": "ent_00536_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_040",
+      "source": "ent_00536_010",
+      "target": "ent_00536_017",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_041",
+      "source": "ent_00536_010",
+      "target": "ent_00536_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_042",
+      "source": "ent_00536_017",
+      "target": "ent_00536_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Rajesh Kumar, resident of Koramangala, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_043",
+      "source": "ent_00536_002",
+      "target": "ent_00536_015",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "The complainant stated that he was contacted by the accused Vikram Singh using phone number 9876543210.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_044",
+      "source": "ent_00536_002",
+      "target": "ent_00536_004",
+      "type": "AFFILIATED_WITH",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh is the director of M/s Vertex Traders Pvt Ltd, an organisation registered in Whitefield, Bengaluru.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_045",
+      "source": "ent_00536_002",
+      "target": "ent_00536_003",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "An amount of Rs. 5,00,000 was transferred from account number 123456789012 to another account held by Vikram Singh.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_046",
+      "source": "ent_00536_002",
+      "target": "ent_00536_020",
+      "type": "ACCUSED_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh is accused of fraud and cheating under the FIR.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_047",
+      "source": "ent_00536_002",
+      "target": "ent_00536_021",
+      "type": "ACCUSED_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh is accused of fraud and cheating under the FIR.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_048",
+      "source": "ent_00536_020",
+      "target": "ent_00536_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Vikram Singh is accused of fraud and cheating under the FIR.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "REL_00536_049",
+      "source": "ent_00536_019",
+      "target": "ent_00536_021",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Rajesh Kumar is the victim of this fraud.",
+      "source_document_id": "fir_report.txt"
+    },
+    {
+      "id": "PRED_00536_050",
+      "source": "ent_00536_008",
+      "target": "ent_00536_013",
+      "type": "PREDICTED",
+      "confidence": 0.89,
+      "status": "predicted",
+      "evidence_text": "Whitefield, Bengaluru and Pistol are not directly linked in the data, but share 3 common connection(s) and a high structural similarity score (0.89) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00536_051",
+      "source": "ent_00536_009",
+      "target": "ent_00536_014",
+      "type": "PREDICTED",
+      "confidence": 0.89,
+      "status": "predicted",
+      "evidence_text": "Whitefield and Country-Made Pistol are not directly linked in the data, but share 3 common connection(s) and a high structural similarity score (0.89) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00536_052",
+      "source": "ent_00536_004",
+      "target": "ent_00536_013",
+      "type": "PREDICTED",
+      "confidence": 0.86,
+      "status": "predicted",
+      "evidence_text": "Vertex Traders Pvt Ltd and Pistol are not directly linked in the data, but share 3 common connection(s) and a high structural similarity score (0.86) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00536_053",
+      "source": "ent_00536_002",
+      "target": "ent_00536_013",
+      "type": "PREDICTED",
+      "confidence": 0.84,
+      "status": "predicted",
+      "evidence_text": "Vikram Singh and Pistol are not directly linked in the data, but share 3 common connection(s) and a high structural similarity score (0.84) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00536_054",
+      "source": "ent_00536_008",
+      "target": "ent_00536_012",
+      "type": "PREDICTED",
+      "confidence": 0.79,
+      "status": "predicted",
+      "evidence_text": "Whitefield, Bengaluru and 9812345678 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.79) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00536_055",
+      "source": "ent_00536_001",
+      "target": "ent_00536_008",
+      "type": "PREDICTED",
+      "confidence": 0.78,
+      "status": "predicted",
+      "evidence_text": "123456789012 and Whitefield, Bengaluru are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.78) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    }
+  ]
+}

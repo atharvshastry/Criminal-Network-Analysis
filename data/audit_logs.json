@@ -258,5 +258,289 @@
     "target_id": "E-CASE-2026-00533-FIR",
     "session_id": "SESSION-Officer001-20260918173649471777",
     "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T05:06:12.104859Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260918173649471777",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T05:07:53.478941Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "E-CASE-2026-00452-FIR",
+    "session_id": "SESSION-Officer001-20260918173649471777",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T05:36:14.018422Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260918173649471777",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T05:37:06.612324Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "E-CASE-2026-00478-FIR",
+    "session_id": "SESSION-Officer001-20260918173649471777",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T05:48:54.751044Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260918173649471777",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T07:48:57.001985Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "LOGOUT",
+    "case_id": null,
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260918173649471777",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T07:49:14.564958Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "LOGIN",
+    "case_id": null,
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T07:49:33.339209Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00533",
+    "target_id": "CASE-2026-00533",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-19T08:01:38.704619Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T15:37:43.208740Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-CASE-2026-00534-UPLOAD",
+    "timestamp": "2026-09-20T16:31:29.820609Z",
+    "action": "CREATE_CASE_FROM_UPLOAD",
+    "case_id": "CASE-2026-00534",
+    "metadata": {
+      "title": "Raid",
+      "file_count": 5,
+      "filenames": [
+        "financial_statement.docx",
+        "surveillance_report.pdf",
+        "raid_notes.json",
+        "contacts.csv",
+        "fir_report.txt"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-20T16:31:29.916142Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00534",
+    "target_id": "CASE-2026-00534",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T16:40:36.011457Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00533",
+    "target_id": "CASE-2026-00533",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T16:40:42.872413Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00534",
+    "target_id": "CASE-2026-00534",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-CASE-2026-00535-UPLOAD",
+    "timestamp": "2026-09-20T17:03:55.410368Z",
+    "action": "CREATE_CASE_FROM_UPLOAD",
+    "case_id": "CASE-2026-00535",
+    "metadata": {
+      "title": "NEW CASE",
+      "file_count": 3,
+      "filenames": [
+        "single_case_report.pdf",
+        "single_case_report.txt",
+        "single_case_report.docx"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-20T17:03:55.487872Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00535",
+    "target_id": "CASE-2026-00535",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T17:27:24.403780Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00534",
+    "target_id": "CASE-2026-00534",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-CASE-2026-00536-UPLOAD",
+    "timestamp": "2026-09-20T17:33:08.463175Z",
+    "action": "CREATE_CASE_FROM_UPLOAD",
+    "case_id": "CASE-2026-00536",
+    "metadata": {
+      "title": "CASE A",
+      "file_count": 5,
+      "filenames": [
+        "financial_statement.docx",
+        "surveillance_report.pdf",
+        "raid_notes.json",
+        "contacts.csv",
+        "fir_report.txt"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-20T17:33:08.534512Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00536",
+    "target_id": "CASE-2026-00536",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-CASE-2026-00537-UPLOAD",
+    "timestamp": "2026-09-20T17:33:31.431148Z",
+    "action": "CREATE_CASE_FROM_UPLOAD",
+    "case_id": "CASE-2026-00537",
+    "metadata": {
+      "title": "CASE B",
+      "file_count": 3,
+      "filenames": [
+        "raid_notes_b.json",
+        "associates_b.csv",
+        "fir_report_b.txt"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-20T17:33:31.504047Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T17:33:51.491447Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00536",
+    "target_id": "CASE-2026-00536",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T17:34:53.961047Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T17:36:01.863257Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00536",
+    "target_id": "CASE-2026-00536",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T17:39:53.672358Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-20T17:46:17.348885Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00536",
+    "target_id": "CASE-2026-00536",
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "metadata": {}
   }
 ]

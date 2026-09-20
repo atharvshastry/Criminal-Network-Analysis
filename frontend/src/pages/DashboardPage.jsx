@@ -4,9 +4,9 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
 import CaseSelectionRequiredModal from "../components/auth/CaseSelectionRequiredModal";
 import useAuth from "../hooks/useAuth";
+import useCase from "../hooks/useCase";
 import {
   fetchAlerts,
-  fetchCases,
   fetchDashboard,
   fetchEvidence,
   fetchNetwork,
@@ -47,16 +47,11 @@ function formatTimestamp(rawTimestamp) {
 export default function DashboardPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
-  const caseId = searchParams.get("caseId") || "";
+  const { caseId, cases: caseOptions, casesLoading } = useCase();
   const seniorFeature = searchParams.get("seniorFeature") || "";
   const { user, role } = useAuth();
   const isSenior = role === "senior";
   const [data, setData] = React.useState(null);
-  const [caseOptions, setCaseOptions] = React.useState([]);
-  const [inventoryStats, setInventoryStats] = React.useState({
-    totalCases: null,
-    highPriorityCases: null,
-  });
   const [caseAlerts, setCaseAlerts] = React.useState([]);
   const [caseNetwork, setCaseNetwork] = React.useState(null);
   const [caseEvidence, setCaseEvidence] = React.useState([]);
@@ -66,33 +61,16 @@ export default function DashboardPage() {
   const [verificationState, setVerificationState] = React.useState({});
   const [error, setError] = React.useState("");
 
-  React.useEffect(() => {
-    let ignore = false;
-
-    setData(null);
-    setError("");
-
-    fetchCases()
-      .then((cases) => {
-        if (!ignore) {
-          setCaseOptions(cases);
-          setInventoryStats({
-            totalCases: cases.length,
-            highPriorityCases: cases.filter((caseItem) => String(caseItem.priority || "").trim().toLowerCase() === "high").length,
-          });
-        }
-      })
-      .catch(() => {
-        if (!ignore) {
-          setCaseOptions([]);
-          setInventoryStats({ totalCases: 0, highPriorityCases: 0 });
-        }
-      });
-
-    return () => {
-      ignore = true;
-    };
-  }, []);
+  const inventoryStats = React.useMemo(
+    () =>
+      casesLoading
+        ? { totalCases: null, highPriorityCases: null }
+        : {
+            totalCases: caseOptions.length,
+            highPriorityCases: caseOptions.filter((caseItem) => String(caseItem.priority || "").trim().toLowerCase() === "high").length,
+          },
+    [caseOptions, casesLoading],
+  );
 
   React.useEffect(() => {
     let ignore = false;
@@ -198,29 +176,15 @@ export default function DashboardPage() {
     }).catch(() => undefined);
   }, [caseId, user, isSenior]);
 
-  const handleCaseChange = (event) => {
-    const nextCaseId = event.target.value;
-    if (user && nextCaseId) {
-      postAuditLog({
-        officer_id: user.id,
-        role: user.role,
-        action: "SELECT_CASE",
-        case_id: nextCaseId,
-        target_id: nextCaseId,
-      }).catch(() => undefined);
-    }
-    setSearchParams(nextCaseId ? { caseId: nextCaseId } : {});
-  };
-
   const closeCaseSelectionWarning = () => {
-    setSearchParams(caseId ? { caseId } : {});
+    setSearchParams({});
   };
 
   const selectedCase = caseOptions.find((item) => item.id === caseId);
   const selectedCaseTitle = selectedCase?.title || data?.case_title;
   const caseContext = caseId && selectedCaseTitle
     ? `${caseId} — ${selectedCaseTitle}`
-    : "Select a case to begin investigation.";
+    : "Select a case from the top bar to begin investigation.";
 
   const seniorCommandStats = React.useMemo(() => {
     const totalCases = caseOptions.length;
@@ -304,26 +268,16 @@ export default function DashboardPage() {
 
   const handleEvidenceView = (record) => {
     if (!record?.id || !caseId) return;
-    navigate(`/evidence?caseId=${encodeURIComponent(caseId)}&evidenceId=${encodeURIComponent(record.id)}`);
+    navigate(`/evidence?evidenceId=${encodeURIComponent(record.id)}`);
   };
 
   const handleEvidenceInventory = () => {
     if (!caseId) return;
-    navigate(`/evidence?caseId=${encodeURIComponent(caseId)}`);
+    navigate("/evidence");
   };
 
   return (
-    <AppLayout title="Dashboard" subtitle="Operational overview" actions={(
-      <label className="network-case-selector" htmlFor="dashboard-case-select">
-        <span>SELECT CASE</span>
-        <select id="dashboard-case-select" value={caseId} onChange={handleCaseChange}>
-          <option value="">Select Case</option>
-          {caseOptions.map((item) => (
-            <option key={item.id} value={item.id}>{item.id} — {item.title}</option>
-          ))}
-        </select>
-      </label>
-    )}>
+    <AppLayout title="Dashboard" subtitle="Operational overview">
       <div className="panel-copy dashboard-case-context">{caseContext}</div>
       {error ? <div className="state-panel error">{error}</div> : null}
       {!data ? <div className="state-panel">Loading case intelligence...</div> : null}

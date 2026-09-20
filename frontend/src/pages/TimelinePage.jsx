@@ -1,7 +1,8 @@
 import React from "react";
-import { NavLink, useSearchParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
-import { fetchCases, fetchEntities, fetchTimeline } from "../services/api";
+import useCase from "../hooks/useCase";
+import { fetchEntities, fetchTimeline } from "../services/api";
 
 function formatTimestamp(value) {
   if (!value) return "Time unavailable";
@@ -17,27 +18,11 @@ function formatTimestamp(value) {
 }
 
 export default function TimelinePage() {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const caseId = searchParams.get("caseId") || "";
-  const [cases, setCases] = React.useState([]);
+  const { caseId, cases } = useCase();
   const [events, setEvents] = React.useState([]);
   const [entityIndex, setEntityIndex] = React.useState({});
   const [loading, setLoading] = React.useState(Boolean(caseId));
   const [error, setError] = React.useState("");
-
-  React.useEffect(() => {
-    let ignore = false;
-    fetchCases()
-      .then((payload) => {
-        if (!ignore) setCases(payload || []);
-      })
-      .catch(() => {
-        if (!ignore) setCases([]);
-      });
-    return () => {
-      ignore = true;
-    };
-  }, []);
 
   React.useEffect(() => {
     let ignore = false;
@@ -78,32 +63,13 @@ export default function TimelinePage() {
     };
   }, [caseId]);
 
-  const handleCaseChange = (event) => {
-    const nextCaseId = event.target.value;
-    setSearchParams(nextCaseId ? { caseId: nextCaseId } : {});
-  };
-
   const selectedCaseTitle = cases.find((item) => item.id === caseId)?.title;
 
   return (
-    <AppLayout
-      title="Timeline"
-      subtitle="Chronological case events"
-      actions={(
-        <label className="network-case-selector" htmlFor="timeline-case-select">
-          <span>SELECT CASE</span>
-          <select id="timeline-case-select" value={caseId} onChange={handleCaseChange}>
-            <option value="">Select Case</option>
-            {cases.map((item) => (
-              <option key={item.id} value={item.id}>{item.id} — {item.title}</option>
-            ))}
-          </select>
-        </label>
-      )}
-    >
+    <AppLayout title="Timeline" subtitle="Chronological case events">
       <section className="panel">
         {!caseId ? (
-          <div className="state-panel">Select a case to view its timeline.</div>
+          <div className="state-panel">Select a case from the top bar to view its timeline.</div>
         ) : loading ? (
           <div className="state-panel">Loading timeline...</div>
         ) : error ? (
@@ -134,7 +100,7 @@ export default function TimelinePage() {
                           <NavLink
                             key={entityId}
                             className="inline-link"
-                            to={`/entities/${entityId}?caseId=${encodeURIComponent(caseId)}`}
+                            to={`/entities/${entityId}`}
                           >
                             {entity ? entity.name : entityId}
                           </NavLink>

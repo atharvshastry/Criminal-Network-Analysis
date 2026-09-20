@@ -1,19 +1,21 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
-import { fetchCases } from "../services/api";
+import useCase from "../hooks/useCase";
 
 export default function CasesPage() {
-  const [cases, setCases] = React.useState([]);
-
-  React.useEffect(() => {
-    fetchCases()
-      .then(setCases)
-      .catch(() => setCases([]));
-  }, []);
+  const { cases, setCaseId } = useCase();
 
   return (
-    <AppLayout title="Cases" subtitle="Live case inventory">
+    <AppLayout
+      title="Cases"
+      subtitle="Live case inventory"
+      actions={
+        <NavLink to="/cases/new" className="primary-button compact">
+          + New Case
+        </NavLink>
+      }
+    >
       <section className="panel">
         <div className="table-wrap">
           <table className="data-table">
@@ -31,7 +33,7 @@ export default function CasesPage() {
               {cases.map((caseItem) => (
                 <tr key={caseItem.id}>
                   <td>
-                    <NavLink to={`/cases/${caseItem.id}`}>{caseItem.id}</NavLink>
+                    <NavLink to={`/cases/${caseItem.id}`} onClick={() => setCaseId(caseItem.id)}>{caseItem.id}</NavLink>
                   </td>
                   <td>{caseItem.title}</td>
                   <td>{caseItem.status}</td>

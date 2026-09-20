@@ -1,22 +1,17 @@
 import React from "react";
-import { Navigate, useSearchParams } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
+import useCase from "../../hooks/useCase";
 
 export default function SeniorFeatureRoute({ sectionId }) {
-  const [searchParams] = useSearchParams();
   const { role } = useAuth();
-  const caseId = searchParams.get("caseId") || "";
-  const query = new URLSearchParams();
+  const { caseId } = useCase();
 
   if (role !== "senior") {
     return <Navigate to="/" replace />;
   }
 
-  if (caseId) {
-    query.set("caseId", caseId);
-  } else {
-    query.set("seniorFeature", sectionId);
-  }
+  const query = caseId ? "" : `?seniorFeature=${encodeURIComponent(sectionId)}`;
 
-  return <Navigate to={`/?${query.toString()}#${sectionId}`} replace />;
+  return <Navigate to={`/${query}#${sectionId}`} replace />;
 }

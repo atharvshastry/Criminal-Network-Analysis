@@ -6,6 +6,7 @@ import SeniorFeatureRoute from "./components/auth/SeniorFeatureRoute";
 
 import DashboardPage from "./pages/DashboardPage";
 import CasesPage from "./pages/CasesPage";
+import NewCasePage from "./pages/NewCasePage";
 import CaseDetailPage from "./pages/CaseDetailPage";
 import NetworkExplorer from "./pages/NetworkExplorer";
 import EntitiesPage from "./pages/EntitiesPage";
@@ -33,6 +34,7 @@ export default function App() {
       <Route element={<ProtectedRoute />}>
         <Route path="/" element={<DashboardPage />} />
         <Route path="/cases" element={<CasesPage />} />
+        <Route path="/cases/new" element={<NewCasePage />} />
         <Route path="/cases/:id" element={<CaseRoute />} />
         <Route path="/network" element={<NetworkExplorer />} />
         <Route path="/entities" element={<EntitiesPage />} />

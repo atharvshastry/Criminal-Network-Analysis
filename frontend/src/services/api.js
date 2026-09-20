@@ -24,6 +24,34 @@ async function postJson(path, body) {
   return response.json();
 }
 
+export async function uploadCase({ title, priority = "Medium", status = "Active", files = [] }) {
+  const formData = new FormData();
+  formData.set("title", title);
+  formData.set("priority", priority);
+  formData.set("status", status);
+  for (const file of files) {
+    formData.append("files", file);
+  }
+
+  const response = await fetch(`${API_BASE_URL}/cases/upload`, {
+    method: "POST",
+    body: formData,
+  });
+
+  if (!response.ok) {
+    let detail = "Unable to create the case from the uploaded documents.";
+    try {
+      const payload = await response.json();
+      detail = payload?.detail || detail;
+    } catch {
+      // response body wasn't JSON -- fall back to the generic message
+    }
+    throw new Error(detail);
+  }
+
+  return response.json();
+}
+
 export async function fetchDashboard(caseId) {
   return fetchJson(caseId ? `/dashboard?case_id=${encodeURIComponent(caseId)}` : "/dashboard");
 }

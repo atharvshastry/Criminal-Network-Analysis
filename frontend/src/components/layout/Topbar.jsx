@@ -1,14 +1,20 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
+import useCase from "../../hooks/useCase";
 import { useTheme } from "../../context/ThemeContext";
 
 export default function Topbar({ title, subtitle, actions }) {
   const { user, logout } = useAuth();
   const { isDark, toggleTheme } = useTheme();
+  const { caseId, setCaseId, cases } = useCase();
   const navigate = useNavigate();
   const [showLogoutConfirmation, setShowLogoutConfirmation] = React.useState(false);
   const [isLoggingOut, setIsLoggingOut] = React.useState(false);
+
+  const handleCaseChange = (event) => {
+    setCaseId(event.target.value);
+  };
 
   const handleLogout = async () => {
     if (isLoggingOut) return;
@@ -34,6 +40,15 @@ export default function Topbar({ title, subtitle, actions }) {
       <div className="topbar-actions">
         {subtitle && <span className="topbar-subtitle">{subtitle}</span>}
         {actions}
+        <label className="network-case-selector topbar-case-selector" htmlFor="global-case-select">
+          <span>Active case</span>
+          <select id="global-case-select" value={caseId} onChange={handleCaseChange}>
+            <option value="">Select Case</option>
+            {cases.map((item) => (
+              <option key={item.id} value={item.id}>{item.id} — {item.title}</option>
+            ))}
+          </select>
+        </label>
         <button
           type="button"
           className="theme-toggle"

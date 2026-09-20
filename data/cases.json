@@ -25,5 +25,41 @@
     "entities": 16,
     "relationships": 22,
     "alerts": 5
+  },
+  {
+    "id": "CASE-2026-00534",
+    "title": "Raid",
+    "status": "Active",
+    "priority": "Medium",
+    "entities": 25,
+    "relationships": 81,
+    "alerts": 5
+  },
+  {
+    "id": "CASE-2026-00535",
+    "title": "NEW CASE",
+    "status": "Active",
+    "priority": "Medium",
+    "entities": 43,
+    "relationships": 206,
+    "alerts": 5
+  },
+  {
+    "id": "CASE-2026-00536",
+    "title": "CASE A",
+    "status": "Active",
+    "priority": "Medium",
+    "entities": 21,
+    "relationships": 55,
+    "alerts": 5
+  },
+  {
+    "id": "CASE-2026-00537",
+    "title": "CASE B",
+    "status": "Active",
+    "priority": "Medium",
+    "entities": 16,
+    "relationships": 39,
+    "alerts": 4
   }
 ]

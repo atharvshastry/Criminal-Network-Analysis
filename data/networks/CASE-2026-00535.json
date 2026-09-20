@@ -1,0 +1,2496 @@
+{
+  "nodes": [
+    {
+      "id": "ent_00535_001",
+      "label": "Police Station MP Nagar",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.346,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_002",
+      "label": "Madhya Pradesh District",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.423,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_003",
+      "label": "Market Road",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.731,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_004",
+      "label": "MP Nagar",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.423,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_005",
+      "label": "Bhopal",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 1.0,
+      "confidence": 0.95,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.35
+    },
+    {
+      "id": "ent_00535_006",
+      "label": "Nagar Police Station",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.423,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_007",
+      "label": "Madhya Pradesh District",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.423,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_008",
+      "label": "Bhopal Date",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.423,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_009",
+      "label": "Place Near Zone",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.346,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_010",
+      "label": "Market Road",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.731,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_011",
+      "label": "MP04 AB 7821",
+      "type": "VEHICLE",
+      "community": 0,
+      "centrality": 0.769,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_012",
+      "label": "Amit Verma",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.769,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_013",
+      "label": "Incident Summary The",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.269,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_014",
+      "label": "Rakesh Verma",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.615,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_015",
+      "label": "Toyota Fortuner",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.769,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_016",
+      "label": "Indore",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_017",
+      "label": "Entities Mentioned Complainant",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_018",
+      "label": "Bhopal Suspect",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_019",
+      "label": "Rohit Singh",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.654,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_020",
+      "label": "Mahendra Singh",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_021",
+      "label": "Indore Suspect",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_022",
+      "label": "Neeraj Yadav",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.654,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_023",
+      "label": "Suresh Yadav",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_024",
+      "label": "Bhopal Vehicle",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_025",
+      "label": "Sunrise Enterprises",
+      "type": "ORGANIZATION",
+      "community": 0,
+      "centrality": 0.385,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_026",
+      "label": "Information Witness",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.154,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_027",
+      "label": "Witness Information Witness",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.154,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_028",
+      "label": "Priya Sharma",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.154,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_029",
+      "label": "Mohit Jain",
+      "type": "PERSON",
+      "community": 1,
+      "centrality": 0.0,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_030",
+      "label": "Hoshangabad Road",
+      "type": "LOCATION",
+      "community": 2,
+      "centrality": 0.038,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_031",
+      "label": "Hoshangabad Road",
+      "type": "PERSON",
+      "community": 2,
+      "centrality": 0.038,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_032",
+      "label": "Telecommunication Indicators The",
+      "type": "PERSON",
+      "community": 3,
+      "centrality": 0.0,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_033",
+      "label": "rs",
+      "type": "MONEY",
+      "community": 4,
+      "centrality": 0.0,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_034",
+      "label": "Financial Transaction Indicators",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.038,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_035",
+      "label": "Robbery",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.308,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_036",
+      "label": "Theft",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.308,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_037",
+      "label": "Preliminary Relationship Map",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.308,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_038",
+      "label": "Referenced Items",
+      "type": "PERSON",
+      "community": 5,
+      "centrality": 0.0,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_039",
+      "label": "Investigating Officer Notes",
+      "type": "PERSON",
+      "community": 6,
+      "centrality": 0.0,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_040",
+      "label": "PERSON, ORG, LOC, PHONE",
+      "type": "LOCATION",
+      "community": 7,
+      "centrality": 0.0,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_041",
+      "label": "Classification Document",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.346,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_042",
+      "label": "Near Zone",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.346,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00535_043",
+      "label": "INFORMATION",
+      "type": "PERSON",
+      "community": 8,
+      "centrality": 0.0,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    }
+  ],
+  "edges": [
+    {
+      "id": "REL_00535_001",
+      "source": "ent_00535_001",
+      "target": "ent_00535_002",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_002",
+      "source": "ent_00535_001",
+      "target": "ent_00535_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_003",
+      "source": "ent_00535_001",
+      "target": "ent_00535_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_004",
+      "source": "ent_00535_001",
+      "target": "ent_00535_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_005",
+      "source": "ent_00535_001",
+      "target": "ent_00535_006",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_006",
+      "source": "ent_00535_001",
+      "target": "ent_00535_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_007",
+      "source": "ent_00535_001",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_008",
+      "source": "ent_00535_001",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_009",
+      "source": "ent_00535_001",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_010",
+      "source": "ent_00535_002",
+      "target": "ent_00535_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_011",
+      "source": "ent_00535_002",
+      "target": "ent_00535_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_012",
+      "source": "ent_00535_002",
+      "target": "ent_00535_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_013",
+      "source": "ent_00535_002",
+      "target": "ent_00535_006",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_014",
+      "source": "ent_00535_002",
+      "target": "ent_00535_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_015",
+      "source": "ent_00535_002",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_016",
+      "source": "ent_00535_002",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_017",
+      "source": "ent_00535_002",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_018",
+      "source": "ent_00535_003",
+      "target": "ent_00535_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_019",
+      "source": "ent_00535_003",
+      "target": "ent_00535_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_020",
+      "source": "ent_00535_003",
+      "target": "ent_00535_006",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_021",
+      "source": "ent_00535_003",
+      "target": "ent_00535_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_022",
+      "source": "ent_00535_003",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_023",
+      "source": "ent_00535_003",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_024",
+      "source": "ent_00535_003",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_025",
+      "source": "ent_00535_004",
+      "target": "ent_00535_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_026",
+      "source": "ent_00535_004",
+      "target": "ent_00535_006",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_027",
+      "source": "ent_00535_004",
+      "target": "ent_00535_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_028",
+      "source": "ent_00535_004",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_029",
+      "source": "ent_00535_004",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_030",
+      "source": "ent_00535_004",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_031",
+      "source": "ent_00535_005",
+      "target": "ent_00535_006",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_032",
+      "source": "ent_00535_005",
+      "target": "ent_00535_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_033",
+      "source": "ent_00535_005",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_034",
+      "source": "ent_00535_005",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_035",
+      "source": "ent_00535_005",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_036",
+      "source": "ent_00535_006",
+      "target": "ent_00535_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_037",
+      "source": "ent_00535_006",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_038",
+      "source": "ent_00535_006",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_039",
+      "source": "ent_00535_006",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_040",
+      "source": "ent_00535_007",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_041",
+      "source": "ent_00535_007",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_042",
+      "source": "ent_00535_007",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_043",
+      "source": "ent_00535_008",
+      "target": "ent_00535_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_044",
+      "source": "ent_00535_008",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_045",
+      "source": "ent_00535_009",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT\nSYNTHETIC TRAINING DATA - NOT A REAL POLICE RECORD\nFIR Number FIR-2026-00452\nPolice Station MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict Bhopal\nDate of FIR 18 October 2026\nDate of Incident 17 October 2026\nTime 21:15 hrs\nPlace Near Zone-I Market Road, MP Nagar, Bhopal\n1.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_046",
+      "source": "ent_00535_011",
+      "target": "ent_00535_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_047",
+      "source": "ent_00535_011",
+      "target": "ent_00535_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_048",
+      "source": "ent_00535_011",
+      "target": "ent_00535_012",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_049",
+      "source": "ent_00535_011",
+      "target": "ent_00535_013",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_050",
+      "source": "ent_00535_011",
+      "target": "ent_00535_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_051",
+      "source": "ent_00535_011",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_052",
+      "source": "ent_00535_011",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_053",
+      "source": "ent_00535_003",
+      "target": "ent_00535_012",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_054",
+      "source": "ent_00535_003",
+      "target": "ent_00535_013",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_055",
+      "source": "ent_00535_003",
+      "target": "ent_00535_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_056",
+      "source": "ent_00535_003",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_057",
+      "source": "ent_00535_005",
+      "target": "ent_00535_012",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_058",
+      "source": "ent_00535_005",
+      "target": "ent_00535_013",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_059",
+      "source": "ent_00535_005",
+      "target": "ent_00535_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_060",
+      "source": "ent_00535_005",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_061",
+      "source": "ent_00535_012",
+      "target": "ent_00535_013",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_062",
+      "source": "ent_00535_012",
+      "target": "ent_00535_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_063",
+      "source": "ent_00535_012",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_064",
+      "source": "ent_00535_012",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_065",
+      "source": "ent_00535_013",
+      "target": "ent_00535_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_066",
+      "source": "ent_00535_013",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_067",
+      "source": "ent_00535_013",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_068",
+      "source": "ent_00535_014",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_069",
+      "source": "ent_00535_014",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_070",
+      "source": "ent_00535_010",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complaint / Incident Summary\nThe complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near \nZone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration \nMP04 AB 7821.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_071",
+      "source": "ent_00535_011",
+      "target": "ent_00535_016",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_072",
+      "source": "ent_00535_011",
+      "target": "ent_00535_017",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_073",
+      "source": "ent_00535_011",
+      "target": "ent_00535_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_074",
+      "source": "ent_00535_011",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_075",
+      "source": "ent_00535_011",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_076",
+      "source": "ent_00535_011",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_077",
+      "source": "ent_00535_011",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_078",
+      "source": "ent_00535_011",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_079",
+      "source": "ent_00535_011",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_080",
+      "source": "ent_00535_016",
+      "target": "ent_00535_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_081",
+      "source": "ent_00535_016",
+      "target": "ent_00535_012",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_082",
+      "source": "ent_00535_016",
+      "target": "ent_00535_017",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_083",
+      "source": "ent_00535_016",
+      "target": "ent_00535_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_084",
+      "source": "ent_00535_016",
+      "target": "ent_00535_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_085",
+      "source": "ent_00535_016",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_086",
+      "source": "ent_00535_016",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_087",
+      "source": "ent_00535_016",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_088",
+      "source": "ent_00535_016",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_089",
+      "source": "ent_00535_016",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_090",
+      "source": "ent_00535_016",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_091",
+      "source": "ent_00535_016",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_092",
+      "source": "ent_00535_005",
+      "target": "ent_00535_017",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_093",
+      "source": "ent_00535_005",
+      "target": "ent_00535_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_094",
+      "source": "ent_00535_005",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_095",
+      "source": "ent_00535_005",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_096",
+      "source": "ent_00535_005",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_097",
+      "source": "ent_00535_005",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_098",
+      "source": "ent_00535_005",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_099",
+      "source": "ent_00535_005",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_100",
+      "source": "ent_00535_012",
+      "target": "ent_00535_017",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_101",
+      "source": "ent_00535_012",
+      "target": "ent_00535_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_102",
+      "source": "ent_00535_012",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_103",
+      "source": "ent_00535_012",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_104",
+      "source": "ent_00535_012",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_105",
+      "source": "ent_00535_012",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_106",
+      "source": "ent_00535_012",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_107",
+      "source": "ent_00535_012",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_108",
+      "source": "ent_00535_017",
+      "target": "ent_00535_014",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_109",
+      "source": "ent_00535_017",
+      "target": "ent_00535_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_110",
+      "source": "ent_00535_017",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_111",
+      "source": "ent_00535_017",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_112",
+      "source": "ent_00535_017",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_113",
+      "source": "ent_00535_017",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_114",
+      "source": "ent_00535_017",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_115",
+      "source": "ent_00535_017",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_116",
+      "source": "ent_00535_017",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_117",
+      "source": "ent_00535_014",
+      "target": "ent_00535_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_118",
+      "source": "ent_00535_014",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_119",
+      "source": "ent_00535_014",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_120",
+      "source": "ent_00535_014",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_121",
+      "source": "ent_00535_014",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_122",
+      "source": "ent_00535_014",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_123",
+      "source": "ent_00535_014",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_124",
+      "source": "ent_00535_018",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_125",
+      "source": "ent_00535_018",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_126",
+      "source": "ent_00535_018",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_127",
+      "source": "ent_00535_018",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_128",
+      "source": "ent_00535_018",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_129",
+      "source": "ent_00535_018",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_130",
+      "source": "ent_00535_018",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_131",
+      "source": "ent_00535_019",
+      "target": "ent_00535_020",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_132",
+      "source": "ent_00535_019",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_133",
+      "source": "ent_00535_019",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_134",
+      "source": "ent_00535_019",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_135",
+      "source": "ent_00535_019",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_136",
+      "source": "ent_00535_019",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_137",
+      "source": "ent_00535_020",
+      "target": "ent_00535_021",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_138",
+      "source": "ent_00535_020",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_139",
+      "source": "ent_00535_020",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_140",
+      "source": "ent_00535_020",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_141",
+      "source": "ent_00535_020",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_142",
+      "source": "ent_00535_021",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_143",
+      "source": "ent_00535_021",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_144",
+      "source": "ent_00535_021",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_145",
+      "source": "ent_00535_021",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_146",
+      "source": "ent_00535_022",
+      "target": "ent_00535_023",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_147",
+      "source": "ent_00535_022",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_148",
+      "source": "ent_00535_022",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_149",
+      "source": "ent_00535_023",
+      "target": "ent_00535_024",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_150",
+      "source": "ent_00535_023",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_151",
+      "source": "ent_00535_024",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Persons / Entities Mentioned\nComplainant : Amit Verma, S/o Rakesh Verma, Bhopal\nSuspect 1 : Rohit Singh, S/o Mahendra Singh, Indore\nSuspect 2 : Neeraj Yadav, S/o Suresh Yadav, Bhopal\nVehicle : Toyota Fortuner, registration MP04 AB 7821\nPhone linked to S1: +91-98XXXXXX41\nPhone linked to S2: +91-97XXXXXX82\nBank account ref.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_152",
+      "source": "ent_00535_025",
+      "target": "ent_00535_005",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": ": XXXXXX7842\nOrganisation : Sunrise Enterprises, Bhopal\n3.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_153",
+      "source": "ent_00535_003",
+      "target": "ent_00535_026",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_154",
+      "source": "ent_00535_003",
+      "target": "ent_00535_027",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_155",
+      "source": "ent_00535_003",
+      "target": "ent_00535_028",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_156",
+      "source": "ent_00535_026",
+      "target": "ent_00535_027",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_157",
+      "source": "ent_00535_026",
+      "target": "ent_00535_028",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_158",
+      "source": "ent_00535_026",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_159",
+      "source": "ent_00535_027",
+      "target": "ent_00535_028",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_160",
+      "source": "ent_00535_027",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_161",
+      "source": "ent_00535_028",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Witness Information\nWitness 1: Priya Sharma, shop employee near Zone-I Market Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_162",
+      "source": "ent_00535_030",
+      "target": "ent_00535_031",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "He stated that he heard an argument and later saw \nthe same vehicle leaving towards Hoshangabad Road.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_163",
+      "source": "ent_00535_025",
+      "target": "ent_00535_034",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Financial Transaction Indicators\nA simulated transaction trail records a transfer reference involving Sunrise Enterprises and account ending XXXXXX7842.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_164",
+      "source": "ent_00535_037",
+      "target": "ent_00535_035",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_165",
+      "source": "ent_00535_037",
+      "target": "ent_00535_036",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_166",
+      "source": "ent_00535_012",
+      "target": "ent_00535_035",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_167",
+      "source": "ent_00535_012",
+      "target": "ent_00535_036",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_168",
+      "source": "ent_00535_022",
+      "target": "ent_00535_035",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_169",
+      "source": "ent_00535_022",
+      "target": "ent_00535_036",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_170",
+      "source": "ent_00535_019",
+      "target": "ent_00535_035",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_171",
+      "source": "ent_00535_019",
+      "target": "ent_00535_036",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_172",
+      "source": "ent_00535_015",
+      "target": "ent_00535_035",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_173",
+      "source": "ent_00535_015",
+      "target": "ent_00535_036",
+      "type": "VICTIM_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_174",
+      "source": "ent_00535_011",
+      "target": "ent_00535_025",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_175",
+      "source": "ent_00535_011",
+      "target": "ent_00535_035",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_176",
+      "source": "ent_00535_011",
+      "target": "ent_00535_036",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_177",
+      "source": "ent_00535_011",
+      "target": "ent_00535_037",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_178",
+      "source": "ent_00535_025",
+      "target": "ent_00535_035",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_179",
+      "source": "ent_00535_025",
+      "target": "ent_00535_036",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_180",
+      "source": "ent_00535_025",
+      "target": "ent_00535_037",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_181",
+      "source": "ent_00535_025",
+      "target": "ent_00535_012",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_182",
+      "source": "ent_00535_025",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_183",
+      "source": "ent_00535_025",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_184",
+      "source": "ent_00535_025",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_185",
+      "source": "ent_00535_035",
+      "target": "ent_00535_036",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_186",
+      "source": "ent_00535_037",
+      "target": "ent_00535_012",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_187",
+      "source": "ent_00535_037",
+      "target": "ent_00535_022",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_188",
+      "source": "ent_00535_037",
+      "target": "ent_00535_019",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_189",
+      "source": "ent_00535_037",
+      "target": "ent_00535_015",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Preliminary Relationship Map\nAmit Verma -> complainant -> Sunrise Enterprises\nRohit Singh -> suspect -> phone +91-98XXXXXX41\nNeeraj Yadav -> suspect -> phone +91-97XXXXXX82\nRohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821\nRohit Singh <-> Neeraj Yadav -> repeated communication\nSunrise Enterprises -> financial transfer -> account XXXXXX7842\nAmit Verma -> victim of -> alleged armed robbery / theft incident\n7.",
+      "source_document_id": "single_case_report.pdf"
+    },
+    {
+      "id": "REL_00535_190",
+      "source": "ent_00535_004",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_191",
+      "source": "ent_00535_002",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_192",
+      "source": "ent_00535_003",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_193",
+      "source": "ent_00535_005",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_194",
+      "source": "ent_00535_006",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_195",
+      "source": "ent_00535_007",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_196",
+      "source": "ent_00535_008",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_197",
+      "source": "ent_00535_042",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "CASE IDENTIFICATION\nFIR Number : FIR-2026-00452\nPolice Station : MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict : Bhopal\nDate of FIR : 18 October 2026\nDate of Incident : 17 October 2026\nTime of Incident : 21:15 hrs\nPlace of Incident: Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.txt"
+    },
+    {
+      "id": "REL_00535_198",
+      "source": "ent_00535_004",
+      "target": "ent_00535_041",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_199",
+      "source": "ent_00535_002",
+      "target": "ent_00535_041",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_200",
+      "source": "ent_00535_003",
+      "target": "ent_00535_041",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_201",
+      "source": "ent_00535_005",
+      "target": "ent_00535_041",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_202",
+      "source": "ent_00535_041",
+      "target": "ent_00535_006",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_203",
+      "source": "ent_00535_041",
+      "target": "ent_00535_007",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_204",
+      "source": "ent_00535_041",
+      "target": "ent_00535_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_205",
+      "source": "ent_00535_041",
+      "target": "ent_00535_042",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    },
+    {
+      "id": "REL_00535_206",
+      "source": "ent_00535_041",
+      "target": "ent_00535_010",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Classification\nDocument type : FIR / investigation report\nReport type : FIR\nCase ID : FIR-2026-00452\nStatus : Simulated / fictional\nEND OF SIMULATED CASE REPORT\nFIR Number | FIR-2026-00452\nPolice Station | MP Nagar Police Station, Bhopal, Madhya Pradesh\nDistrict | Bhopal\nDate of FIR | 18 October 2026\nDate of Incident | 17 October 2026\nTime | 21:15 hrs\nPlace | Near Zone-I Market Road, MP Nagar, Bhopal",
+      "source_document_id": "single_case_report.docx"
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 import React from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
-import { fetchCases, fetchEvidence, postAuditLog, verifyEvidence } from "../services/api";
+import { fetchEvidence, postAuditLog, verifyEvidence } from "../services/api";
 import useAuth from "../hooks/useAuth";
+import useCase from "../hooks/useCase";
 
 const STATUS_TONE = {
   VERIFIED: "success",
@@ -146,11 +147,10 @@ async function computeDocumentHash(text) {
 }
 
 export default function EvidencePage() {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const navigate = useNavigate();
-  const caseId = searchParams.get("caseId") || "";
+  const { caseId, cases } = useCase();
   const { user } = useAuth();
-  const [cases, setCases] = React.useState([]);
   const [records, setRecords] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState("");
@@ -158,26 +158,6 @@ export default function EvidencePage() {
   const [selectedRecord, setSelectedRecord] = React.useState(null);
   const [documentHash, setDocumentHash] = React.useState("generated-from-document-content");
   const evidenceId = searchParams.get("evidenceId") || "";
-
-  React.useEffect(() => {
-    let ignore = false;
-
-    fetchCases()
-      .then((payload) => {
-        if (!ignore) {
-          setCases(payload || []);
-        }
-      })
-      .catch(() => {
-        if (!ignore) {
-          setCases([]);
-        }
-      });
-
-    return () => {
-      ignore = true;
-    };
-  }, []);
 
   React.useEffect(() => {
     let ignore = false;
@@ -252,11 +232,6 @@ export default function EvidencePage() {
 
   const selectedCase = cases.find((item) => item.id === caseId);
 
-  const handleCaseChange = (event) => {
-    const nextCaseId = event.target.value;
-    setSearchParams(nextCaseId ? { caseId: nextCaseId } : {});
-  };
-
   const handleVerificationToggle = async (record) => {
     if (!user || !record?.id || user.role !== "senior") return;
     const nextStatus = verification[record.id] === "VERIFIED" ? "REQUIRES_REVIEW" : "VERIFIED";
@@ -308,7 +283,7 @@ export default function EvidencePage() {
       edgeIds: Array.isArray(record?.relationship_ids) ? record.relationship_ids : [],
     };
     sessionStorage.setItem("trace-evidence-context", JSON.stringify(tracePayload));
-    navigate(`/network?caseId=${encodeURIComponent(caseId)}`);
+    navigate("/network");
   };
 
   const closeDocument = () => setSelectedRecord(null);
@@ -318,19 +293,10 @@ export default function EvidencePage() {
       <section className="panel">
         <div className="panel-header">
           <h2>Evidence inventory</h2>
-          <label className="network-case-selector" htmlFor="evidence-case-select">
-            <span>Select case</span>
-            <select id="evidence-case-select" value={caseId} onChange={handleCaseChange}>
-              <option value="">Select Case</option>
-              {cases.map((item) => (
-                <option key={item.id} value={item.id}>{item.id} — {item.title}</option>
-              ))}
-            </select>
-          </label>
         </div>
 
         {!caseId ? (
-          <p className="panel-copy">Select a case to review inventory, source records, and verification state.</p>
+          <p className="panel-copy">Select a case from the top bar to review inventory, source records, and verification state.</p>
         ) : loading ? (
           <div className="state-panel">Loading evidence...</div>
         ) : error ? (

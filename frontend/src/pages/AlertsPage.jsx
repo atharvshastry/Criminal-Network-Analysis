@@ -1,11 +1,10 @@
 import React from "react";
-import { useSearchParams } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
+import useCase from "../hooks/useCase";
 import { fetchAlerts } from "../services/api";
 
 export default function AlertsPage() {
-  const [searchParams] = useSearchParams();
-  const caseId = searchParams.get("caseId") || "";
+  const { caseId } = useCase();
   const [items, setItems] = React.useState([]);
 
   React.useEffect(() => {
@@ -16,7 +15,11 @@ export default function AlertsPage() {
 
   return (
     <AppLayout title="Alerts" subtitle="Investigative indicators">
-      {caseId && <div className="panel-copy">Case {caseId} · {items.length} alerts</div>}
+      {caseId ? (
+        <div className="panel-copy">Case {caseId} · {items.length} alerts</div>
+      ) : (
+        <div className="state-panel">Select a case from the top bar to view its alerts.</div>
+      )}
       <section className="alert-list">
         {items.map((alert) => (
           <article key={alert.id} className="alert-card">

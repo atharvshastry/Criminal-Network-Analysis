@@ -7,7 +7,7 @@ const SEVERITY_LEGEND = [
   { key: "LOW", label: "Low-risk entity", className: "legend-swatch-severity-low" },
 ];
 
-export default function NetworkLegend({ types, predictedCount = 0, alertedCount = 0 }) {
+export default function NetworkLegend({ types, predictedCount = 0, alertedCount = 0, crossCaseCount = 0 }) {
   const visibleTypes = types && types.length ? types : ENTITY_TYPES;
   return (
     <div className="network-legend-group">
@@ -19,7 +19,7 @@ export default function NetworkLegend({ types, predictedCount = 0, alertedCount 
           </div>
         ))}
       </div>
-      {(predictedCount > 0 || alertedCount > 0) && (
+      {(predictedCount > 0 || alertedCount > 0 || crossCaseCount > 0) && (
         <div className="network-legend network-legend-status" aria-label="Graph highlight legend">
           {predictedCount > 0 && (
             <div className="legend-item" title="A candidate link the AI inferred from network structure and evidence -- not a confirmed relationship.">
@@ -33,6 +33,12 @@ export default function NetworkLegend({ types, predictedCount = 0, alertedCount 
               <span>{item.label}</span>
             </div>
           ))}
+          {crossCaseCount > 0 && (
+            <div className="legend-item" title="This entity (phone, account, vehicle, handle, org, or name) also appears in at least one other active case.">
+              <span className="legend-swatch legend-swatch-ring legend-swatch-cross-case" />
+              <span>Linked to another case</span>
+            </div>
+          )}
         </div>
       )}
     </div>

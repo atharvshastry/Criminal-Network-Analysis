@@ -54,5 +54,25 @@
       "VIEW_EVIDENCE",
       "SELECT_CASE"
     ]
+  },
+  {
+    "session_id": "SESSION-Officer001-20260919074914406208",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "login_at": "2026-09-19T07:49:14.406138Z",
+    "logout_at": null,
+    "expired_at": "2026-09-19T08:04:20.089797Z",
+    "status": "EXPIRED",
+    "last_activity_at": "2026-09-19T08:03:15.115581Z",
+    "duration_seconds": 905,
+    "action_count": 3,
+    "case_ids": [
+      "CASE-2026-00533",
+      "CASE-2026-00478"
+    ],
+    "pages": [
+      "LOGIN",
+      "SELECT_CASE"
+    ]
   }
 ]

@@ -1,6 +1,7 @@
 import React from "react";
-import { NavLink, useNavigate, useSearchParams } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
+import useCase from "../../hooks/useCase";
 
 const baseNavItems = [
   { to: "/", label: "Dashboard" },
@@ -21,11 +22,10 @@ const seniorNavItems = [
 export default function Sidebar() {
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [searchParams] = useSearchParams();
+  const { caseId } = useCase();
   const isSenior = user?.role === "senior";
 
   const handleSeniorNavClick = (sectionId) => {
-    const caseId = searchParams.get("caseId") || "";
     if (!caseId) {
       navigate(`/?seniorFeature=${encodeURIComponent(sectionId)}`);
       return;
@@ -36,7 +36,7 @@ export default function Sidebar() {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
-    navigate(`/?caseId=${encodeURIComponent(caseId)}#${sectionId}`);
+    navigate(`/#${sectionId}`);
   };
 
   return (

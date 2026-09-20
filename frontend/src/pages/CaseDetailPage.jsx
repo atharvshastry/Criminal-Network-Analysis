@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
+import useCase from "../hooks/useCase";
 import { fetchAlerts, fetchCaseDetail, fetchEntities } from "../services/api";
 
 function CaseHeader({ caseItem }) {
@@ -46,12 +47,12 @@ function CaseStats({ caseItem }) {
   );
 }
 
-function CaseActions({ navigate, caseId }) {
+function CaseActions({ onOpenSection }) {
   return (
     <div className="action-row">
-      <button type="button" className="primary-button" onClick={() => navigate(`/network?caseId=${encodeURIComponent(caseId)}`)}>Explore Network</button>
-      <button type="button" className="secondary-button" onClick={() => navigate(`/alerts?caseId=${encodeURIComponent(caseId)}`)}>View Alerts</button>
-      <button type="button" className="secondary-button" onClick={() => navigate(`/entities?caseId=${encodeURIComponent(caseId)}`)}>View Entities</button>
+      <button type="button" className="primary-button" onClick={() => onOpenSection("/network")}>Explore Network</button>
+      <button type="button" className="secondary-button" onClick={() => onOpenSection("/alerts")}>View Alerts</button>
+      <button type="button" className="secondary-button" onClick={() => onOpenSection("/entities")}>View Entities</button>
     </div>
   );
 }
@@ -103,6 +104,7 @@ function InvestigativeLeads({ leads }) {
 export default function CaseDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { setCaseId } = useCase();
   const [caseItem, setCaseItem] = React.useState(null);
   const [importantEntities, setImportantEntities] = React.useState([]);
   const [caseAlerts, setCaseAlerts] = React.useState([]);
@@ -181,13 +183,20 @@ export default function CaseDetailPage() {
     );
   }
 
+  const openSection = (path) => {
+    // Opening a case's network/alerts/entities makes it the active case
+    // app-wide, so the destination page doesn't need to ask again.
+    setCaseId(caseItem.id);
+    navigate(path);
+  };
+
   return (
     <AppLayout title={caseItem.title} subtitle={`Case ${caseItem.id}`}>
       <section className="panel">
         <CaseHeader caseItem={caseItem} />
         <div className="case-overview-body">
           <CaseStats caseItem={caseItem} />
-          <CaseActions navigate={navigate} caseId={caseItem.id} />
+          <CaseActions onOpenSection={openSection} />
         </div>
       </section>
 

@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { useSearchParams } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
+import useCase from "../hooks/useCase";
 import { fetchEntities, fetchEntityDetail } from "../services/api";
 
 export default function EntityDetailPage({ id }) {
-  const [searchParams] = useSearchParams();
-  const caseId = searchParams.get("caseId") || "";
+  const { caseId } = useCase();
   const [entity, setEntity] = React.useState(null);
   const [error, setError] = React.useState("");
 
@@ -49,7 +48,7 @@ export default function EntityDetailPage({ id }) {
   }
 
   return (
-    <AppLayout title={entity.name} subtitle={entity.id} actions={<NavLink className="primary-button compact" to={caseId ? `/network?caseId=${encodeURIComponent(caseId)}` : "/network"}>View in network</NavLink>}>
+    <AppLayout title={entity.name} subtitle={entity.id} actions={<NavLink className="primary-button compact" to="/network">View in network</NavLink>}>
       <section className="panel">
         <div className="entity-type">{entity.type}</div>
         <h2>{entity.name}</h2>

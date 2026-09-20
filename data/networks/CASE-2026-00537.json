@@ -1,0 +1,556 @@
+{
+  "nodes": [
+    {
+      "id": "ent_00537_001",
+      "label": "Sanjay Verma",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.3,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_002",
+      "label": "Narcotics",
+      "type": "DRUG",
+      "community": 0,
+      "centrality": 0.5,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_003",
+      "label": "Arjun Mehta",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 1.0,
+      "confidence": 0.95,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.35
+    },
+    {
+      "id": "ent_00537_004",
+      "label": "Electronic City",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.9,
+      "confidence": 0.95,
+      "anomaly_flag": 1,
+      "anomaly_score": 0.35
+    },
+    {
+      "id": "ent_00537_007",
+      "label": "Electronic City, Bengaluru, Karnataka",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.4,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_008",
+      "label": "Bengaluru",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.7,
+      "confidence": 0.95,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_009",
+      "label": "Karnataka",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.4,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_010",
+      "label": "Neha Joshi",
+      "type": "PERSON",
+      "community": 0,
+      "centrality": 0.4,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_011",
+      "label": "9876543210",
+      "type": "PHONE",
+      "community": 0,
+      "centrality": 0.1,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_012",
+      "label": "KA01AB1234",
+      "type": "VEHICLE",
+      "community": 0,
+      "centrality": 0.4,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_013",
+      "label": "Electronic City, Bengaluru",
+      "type": "LOCATION",
+      "community": 0,
+      "centrality": 0.4,
+      "confidence": 0.85,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_014",
+      "label": "Vertex Traders Pvt Ltd",
+      "type": "ORGANIZATION",
+      "community": 0,
+      "centrality": 0.1,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_015",
+      "label": "123456789012",
+      "type": "ACCOUNT",
+      "community": 3,
+      "centrality": 0.1,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_016",
+      "label": "Rs. 2,50,000",
+      "type": "MONEY",
+      "community": 3,
+      "centrality": 0.1,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_017",
+      "label": "Trafficking",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.3,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    },
+    {
+      "id": "ent_00537_018",
+      "label": "Narcotics Trafficking",
+      "type": "CRIME",
+      "community": 0,
+      "centrality": 0.3,
+      "confidence": 0.75,
+      "anomaly_flag": 0,
+      "anomaly_score": 0.0
+    }
+  ],
+  "edges": [
+    {
+      "id": "REL_00537_001",
+      "source": "ent_00537_002",
+      "target": "ent_00537_001",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was identified as a supplier of vehicles used in narcotics transport and was seen coordinating with Arjun Mehta near Electronic City..",
+      "source_document_id": "raid_notes_b.json"
+    },
+    {
+      "id": "REL_00537_002",
+      "source": "ent_00537_002",
+      "target": "ent_00537_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was identified as a supplier of vehicles used in narcotics transport and was seen coordinating with Arjun Mehta near Electronic City..",
+      "source_document_id": "raid_notes_b.json"
+    },
+    {
+      "id": "REL_00537_003",
+      "source": "ent_00537_002",
+      "target": "ent_00537_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was identified as a supplier of vehicles used in narcotics transport and was seen coordinating with Arjun Mehta near Electronic City..",
+      "source_document_id": "raid_notes_b.json"
+    },
+    {
+      "id": "REL_00537_004",
+      "source": "ent_00537_001",
+      "target": "ent_00537_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was identified as a supplier of vehicles used in narcotics transport and was seen coordinating with Arjun Mehta near Electronic City..",
+      "source_document_id": "raid_notes_b.json"
+    },
+    {
+      "id": "REL_00537_005",
+      "source": "ent_00537_001",
+      "target": "ent_00537_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was identified as a supplier of vehicles used in narcotics transport and was seen coordinating with Arjun Mehta near Electronic City..",
+      "source_document_id": "raid_notes_b.json"
+    },
+    {
+      "id": "REL_00537_006",
+      "source": "ent_00537_003",
+      "target": "ent_00537_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "notes: Sanjay Verma was identified as a supplier of vehicles used in narcotics transport and was seen coordinating with Arjun Mehta near Electronic City..",
+      "source_document_id": "raid_notes_b.json"
+    },
+    {
+      "id": "REL_00537_007",
+      "source": "ent_00537_010",
+      "target": "ent_00537_007",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_008",
+      "source": "ent_00537_010",
+      "target": "ent_00537_008",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_009",
+      "source": "ent_00537_010",
+      "target": "ent_00537_009",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_010",
+      "source": "ent_00537_004",
+      "target": "ent_00537_007",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_011",
+      "source": "ent_00537_004",
+      "target": "ent_00537_008",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_012",
+      "source": "ent_00537_004",
+      "target": "ent_00537_009",
+      "type": "RESIDES_AT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_013",
+      "source": "ent_00537_007",
+      "target": "ent_00537_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_014",
+      "source": "ent_00537_007",
+      "target": "ent_00537_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_015",
+      "source": "ent_00537_008",
+      "target": "ent_00537_009",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_016",
+      "source": "ent_00537_010",
+      "target": "ent_00537_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Complainant: Neha Joshi, resident of Electronic City, Bengaluru, Karnataka.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_017",
+      "source": "ent_00537_003",
+      "target": "ent_00537_011",
+      "type": "CONTACT_NUMBER",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "The complainant reported suspicious activity involving the accused Arjun Mehta using phone number 9876543210.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_018",
+      "source": "ent_00537_012",
+      "target": "ent_00537_013",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_019",
+      "source": "ent_00537_012",
+      "target": "ent_00537_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_020",
+      "source": "ent_00537_012",
+      "target": "ent_00537_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_021",
+      "source": "ent_00537_012",
+      "target": "ent_00537_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_022",
+      "source": "ent_00537_013",
+      "target": "ent_00537_008",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_023",
+      "source": "ent_00537_013",
+      "target": "ent_00537_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_024",
+      "source": "ent_00537_013",
+      "target": "ent_00537_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_025",
+      "source": "ent_00537_008",
+      "target": "ent_00537_003",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_026",
+      "source": "ent_00537_008",
+      "target": "ent_00537_004",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta was found driving vehicle KA01AB1234 during a raid at Electronic City, Bengaluru.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_027",
+      "source": "ent_00537_003",
+      "target": "ent_00537_014",
+      "type": "AFFILIATED_WITH",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta is affiliated with M/s Vertex Traders Pvt Ltd, suspected of being used to launder drug proceeds.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_028",
+      "source": "ent_00537_015",
+      "target": "ent_00537_016",
+      "type": "INVOLVES_AMOUNT",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "An amount of Rs. 2,50,000 was transferred to account number 123456789012 linked to the operation.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_029",
+      "source": "ent_00537_003",
+      "target": "ent_00537_017",
+      "type": "ACCUSED_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta is accused of narcotics trafficking under the FIR.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_030",
+      "source": "ent_00537_003",
+      "target": "ent_00537_018",
+      "type": "ACCUSED_OF",
+      "confidence": 0.82,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta is accused of narcotics trafficking under the FIR.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_031",
+      "source": "ent_00537_002",
+      "target": "ent_00537_017",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta is accused of narcotics trafficking under the FIR.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_032",
+      "source": "ent_00537_002",
+      "target": "ent_00537_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta is accused of narcotics trafficking under the FIR.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "REL_00537_033",
+      "source": "ent_00537_017",
+      "target": "ent_00537_018",
+      "type": "MENTIONED_WITH",
+      "confidence": 0.45,
+      "status": "confirmed",
+      "evidence_text": "Arjun Mehta is accused of narcotics trafficking under the FIR.",
+      "source_document_id": "fir_report_b.txt"
+    },
+    {
+      "id": "PRED_00537_034",
+      "source": "ent_00537_001",
+      "target": "ent_00537_017",
+      "type": "PREDICTED",
+      "confidence": 0.81,
+      "status": "predicted",
+      "evidence_text": "Sanjay Verma and Trafficking are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.81) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00537_035",
+      "source": "ent_00537_001",
+      "target": "ent_00537_018",
+      "type": "PREDICTED",
+      "confidence": 0.81,
+      "status": "predicted",
+      "evidence_text": "Sanjay Verma and Narcotics Trafficking are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.81) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00537_036",
+      "source": "ent_00537_001",
+      "target": "ent_00537_012",
+      "type": "PREDICTED",
+      "confidence": 0.79,
+      "status": "predicted",
+      "evidence_text": "Sanjay Verma and KA01AB1234 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.79) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00537_037",
+      "source": "ent_00537_001",
+      "target": "ent_00537_013",
+      "type": "PREDICTED",
+      "confidence": 0.79,
+      "status": "predicted",
+      "evidence_text": "Sanjay Verma and Electronic City, Bengaluru are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.79) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00537_038",
+      "source": "ent_00537_007",
+      "target": "ent_00537_012",
+      "type": "PREDICTED",
+      "confidence": 0.78,
+      "status": "predicted",
+      "evidence_text": "Electronic City, Bengaluru, Karnataka and KA01AB1234 are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.78) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    },
+    {
+      "id": "PRED_00537_039",
+      "source": "ent_00537_007",
+      "target": "ent_00537_013",
+      "type": "PREDICTED",
+      "confidence": 0.78,
+      "status": "predicted",
+      "evidence_text": "Electronic City, Bengaluru, Karnataka and Electronic City, Bengaluru are not directly linked in the data, but share 2 common connection(s) and a high structural similarity score (0.78) — a candidate lead worth investigating, not a confirmed connection.",
+      "source_document_id": null
+    }
+  ]
+}

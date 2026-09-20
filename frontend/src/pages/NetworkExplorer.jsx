@@ -1,5 +1,4 @@
 import React from "react";
-import { useSearchParams } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
 import NetworkGraph from "../components/network/NetworkGraph";
 import NetworkToolbar from "../components/network/NetworkToolbar";
@@ -9,7 +8,8 @@ import RelationshipPanel from "../components/network/RelationshipPanel";
 import SearchResults from "../components/network/SearchResults";
 import SearchHistory from "../components/network/SearchHistory";
 import InvestigationSummary from "../components/network/InvestigationSummary";
-import { fetchAlerts, fetchCases, fetchCaseDetail, fetchEntities, fetchNetwork, searchSemantic, fetchEvidence } from "../services/api";
+import useCase from "../hooks/useCase";
+import { fetchAlerts, fetchCaseDetail, fetchEntities, fetchNetwork, searchSemantic, fetchEvidence } from "../services/api";
 
 const ZOOM_STEP = 0.2;
 const MIN_ZOOM = 0.2;
@@ -41,8 +41,7 @@ function getPhoneNumber(phoneNode) {
 }
 
 export default function NetworkExplorer() {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const caseId = searchParams.get("caseId") || "";
+  const { caseId, cases: caseOptions, setCaseId } = useCase();
   const [nodes, setNodes] = React.useState([]);
   const [edges, setEdges] = React.useState([]);
   const [alerts, setAlerts] = React.useState([]);
@@ -58,7 +57,6 @@ export default function NetworkExplorer() {
   const [selectedEdge, setSelectedEdge] = React.useState(null);
   const [graphCy, setGraphCy] = React.useState(null);
   const [currentZoom, setCurrentZoom] = React.useState(1);
-  const [caseOptions, setCaseOptions] = React.useState([]);
   const [caseItem, setCaseItem] = React.useState(null);
   const [searchHistory, setSearchHistory] = React.useState([]);
   const [evidenceRecords, setEvidenceRecords] = React.useState([]);
@@ -110,7 +108,6 @@ export default function NetworkExplorer() {
       setEvidenceLoading(false);
 
       try {
-        const availableCases = await fetchCases();
         let networkData = { nodes: [], edges: [] };
         let alertsData = [];
         let entitiesData = [];
@@ -129,7 +126,6 @@ export default function NetworkExplorer() {
           setNodes(networkData.nodes || []);
           setEdges(networkData.edges || []);
           setAlerts(alertsData || []);
-          setCaseOptions(availableCases || []);
           setCaseItem(detail);
           setEntityIndex(
             (entitiesData || []).reduce((accumulator, entity) => {
@@ -177,11 +173,6 @@ export default function NetworkExplorer() {
       ignore = true;
     };
   }, [caseId]);
-
-  const handleCaseChange = (event) => {
-    const nextCaseId = event.target.value;
-    setSearchParams(nextCaseId ? { caseId: nextCaseId } : {});
-  };
 
   const focusNode = React.useCallback(
     (match) => {
@@ -505,6 +496,8 @@ export default function NetworkExplorer() {
           relatedEntityId,
           relatedEntityLabel: relatedEntity?.label || relatedEntityId,
           confidence: edge.confidence,
+          status: edge.status,
+          evidenceText: edge.evidence_text,
         };
       });
   }, [edges, nodes, selectedNode]);
@@ -664,6 +657,19 @@ export default function NetworkExplorer() {
 
   const predictedCount = React.useMemo(() => edges.filter((edge) => edge.status === "predicted").length, [edges]);
 
+  const crossCaseCount = React.useMemo(() => nodes.filter((node) => node.cross_case?.length).length, [nodes]);
+
+  const selectedCrossCaseMatches = selectedNode?.cross_case || [];
+
+  const handleSwitchCase = React.useCallback(
+    (targetCaseId) => {
+      if (targetCaseId && targetCaseId !== caseId) {
+        setCaseId(targetCaseId);
+      }
+    },
+    [caseId, setCaseId],
+  );
+
   const SEVERITY_RANK = { LOW: 1, MEDIUM: 2, HIGH: 3 };
   const alertSeverityByNode = React.useMemo(() => {
     const map = {};
@@ -693,18 +699,9 @@ export default function NetworkExplorer() {
         <section className="network-case-context">
           <div>
             <div className="eyebrow">Relationship Graph Canvas</div>
-            <h2>{selectedCaseTitle || "Select Case"}</h2>
+            <h2>{selectedCaseTitle || "Select a case from the top bar"}</h2>
             {caseId && <p>{caseId}</p>}
           </div>
-          <label className="network-case-selector" htmlFor="network-case-select">
-            <span>Select Case</span>
-            <select id="network-case-select" value={caseId} onChange={handleCaseChange}>
-              <option value="">Select Case</option>
-              {caseOptions.map((option) => (
-                <option key={option.id} value={option.id}>{option.id} — {option.title}</option>
-              ))}
-            </select>
-          </label>
         </section>
         <section className="network-summary-grid">
           <div className="summary-card">
@@ -799,7 +796,7 @@ export default function NetworkExplorer() {
             <SearchHistory entries={searchHistory} onSelect={restoreSearch} />
 
             <div className="network-legend-row">
-              <NetworkLegend types={graphEntityTypes} predictedCount={predictedCount} alertedCount={Object.keys(alertSeverityByNode).length} />
+              <NetworkLegend types={graphEntityTypes} predictedCount={predictedCount} alertedCount={Object.keys(alertSeverityByNode).length} crossCaseCount={crossCaseCount} />
             </div>
 
             <div className="network-graph-shell">
@@ -863,6 +860,8 @@ export default function NetworkExplorer() {
                 evidenceLoading={evidenceLoading}
                 onTraceEvidence={handleTraceEvidence}
                 caseId={caseId}
+                crossCaseMatches={selectedCrossCaseMatches}
+                onSwitchCase={handleSwitchCase}
               />
             )}
             <InvestigationSummary

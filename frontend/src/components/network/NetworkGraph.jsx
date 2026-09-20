@@ -69,8 +69,9 @@ const EMPTY_FLAGGED_NODE_IDS = [];
 const EMPTY_ALERT_SEVERITY = {};
 const ALERT_SEVERITY_CLASS = { HIGH: "node-alert-high", MEDIUM: "node-alert-medium", LOW: "node-alert-low" };
 const ALL_ALERT_CLASSES = "node-alert-high node-alert-medium node-alert-low";
+const CROSS_CASE_CLASS = "node-cross-case";
 
-const RELATIONSHIP_LABELS = {
+export const RELATIONSHIP_LABELS = {
   ASSOCIATED_WITH: "Associated",
   FINANCIAL_TRANSACTION: "Financial",
   SEEN_AT: "Seen at",
@@ -85,10 +86,15 @@ const RELATIONSHIP_LABELS = {
   USED_WEAPON: "Used weapon",
   AFFILIATED_WITH: "Affiliated with",
   POSSESSES_DRUG: "Possesses",
+  ACCUSED_OF: "Accused of",
+  VICTIM_OF: "Victim of",
+  OCCURRED_AT: "Occurred at",
+  TRANSFERRED_TO: "Transferred to",
+  MENTIONED_WITH: "Mentioned with",
   PREDICTED: "Possible link (AI)",
 };
 
-function getRelationshipLabel(type) {
+export function getRelationshipLabel(type) {
   return RELATIONSHIP_LABELS[type] || type.replaceAll("_", " ").toLowerCase();
 }
 
@@ -262,6 +268,24 @@ export default function NetworkGraph({
             "text-background-shape": "roundrectangle",
             "text-background-padding": 3,
             "line-style": "solid",
+          },
+        },
+        {
+          // This entity (by phone/account/vehicle/handle/org, or by name for
+          // PERSON/ORGANIZATION) also appears in at least one OTHER active
+          // case -- a cross-case lead worth an investigator's attention.
+          // Deliberately a different visual channel (dashed teal border)
+          // from the alert-severity ring below, and placed earlier in this
+          // stylesheet so an investigative alert (rarer, more urgent) still
+          // wins the border styling on a node that happens to be both.
+          selector: ".node-cross-case",
+          style: {
+            "border-style": "dashed",
+            "border-color": "#0d9488",
+            "border-width": 3,
+            "shadow-color": "#0d9488",
+            "shadow-blur": 14,
+            "shadow-opacity": 0.45,
           },
         },
         {
@@ -494,6 +518,9 @@ export default function NetworkGraph({
       if (severityClass) {
         cy.$id(node.id).addClass(severityClass);
       }
+      if (node.cross_case?.length) {
+        cy.$id(node.id).addClass(CROSS_CASE_CLASS);
+      }
     });
     edges.forEach((edge) => {
       const element = cy.$id(edge.id);
@@ -542,11 +569,15 @@ export default function NetworkGraph({
 
     const cy = cyRef.current;
     cy.nodes().removeClass(ALL_ALERT_CLASSES);
+    cy.nodes().removeClass(CROSS_CASE_CLASS);
     cy.edges().removeClass("edge-flagged edge-important edge-predicted");
     nodes.forEach((node) => {
       const severityClass = ALERT_SEVERITY_CLASS[alertSeverityByNode[node.id]];
       if (severityClass) {
         cy.$id(node.id).addClass(severityClass);
+      }
+      if (node.cross_case?.length) {
+        cy.$id(node.id).addClass(CROSS_CASE_CLASS);
       }
     });
     edges.forEach((edge) => {
