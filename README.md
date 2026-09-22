@@ -9,9 +9,9 @@ React (frontend)
         |
       REST/JSON
         |
-FastAPI (backend)
+Node.js + Express.js (backend)
    |             |
-Mock JSON     PostgreSQL + Neo4j (next phase)
+Mock JSON     mongoDB + Neo4j (next phase)
    |
 AI/ML services (next phase)
 
