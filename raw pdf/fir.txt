@@ -1,0 +1,25 @@
+FIRST INFORMATION REPORT (FIR)
+
+Police Station: Koramangala Police Station, Bengaluru
+FIR Number: FIR-2026-00478
+Date of Registration: 3 November 2026
+
+Complainant:
+Name: Meera Nair
+Address: 14, 6th Cross, Koramangala, Bengaluru
+Mobile Number: 9845123456
+
+Incident Details:
+On 1 November 2026, Meera Nair received a call from mobile number 8899001122, in which the caller falsely claimed to represent the HDFC Bank customer support helpline and stated that her account required urgent KYC re-verification. The caller directed her to a message sent from the email address supportcare.hdfcbank@gmail.com and asked her to share a one-time password to "verify" her account. Acting on this instruction, Meera Nair unknowingly authorised a transaction, after which ₹8,40,000 was debited from her savings account number 552134 on 1 November 2026 and credited to account number 990211. Meera Nair stated that the funds were further moved the same day, with ₹7,10,000 transferred from account number 990211 to account number 114477.
+
+Digital Evidence:
+Meera Nair also recalled that the fraudulent instructions were amplified through a Telegram channel operating under the handle @HDFC_QuickHelp, which was used to send her a fake verification link matching the bank's official design.
+  
+Legal Information:
+The complaint has been registered under Section 318 (cheating) and Section 111 (organised crime) of the Bharatiya Nyaya Sanhita, 2023. Investigators have named Vikas Sharma and Ankit Pillai as accused persons in connection with the fraud. A statement was recorded from the complainant and forwarded for investigation under the Cyber Crime Cell, Bengaluru.
+
+Police Unit:
+Cyber Crime Cell, Koramangala Police Station, Bengaluru
+
+Case Status:
+Investigation is ongoing.

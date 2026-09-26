@@ -9,7 +9,7 @@ import SearchResults from "../components/network/SearchResults";
 import SearchHistory from "../components/network/SearchHistory";
 import InvestigationSummary from "../components/network/InvestigationSummary";
 import useCase from "../hooks/useCase";
-import { fetchAlerts, fetchCaseDetail, fetchEntities, fetchNetwork, searchSemantic, fetchEvidence } from "../services/api";
+import { fetchAlerts, fetchCaseDetail, fetchEntities, fetchNetwork, askAssistant, fetchEvidence } from "../services/api";
 
 const ZOOM_STEP = 0.2;
 const MIN_ZOOM = 0.2;
@@ -226,7 +226,7 @@ export default function NetworkExplorer() {
     setSemanticLoading(true);
     setSearchMessage("");
     setSemanticResult(null);
-    searchSemantic(trimmed, caseId)
+    askAssistant(trimmed, caseId)
       .then((result) => {
         setSearchHistory((current) => [{ id: `${Date.now()}-${trimmed}`, query: trimmed, intent: result.intent?.type || result.intent, result }, ...current.filter((entry) => entry.query !== trimmed)].slice(0, 8));
         setEvidenceRecords(result.evidence || []);

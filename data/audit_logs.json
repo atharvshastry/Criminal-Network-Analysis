@@ -542,5 +542,1507 @@
     "target_id": "CASE-2026-00536",
     "session_id": "SESSION-Officer001-20260919074914406208",
     "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T10:59:25.495940Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "LOGIN",
+    "case_id": null,
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T10:59:42.498752Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00536",
+    "target_id": "CASE-2026-00536",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T10:59:44.941371Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T11:00:18.947818Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T11:01:15.674481Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:08:26.189363Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:18:31.959203Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "which person are related in the case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:36:59.902368Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:39:01.242768Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:42:49.958555Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T11:54:44.520531Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:13:05.650289Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "LOGIN",
+    "case_id": null,
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924121305554696",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T12:13:11.681546Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260924121305554696",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T12:13:17.057261Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924121305554696",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:17:48.329112Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:21:04.833574Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:25:12.262687Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:28:09.660315Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:32:42.909743Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Who are the key people in this network?"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:39:07.555450Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Show AI-predicted connections"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:39:53.060789Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "is there any car involved"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:42:11.624332Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give all the mobile details present in this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:42:41.784509Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:48:03.339334Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T12:48:51.230192Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T12:49:23.813150Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "is meera nair is related to suresh verma"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T12:49:48.317848Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "List all alerts"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T13:36:31.414848Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "What evidence supports the connection between Suresh Verma and Om Traders?"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T13:38:41.229852Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Which locations are associated with Suresh Verma?"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T13:44:14.780238Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T13:51:47.362786Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T13:53:29.145966Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00478",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize the network surrounding Suresh Verma."
+    }
+  },
+  {
+    "timestamp": "2026-09-24T13:54:15.203396Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T13:54:59.987957Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00478",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "What are the most important relationships discovered in this case?"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T13:55:43.666477Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00478",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give me the location related to the case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T14:47:47.113604Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T14:51:00.769310Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00478",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give me the location associated with this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T14:51:39.673315Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T14:54:24.624803Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "List all alerts"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:01:12.206491Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Who are the key people in this network?"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:14:00.881186Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Who are the key people in this network?"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:15:24.889864Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:17:49.379979Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:23:44.226480Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:37:28.641591Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:37:52.392607Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give me the location assoicated with the case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T15:39:16.653342Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "\u201cHow is Suresh Verma connected to Om Traders? Explain the complete connection path and provide the evidence/source document supporting each relationship.\u201d"
+    }
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00452-20260924162956",
+    "timestamp": "2026-09-24T16:29:56.263342Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00452-20260924162956",
+      "primary_entity_id": "ent_00015",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:29:56.323050Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "target_id": "RPT-CASE-2026-00452-20260924162956",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T16:30:29.412847Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00533",
+    "target_id": "CASE-2026-00533",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00533-20260924163033",
+    "timestamp": "2026-09-24T16:30:33.417059Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00533",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00533-20260924163033",
+      "primary_entity_id": "ent_00203",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:30:33.562277Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00533",
+    "target_id": "RPT-CASE-2026-00533-20260924163033",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T16:30:45.673027Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00452-20260924163117",
+    "timestamp": "2026-09-24T16:31:17.655586Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00452-20260924163117",
+      "primary_entity_id": "ent_00015",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:31:17.722358Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "target_id": "RPT-CASE-2026-00452-20260924163117",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T16:32:09.737636Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:33:11.872271Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "How is Suresh Verma connected to Om Traders? Explain the connection path and cite the evidence supporting each link."
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:35:34.628799Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "does any one of the person takes drugs"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:36:08.515709Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "does any one of the person takes heroin"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:36:59.946772Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "is there any car in this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:37:43.333585Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "is there any car in this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:38:07.738671Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "total vehicle used"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:38:59.759265Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "social media id of suresh"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:39:34.224079Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "SOCIAL_ID of suresh verma"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:39:58.110273Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give me the social media handle of suresh"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:41:11.892006Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "explain the relation of gmail"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:44:11.703456Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give me the relation of email"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:45:30.925117Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give  me the relation of email"
+    }
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00452-20260924164922",
+    "timestamp": "2026-09-24T16:49:22.680349Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00452-20260924164922",
+      "primary_entity_id": "ent_00015",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:49:22.758951Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "target_id": "RPT-CASE-2026-00452-20260924164922",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00452-20260924165248",
+    "timestamp": "2026-09-24T16:52:48.933861Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00452-20260924165248",
+      "primary_entity_id": "ent_00015",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T16:52:49.018633Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "target_id": "RPT-CASE-2026-00452-20260924165248",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T17:49:44.192945Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00452-20260924175240",
+    "timestamp": "2026-09-24T17:52:40.890883Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00452-20260924175240",
+      "primary_entity_id": "ent_00015",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-24T17:52:40.989706Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "target_id": "RPT-CASE-2026-00452-20260924175240",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-24T18:07:27.734319Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Who are the key people in this network?"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T04:07:53.394416Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give the email associated in the case"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T04:08:50.714462Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "can i get social media of suresh"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:00:17.038148Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:01:01.154098Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "social media of suresh"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:02:24.269495Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Show AI-predicted connections"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:04:17.000760Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Show AI-predicted connections"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:20:59.448781Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Show AI-predicted connections"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:21:12.382451Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Show AI-predicted connections"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:29:13.651134Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Show AI-predicted connections"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:38:47.108901Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "Summarize this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:39:17.190078Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "give me the email of suresh verma"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:39:44.215289Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "email associated with the case"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:41:02.644741Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "E-CASE-2026-00452-FIR",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:41:31.569809Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "E-CASE-2026-00452-FINSURV",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:42:45.337581Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "social_id of this"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:42:59.222306Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "E-CASE-2026-00452-FINSURV",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:43:20.051481Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "social_id for this case"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:43:22.273447Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "E-CASE-2026-00452-FIR",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:44:39.920900Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00452",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "who called suresh verma"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:44:53.363352Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "E-CASE-2026-00452-CDR",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00452-20260925054609",
+    "timestamp": "2026-09-25T05:46:09.418814Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00452-20260925054609",
+      "primary_entity_id": "ent_00012",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:46:09.490494Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "target_id": "RPT-CASE-2026-00452-20260925054609",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:46:35.038506Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00478-20260925054644",
+    "timestamp": "2026-09-25T05:46:44.756482Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00478",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00478-20260925054644",
+      "primary_entity_id": "ent_00101",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:46:44.806558Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00478",
+    "target_id": "RPT-CASE-2026-00478-20260925054644",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:48:03.778093Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00452-20260925054807",
+    "timestamp": "2026-09-25T05:48:07.222353Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00452-20260925054807",
+      "primary_entity_id": "ent_00015",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T05:48:07.276321Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00452",
+    "target_id": "RPT-CASE-2026-00452-20260925054807",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:54:23.175800Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:54:45.002671Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00533",
+    "target_id": "CASE-2026-00533",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:54:50.130704Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00534",
+    "target_id": "CASE-2026-00534",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T05:55:45.700659Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00534",
+    "target_id": "EVID-CASE-2026-00534-001",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:12:35.377874Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "CASE-2026-00478",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:15:05.375537Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00478",
+    "target_id": "E-CASE-2026-00478-FIR",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "id": "AUDIT-RPT-CASE-2026-00478-20260925131541",
+    "timestamp": "2026-09-25T13:15:41.125752Z",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00478",
+    "metadata": {
+      "report_id": "RPT-CASE-2026-00478-20260925131541",
+      "primary_entity_id": "ent_00101",
+      "generated_by": "Officer001"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T13:15:41.178841Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "GENERATE_REPORT",
+    "case_id": "CASE-2026-00478",
+    "target_id": "RPT-CASE-2026-00478-20260925131541",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:17:44.548292Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00478",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "email of suresh verma"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T13:18:03.363732Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00478",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "social media of suresh"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T13:18:18.682723Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "AI_ASSISTANT_QUERY",
+    "case_id": "CASE-2026-00478",
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {
+      "query": "phone number of suresh verma"
+    }
+  },
+  {
+    "timestamp": "2026-09-25T13:29:39.838942Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:30:00.661916Z",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "action": "LOGOUT",
+    "case_id": null,
+    "target_id": null,
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:30:15.633210Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "LOGIN",
+    "case_id": null,
+    "target_id": null,
+    "session_id": null,
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:30:15.679733Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "GENERATE_AI_SUMMARY",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": null,
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:30:59.015537Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "LOGOUT",
+    "case_id": null,
+    "target_id": null,
+    "session_id": null,
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:31:17.722060Z",
+    "officer_id": "Officer006",
+    "role": "investigator",
+    "action": "LOGIN",
+    "case_id": null,
+    "target_id": null,
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:31:36.074209Z",
+    "officer_id": "Officer006",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "E-CASE-2026-00452-FIR",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:31:51.569148Z",
+    "officer_id": "Officer006",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00534",
+    "target_id": "CASE-2026-00534",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:32:03.228893Z",
+    "officer_id": "Officer006",
+    "role": "investigator",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00534",
+    "target_id": "EVID-CASE-2026-00534-003",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:32:36.089041Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:32:39.283202Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "VIEW_CASE",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:32:39.312618Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "VIEW_CASE",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:32:39.843372Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "GENERATE_AI_SUMMARY",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:33:52.378114Z",
+    "officer_id": "Officer006",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00452",
+    "target_id": "CASE-2026-00452",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:33:59.965842Z",
+    "officer_id": "Officer006",
+    "role": "investigator",
+    "action": "SELECT_CASE",
+    "case_id": "CASE-2026-00535",
+    "target_id": "CASE-2026-00535",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:35:39.951841Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "VIEW_CASE",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:35:39.961341Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "GENERATE_AI_SUMMARY",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:35:39.979241Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "GENERATE_AI_SUMMARY",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:35:46.967564Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "VIEW_EVIDENCE",
+    "case_id": "CASE-2026-00537",
+    "target_id": "EVID-CASE-2026-00537-003",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2026-09-25T13:35:50.405164Z",
+    "officer_id": "Senior001",
+    "role": "senior",
+    "action": "VIEW_CASE",
+    "case_id": "CASE-2026-00537",
+    "target_id": "CASE-2026-00537",
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "metadata": {}
+  }
+]{}
   }
 ]

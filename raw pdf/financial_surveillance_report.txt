@@ -1,0 +1,14 @@
+FINANCIAL TRANSACTION AND SURVEILLANCE REPORT
+
+Case Reference: FIR-2026-00478
+Requesting Unit: Cyber Crime Cell, Koramangala Police Station, Bengaluru
+Report Date: 6 November 2026
+
+Financial Transaction Record:
+Account number 552134, held in the name of Meera Nair, shows a debit transaction of ₹8,40,000 transferred to account number 990211 on 1 November 2026.
+Account number 990211 is held in the name of Ankit Pillai. Bank records show a further debit of ₹7,10,000 from account number 990211 to account number 114477 on the same day, 1 November 2026.
+Account number 114477 is a current account held in the name of Bright Future Fintech Pvt Ltd, registered at Whitefield, Bengaluru, with Vikas Sharma listed as the authorised signatory and director.
+
+Surveillance Report:
+Surveillance conducted near Whitefield, Bengaluru on 2 November 2026 observed Ankit Pillai arriving at a cash-withdrawal point on a Honda Activa bearing registration number KA05EF9988, consistent with mule cash-collection activity linked to account number 990211.
+Investigators identified the Telegram handle @HDFC_QuickHelp, used to send fraudulent verification links, as being operated from a device associated with Vikas Sharma.

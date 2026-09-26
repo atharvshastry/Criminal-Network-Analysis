@@ -5,12 +5,14 @@ import useCase from "../../hooks/useCase";
 
 const baseNavItems = [
   { to: "/", label: "Dashboard" },
+  { to: "/assistant", label: "AI Investigation Assistant" },
   { to: "/cases", label: "Cases" },
   { to: "/network", label: "Network Explorer" },
   { to: "/entities", label: "Entities" },
   { to: "/alerts", label: "Alerts" },
   { to: "/evidence", label: "Evidence" },
   { to: "/timeline", label: "Timeline" },
+  { to: "/reports", label: "Reports" },
 ];
 
 const seniorNavItems = [

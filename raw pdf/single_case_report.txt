@@ -1,0 +1,76 @@
+FICTIONAL POLICE / CRIME INVESTIGATION CASE REPORT
+
+CASE STATUS: SIMULATED TRAINING DATA - NOT A REAL POLICE RECORD
+
+1. CASE IDENTIFICATION
+FIR Number       : FIR-2026-00452
+Police Station   : MP Nagar Police Station, Bhopal, Madhya Pradesh
+District         : Bhopal
+Date of FIR      : 18 October 2026
+Date of Incident : 17 October 2026
+Time of Incident : 21:15 hrs
+Place of Incident: Near Zone-I Market Road, MP Nagar, Bhopal
+
+2. COMPLAINT / INCIDENT SUMMARY
+
+The complainant, Amit Verma, S/o Rakesh Verma, Bhopal, reported that while returning from a business meeting near Zone-I Market Road, Bhopal, he was intercepted by two unidentified persons travelling in a Toyota Fortuner, registration MP04 AB 7821. The complainant stated that the persons threatened him and forcibly took a laptop bag containing business documents, a mobile handset and cash of approximately Rs. 85,000.
+
+The preliminary inquiry indicated that the incident may be connected to a planned financial transfer of Rs. 2,75,000 from the complainant's business account. No genuine identity document, weapon licence or other government-issued identifier is associated with the persons in this simulated record.
+
+3. PERSONS / ENTITIES MENTIONED
+
+Complainant      : Amit Verma, S/o Rakesh Verma, Bhopal
+Suspect 1        : Rohit Singh, S/o Mahendra Singh, Indore
+Suspect 2        : Neeraj Yadav, S/o Suresh Yadav, Bhopal
+Vehicle           : Toyota Fortuner, registration MP04 AB 7821
+Phone linked to S1: +91-98XXXXXX41
+Phone linked to S2: +91-97XXXXXX82
+Bank account ref. : XXXXXX7842
+Organisation      : Sunrise Enterprises, Bhopal
+
+4. WITNESS INFORMATION
+
+Witness 1: Priya Sharma, shop employee near Zone-I Market Road. She stated that she observed a white SUV stopping near the complainant at approximately 21:15 hrs.
+
+Witness 2: Mohit Jain, security guard at a nearby commercial building. He stated that he heard an argument and later saw the same vehicle leaving towards Hoshangabad Road.
+
+5. DIGITAL / TELECOMMUNICATION INDICATORS
+
+The simulated call-detail review shows repeated communication between +91-98XXXXXX41 and +91-97XXXXXX82 during the two days preceding the incident. A tower-location summary places the two numbers within the broader Bhopal urban area around the estimated incident window.
+
+At 20:48 hrs on 17 October 2026, the number linked to Suspect 1 exchanged a call with a number associated in the simulated records with Sunrise Enterprises. At 21:22 hrs, the two suspect-linked numbers communicated again.
+
+6. FINANCIAL TRANSACTION INDICATORS
+
+A simulated transaction trail records a transfer reference involving Sunrise Enterprises and account ending XXXXXX7842. The total amount under review is Rs. 2,75,000. The transaction was flagged for investigation because of its timing and the overlap between the persons, telephone numbers and vehicle mentioned in the incident report.
+
+The financial information in this training file is fabricated and intended only for testing entity extraction, relation extraction and graph analysis systems.
+
+7. PRELIMINARY RELATIONSHIP MAP
+
+Amit Verma -> complainant -> Sunrise Enterprises
+Rohit Singh -> suspect -> phone +91-98XXXXXX41
+Neeraj Yadav -> suspect -> phone +91-97XXXXXX82
+Rohit Singh -> associated vehicle -> Toyota Fortuner MP04 AB 7821
+Rohit Singh <-> Neeraj Yadav -> repeated communication
+Sunrise Enterprises -> financial transfer -> account XXXXXX7842
+Amit Verma -> victim of -> alleged armed robbery / theft incident
+
+8. SEIZED / REFERENCED ITEMS (SIMULATED)
+
+1. White SUV visual reference from nearby CCTV-style source.
+2. One mobile device allegedly used by the complainant.
+3. Laptop bag containing business papers.
+4. Simulated bank transaction extract.
+5. Simulated call-detail extract.
+
+9. INVESTIGATING OFFICER NOTES
+
+The case is retained as a synthetic training case. The records are intentionally structured to contain PERSON, ORG, LOC, PHONE, VEHICLE, DATE, MONEY, ACCOUNT, CASE_ID, REPORT_TYPE and EVENT-style entities and their relationships.
+
+10. CLASSIFICATION
+
+Document type : FIR / investigation report
+Report type   : FIR
+Case ID       : FIR-2026-00452
+Status        : Simulated / fictional

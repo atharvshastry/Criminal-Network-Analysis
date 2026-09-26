@@ -78,6 +78,33 @@ export default function SearchResults({ result, nodes = [], onFocusResult }) {
         </p>
       )}
 
+      {result.assistant && (
+        <div className="search-subsection assistant-answer">
+          <div className="section-label">AI INVESTIGATION ASSISTANT</div>
+          {result.assistant.grounded && result.assistant.answer ? (
+            <>
+              <p className="subsection-copy">{result.assistant.answer}</p>
+              {result.assistant.sources?.length > 0 && (
+                <p className="search-results-confidence">
+                  Sources: {result.assistant.sources.join(", ")}
+                </p>
+              )}
+              {result.assistant.unverified_mentions?.length > 0 && (
+                <p className="search-message">
+                  Note: the assistant referenced {result.assistant.unverified_mentions.join(", ")}, which
+                  isn't in the retrieved graph context and could not be verified.
+                </p>
+              )}
+              <p className="search-results-confidence">Model: {result.assistant.model} (local)</p>
+            </>
+          ) : (
+            <p className="search-message">
+              {result.assistant.message || "No AI-generated answer is available for this query."}
+            </p>
+          )}
+        </div>
+      )}
+
       {result.timeline_filter && (
         <p className="search-results-confidence">
           Timeline: {result.timeline_filter} {result.timeline?.length ? `(${result.timeline.length} matching events)` : "(no timestamped records available)"}

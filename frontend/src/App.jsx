@@ -5,6 +5,7 @@ import ProtectedRoute from "./components/auth/ProtectedRoute";
 import SeniorFeatureRoute from "./components/auth/SeniorFeatureRoute";
 
 import DashboardPage from "./pages/DashboardPage";
+import AIAssistantPage from "./pages/AIAssistantPage";
 import CasesPage from "./pages/CasesPage";
 import NewCasePage from "./pages/NewCasePage";
 import CaseDetailPage from "./pages/CaseDetailPage";
@@ -13,6 +14,7 @@ import EntitiesPage from "./pages/EntitiesPage";
 import EntityDetailPage from "./pages/EntityDetailPage";
 import AlertsPage from "./pages/AlertsPage";
 import EvidencePage from "./pages/EvidencePage";
+import ReportsPage from "./pages/ReportsPage";
 import TimelinePage from "./pages/TimelinePage";
 import LoginPage from "./pages/LoginPage";
 import ViewActivityPage from "./pages/ViewActivityPage";
@@ -33,6 +35,7 @@ export default function App() {
       <Route path="/login" element={<LoginPage />} />
       <Route element={<ProtectedRoute />}>
         <Route path="/" element={<DashboardPage />} />
+        <Route path="/assistant" element={<AIAssistantPage />} />
         <Route path="/cases" element={<CasesPage />} />
         <Route path="/cases/new" element={<NewCasePage />} />
         <Route path="/cases/:id" element={<CaseRoute />} />
@@ -41,6 +44,7 @@ export default function App() {
         <Route path="/entities/:id" element={<EntityRoute />} />
         <Route path="/alerts" element={<AlertsPage />} />
         <Route path="/evidence" element={<EvidencePage />} />
+        <Route path="/reports" element={<ReportsPage />} />
         <Route path="/view-activity" element={<ViewActivityPage />} />
         <Route path="/timeline" element={<TimelinePage />} />
         <Route path="/senior-command" element={<SeniorFeatureRoute sectionId="senior-command" />} />

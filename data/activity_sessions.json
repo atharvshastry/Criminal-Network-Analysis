@@ -74,5 +74,131 @@
       "LOGIN",
       "SELECT_CASE"
     ]
+  },
+  {
+    "session_id": "SESSION-Officer001-20260924105925372665",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "login_at": "2026-09-24T10:59:25.372630Z",
+    "logout_at": null,
+    "expired_at": "2026-09-24T11:04:46.360224Z",
+    "status": "EXPIRED",
+    "last_activity_at": "2026-09-24T11:03:25.354860Z",
+    "duration_seconds": 320,
+    "action_count": 5,
+    "case_ids": [
+      "CASE-2026-00536",
+      "CASE-2026-00478",
+      "CASE-2026-00452"
+    ],
+    "pages": [
+      "LOGIN",
+      "SELECT_CASE",
+      "AI_ASSISTANT_QUERY"
+    ]
+  },
+  {
+    "session_id": "SESSION-Officer001-20260924121305554696",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "login_at": "2026-09-24T12:13:05.554667Z",
+    "logout_at": null,
+    "expired_at": "2026-09-24T12:17:38.171626Z",
+    "status": "EXPIRED",
+    "last_activity_at": "2026-09-24T12:13:36.355201Z",
+    "duration_seconds": 272,
+    "action_count": 3,
+    "case_ids": [
+      "CASE-2026-00452"
+    ],
+    "pages": [
+      "LOGIN",
+      "SELECT_CASE",
+      "AI_ASSISTANT_QUERY"
+    ]
+  },
+  {
+    "session_id": "SESSION-Officer006-20260925133117678363",
+    "officer_id": "Officer006",
+    "role": "investigator",
+    "login_at": "2026-09-25T13:31:17.678232Z",
+    "logout_at": "2026-09-25T13:36:27.595983Z",
+    "expired_at": null,
+    "status": "COMPLETED",
+    "last_activity_at": "2026-09-25T13:36:27.595983Z",
+    "duration_seconds": 309,
+    "action_count": 17,
+    "case_ids": [
+      "CASE-2026-00452",
+      "CASE-2026-00534",
+      "CASE-2026-00537",
+      "CASE-2026-00535"
+    ],
+    "pages": [
+      "LOGIN",
+      "VIEW_EVIDENCE",
+      "SELECT_CASE",
+      "VIEW_CASE",
+      "GENERATE_AI_SUMMARY",
+      "LOGOUT"
+    ]
+  },
+  {
+    "session_id": "SESSION-Officer001-20260925133857749115",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "login_at": "2026-09-25T13:38:57.749080Z",
+    "logout_at": null,
+    "expired_at": "2026-09-25T13:42:08.315716Z",
+    "status": "EXPIRED",
+    "last_activity_at": "2026-09-25T13:38:57.749080Z",
+    "duration_seconds": 190,
+    "action_count": 0,
+    "case_ids": [],
+    "pages": []
+  },
+  {
+    "session_id": "SESSION-Officer001-20260925134208319914",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "login_at": "2026-09-25T13:42:08.319874Z",
+    "logout_at": null,
+    "expired_at": "2026-09-25T14:27:46.414226Z",
+    "status": "EXPIRED",
+    "last_activity_at": "2026-09-25T14:26:46.394574Z",
+    "duration_seconds": 2738,
+    "action_count": 0,
+    "case_ids": [],
+    "pages": []
+  },
+  {
+    "session_id": "SESSION-Officer001-20260926065432648313",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "login_at": "2026-09-26T06:54:32.648261Z",
+    "logout_at": "2026-09-26T07:02:56.808721Z",
+    "expired_at": null,
+    "status": "COMPLETED",
+    "last_activity_at": "2026-09-26T07:02:56.808721Z",
+    "duration_seconds": 504,
+    "action_count": 1,
+    "case_ids": [],
+    "pages": [
+      "LOGOUT"
+    ]
+  },
+  {
+    "session_id": "SESSION-Officer001-20260926090918704318",
+    "officer_id": "Officer001",
+    "role": "investigator",
+    "login_at": "2026-09-26T09:09:18.704264Z",
+    "logout_at": null,
+    "expired_at": "2026-09-26T09:25:40.489035Z",
+    "status": "EXPIRED",
+    "last_activity_at": "2026-09-26T09:24:40.482053Z",
+    "duration_seconds": 981,
+    "action_count": 0,
+    "case_ids": [],
+    "pages": []
   }
 ]

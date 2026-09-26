@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import AppLayout from "../components/layout/AppLayout";
 import CaseSelectionRequiredModal from "../components/auth/CaseSelectionRequiredModal";
+import AIInvestigationAssistant from "../components/assistant/AIInvestigationAssistant";
 import useAuth from "../hooks/useAuth";
 import useCase from "../hooks/useCase";
 import {
@@ -278,7 +279,10 @@ export default function DashboardPage() {
 
   return (
     <AppLayout title="Dashboard" subtitle="Operational overview">
-      <div className="panel-copy dashboard-case-context">{caseContext}</div>
+      <div className="dashboard-case-context-row">
+        <div className="panel-copy dashboard-case-context">{caseContext}</div>
+        <AIInvestigationAssistant />
+      </div>
       {error ? <div className="state-panel error">{error}</div> : null}
       {!data ? <div className="state-panel">Loading case intelligence...</div> : null}
       {isSenior && SENIOR_FEATURE_IDS.has(seniorFeature) && !caseId && (

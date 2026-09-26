@@ -1,0 +1,15 @@
+CALL DETAIL RECORD (CDR) ANALYSIS
+
+Case Reference: FIR-2026-00478
+Requesting Unit: Cyber Crime Cell, Koramangala Police Station, Bengaluru
+Report Date: 5 November 2026
+
+Subscriber Details:
+Mobile number 9845123456 is registered to Meera Nair, resident of Koramangala, Bengaluru.
+Mobile number 8899001122 is an unregistered prepaid connection traced to a retail outlet in Whitefield, Bengaluru, and is believed to be used exclusively for outbound fraud calls.
+Mobile number 8877665544 is registered to Ankit Pillai.
+
+Call Pattern Analysis:
+Records show that 8899001122 contacted 9845123456 on 1 November 2026 at 11:42 AM, a call lasting 6 minutes and 12 seconds, during which the fraudulent KYC verification script was used.
+Records further show that 8877665544 contacted 8899001122 on 1 November 2026 at 11:58 AM, immediately after the fraudulent call to Meera Nair, and again on 2 November 2026, indicating coordination between the two numbers.
+Tower location data places mobile number 8899001122 within a two-kilometre radius of Whitefield, Bengaluru at the time of both calls.

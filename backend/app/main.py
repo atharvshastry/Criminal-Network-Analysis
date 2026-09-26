@@ -12,7 +12,47 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 
+try:
+    # Loads backend/.env (GRAPH_RAG_LLM_URL/MODEL/API_KEY, etc.) into the
+    # process environment on startup, so `.env` actually takes effect
+    # without having to export each variable by hand in the shell first.
+    # Optional: falls back to whatever is already in the environment if
+    # python-dotenv isn't installed (`pip install python-dotenv`).
+    #
+    # IMPORTANT: this must run before `from . import graph_rag` below --
+    # graph_rag.py reads GRAPH_RAG_* as module-level variables at import
+    # time, so if .env were loaded after that import, graph_rag would
+    # already have locked in its defaults and .env's values would be
+    # silently ignored for the rest of the process.
+    #
+    # override=True: python-dotenv's default is to NOT overwrite a variable
+    # that's already set in the process environment -- which means a stray
+    # OS-level env var (set once in some earlier shell session, a Windows
+    # user/system env var, an IDE launch config, ...) would silently win
+    # over backend/.env forever, no matter how many times .env is edited
+    # and the server restarted. backend/.env is meant to be the single
+    # source of truth for this app, so it always wins here.
+    from dotenv import load_dotenv
+
+    load_dotenv(Path(__file__).resolve().parents[1] / ".env", override=True)
+except ImportError:
+    pass
+
 from . import extraction
+from . import graph_rag
+from . import reports
+
+# Prints the AI Investigation Assistant's *actually resolved* config once,
+# at startup -- so if answers don't behave as expected, check this line in
+# the terminal instead of guessing whether .env was read or the server was
+# actually restarted. Never prints the API key itself, only whether one is
+# set.
+print(
+    f"[graph_rag] enabled={graph_rag.GRAPH_RAG_ENABLED} "
+    f"model={graph_rag.GRAPH_RAG_LLM_MODEL} "
+    f"url={graph_rag.GRAPH_RAG_LLM_URL} "
+    f"api_key_set={bool(graph_rag.GRAPH_RAG_LLM_API_KEY)}"
+)
 
 BASE = Path(__file__).resolve().parents[2]
 DATA = BASE / "data"
@@ -1272,6 +1312,183 @@ def semantic_search(request: SemanticSearchRequest):
             "message": "Select a case before running semantic search.",
         }
     return search_network(request.query, request.case_id)
+
+
+@app.post("/api/search/assistant")
+def search_assistant(request: SemanticSearchRequest):
+    """AI Investigation Assistant (Graph RAG). Runs the exact same retrieval
+    as /api/search/semantic above -- entity resolution, graph traversal
+    (path/neighborhood), and evidence lookup, all via search_network() --
+    and additionally asks a cloud-hosted LLM (see graph_rag.py and
+    backend/.env -- Gemini/Groq/OpenAI/OpenRouter/etc, whatever
+    GRAPH_RAG_LLM_URL points at) to synthesize a short, evidence-cited
+    natural-language answer from that retrieved context.
+
+    When search_network()'s rule-based intent classifier doesn't resolve a
+    specific entity/intent for this question (NO_MATCH, NO_PATH, an
+    ambiguous match, or any other case that leaves the targeted context
+    empty), graph_rag.generate_answer() falls back to a bounded case-wide
+    snapshot (top entities, relationships, evidence, alerts, timeline --
+    see build_full_case_pack in graph_rag.py) built from the full case data
+    passed below, so open-ended or classifier-unrecognized questions can
+    still get a grounded attempt instead of a flat refusal -- this is what
+    lets the assistant answer effectively any question about the case, not
+    only the ones search_network() has a specific handler for.
+
+    If the LLM isn't reachable, `assistant.answer` is null and every other
+    field is identical to /api/search/semantic's response -- this endpoint
+    intentionally never fails the request just because the assistant itself
+    is unavailable, and /api/search/semantic is left completely unchanged
+    for anything already depending on it."""
+    if not request.query.strip():
+        message = "Enter an investigation query."
+        return {
+            "query": request.query,
+            "case_id": request.case_id,
+            "status": "ERROR",
+            "message": message,
+            "assistant": {"enabled": graph_rag.GRAPH_RAG_ENABLED, "answer": None, "sources": [], "grounded": False, "message": message},
+        }
+    if not request.case_id:
+        message = "Select a case before running the investigation assistant."
+        return {
+            "query": request.query,
+            "case_id": None,
+            "status": "NO_CASE",
+            "message": message,
+            "assistant": {"enabled": graph_rag.GRAPH_RAG_ENABLED, "answer": None, "sources": [], "grounded": False, "message": message},
+        }
+
+    result = search_network(request.query, request.case_id)
+    network = load_network_for_case(request.case_id)
+    node_index = {node["id"]: node for node in network.get("nodes", [])}
+    # Full, unfiltered case data (not just whatever search_network() matched
+    # for this specific query) -- passed through so graph_rag can fall back
+    # to a case-wide snapshot when the targeted retrieval above finds
+    # nothing, instead of the assistant refusing to answer.
+    result["assistant"] = graph_rag.generate_answer(
+        request.query, request.case_id, result, node_index,
+        network=network,
+        evidence_records=load_optional_case_records("evidence.json", request.case_id),
+        timeline_records=load_optional_case_records("timeline.json", request.case_id),
+        alerts_records=load_optional_case_records("network_alerts.json", request.case_id),
+    )
+    return result
+
+
+class ReportGenerateRequest(BaseModel):
+    case_id: str
+    entity_id: str | None = None
+    generated_by: str | None = None
+
+
+def resolve_primary_entity_id(network: dict, entity_id: str | None) -> str | None:
+    """Picks the entity a report is "about". An explicit entity_id (e.g. the
+    entity the investigator currently has open/selected) is used as-is when
+    it exists in this case's network; otherwise falls back to the
+    highest-centrality node -- the same signal /api/entities already sorts
+    on to surface investigative importance -- so a report generated with no
+    entity selected still centers on the case's most connected entity
+    instead of an arbitrary one."""
+    nodes = network.get("nodes", []) or []
+    if entity_id and any(node.get("id") == entity_id for node in nodes):
+        return entity_id
+    if not nodes:
+        return None
+    ranked = sorted(nodes, key=lambda node: node.get("centrality") or 0, reverse=True)
+    return ranked[0].get("id")
+
+
+@app.post("/api/reports/generate")
+def generate_report(request: ReportGenerateRequest):
+    """Generates a full investigation report for a case (POST body: case_id,
+    optional entity_id to focus the report on, optional generated_by for the
+    audit trail / report byline).
+
+    Reuses this app's one existing set of loaders (load_network_for_case,
+    load_optional_case_records) and its one existing BFS
+    (find_shortest_path) -- the same ones every other endpoint in this file
+    already uses -- and hands the loaded data to reports.build_report() for
+    formatting only. There is no second data-retrieval path and no second
+    graph-traversal implementation for report generation; see reports.py's
+    module docstring."""
+    case = None
+    for candidate in load("cases.json"):
+        if candidate["id"] == request.case_id:
+            case = candidate
+            break
+    if case is None:
+        raise HTTPException(status_code=404, detail="Case not found")
+
+    network = load_network_for_case(request.case_id)
+    evidence_records = load_optional_case_records("evidence.json", request.case_id)
+    timeline_records = load_optional_case_records("timeline.json", request.case_id)
+    alerts_records = load_optional_case_records("network_alerts.json", request.case_id)
+
+    primary_entity_id = resolve_primary_entity_id(network, request.entity_id)
+
+    # Connection paths: the report's investigated entity to every other
+    # entity that has its own alert, via the app's existing
+    # find_shortest_path() BFS -- the same traversal /api/search/assistant
+    # already uses to answer path questions, not a new one. Capped at 10
+    # targets so one large, densely-alerted case can't blow up the report.
+    connection_paths = []
+    if primary_entity_id:
+        node_index = {node["id"]: node for node in network.get("nodes", [])}
+        edges = network.get("edges", [])
+        edge_index = {edge["id"]: edge for edge in edges}
+        alert_entity_ids = sorted({
+            alert.get("entity_id") for alert in alerts_records
+            if alert.get("entity_id") and alert.get("entity_id") != primary_entity_id
+        })
+        for target_id in alert_entity_ids[:10]:
+            if target_id not in node_index:
+                continue
+            path_node_ids, path_edge_ids = find_shortest_path(primary_entity_id, target_id, edges)
+            if not path_node_ids:
+                continue
+            connection_paths.append({
+                "target_entity_id": target_id,
+                "target_entity_name": node_index[target_id].get("label", target_id),
+                "path": [
+                    {"id": node_id, "name": node_index[node_id].get("label", node_id)}
+                    for node_id in path_node_ids if node_id in node_index
+                ],
+                "relationship_types": [
+                    edge_index[edge_id].get("type", "UNKNOWN")
+                    for edge_id in path_edge_ids if edge_id in edge_index
+                ],
+            })
+
+    report = reports.build_report(
+        case=case,
+        network=network,
+        evidence_records=evidence_records,
+        timeline_records=timeline_records,
+        alerts_records=alerts_records,
+        connection_paths=connection_paths,
+        primary_entity_id=primary_entity_id,
+        generated_by=request.generated_by,
+    )
+
+    try:
+        logs = load_audit_logs()
+        logs.append({
+            "id": f"AUDIT-{report['report_id']}",
+            "timestamp": report["generated_at"],
+            "action": "GENERATE_REPORT",
+            "case_id": request.case_id,
+            "metadata": {
+                "report_id": report["report_id"],
+                "primary_entity_id": primary_entity_id,
+                "generated_by": report["generated_by"],
+            },
+        })
+        save_audit_logs(logs)
+    except Exception:  # noqa: BLE001 - audit logging must never block report generation
+        logging.getLogger(__name__).exception("Failed to write audit log for report generation")
+
+    return report
 
 
 @app.get("/api/evidence")
